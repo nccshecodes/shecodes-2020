@@ -13,3 +13,4 @@ It fetches remote data and caches it for a user-defined amount of time. When the
 * site.json - site name and url
 * partials/header.html - add logo svg
 * _data/navigation_primary.json - add main navigation links
+* partials/meta-info.html and social-share image (png)
