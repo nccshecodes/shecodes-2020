@@ -1,24 +1,24 @@
 {
   "links": [
     {
-      "text": "Home",
+      "text": "Hello",
       "url": "/"
-    },
-    {
-      "text": "About",
-      "url": "/about-us/"
-    },
-    {
-      "text": "Work",
-      "url": "/work/"
     },
     {
       "text": "Blog",
       "url": "/blog/"
     },
     {
-      "text": "Contact",
+      "text": "CV",
+      "url": "/nathalie-christmann-cooper-curriculum-vitae/"
+    },
+    {
+      "text": "Chat",
       "url": "/contact/"
+    },
+    {
+      "text": "Projects",
+      "url": "/projects/"
     }
   ]
 }
