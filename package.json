@@ -1,8 +1,9 @@
 {
-  "name": "eleventy-boilerplate",
+  "name": "shecodes-2020",
   "version": "0.1.0",
   "main": ".eleventy.js",
   "license": "MIT",
+  "author": "Nathalie Christmann-Cooper",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-cache-assets": "^2.0.3",
