@@ -1,8 +1,8 @@
 ## SheCodes 2020
 
-I'm focussing this year on learning about accessibility (thanks to W3C and EdX), web performance ([courtesy of smashing magazine and Harry Roberts](https://smashingconf.com/online-workshops/workshops/harry-roberts)), and eleventy ([thanks Andy Bell!](https://piccalil.li/course/learn-eleventy-from-scratch/)), setting out with basic or zero knowledge on each subject beforehand.
+I'm focussing this year on learning about accessibility ([thanks to W3C and EdX](https://www.edx.org/course/web-accessibility-introduction)), web performance ([courtesy of smashing magazine and Harry Roberts](https://smashingconf.com/online-workshops/workshops/harry-roberts)), and eleventy ([thanks Andy Bell!](https://piccalil.li/course/learn-eleventy-from-scratch/)), setting out with basic or zero knowledge on each subject beforehand.
 
-This project is a complete overhaul of my existing personal website built in wordpress. There's lots of features not being used, a CMS is definitely overkill for what I need and I'm tired of chasing updates to keep the site locked down and secure. I have woken up one morning to find my content gone and a message from the hackers left in its place. So this is a perfect candidate to improve security, turn theory into practice and keep learning.
+This project is a complete overhaul of my existing personal website built in Wordpress. There's lots of features not being used, a CMS is definitely overkill for what I need and I'm tired of chasing updates to keep the site locked down and secure. Intention is to improve security, up my accessibility game and start thinking about performance.
 
 ## Project config
 
@@ -24,9 +24,6 @@ Static files placed in `src/images/` directory are copied over to the `dist` fol
 
 ## Styling
 
-## To update
+## TODO
 
-- site.json - site name and url
-- partials/header.html - add logo svg
-- \_data/navigation_primary.json - add main navigation links
-- partials/meta-info.html and social-share image (png)
+- update favicon and social-share image (png)
