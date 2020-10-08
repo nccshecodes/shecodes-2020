@@ -1,6 +1,6 @@
 ---
-title: "Hi, I'm Nathalie"
-layout: "layouts/home.html"
+title: Hi, I'm Nathalie
+layout: layouts/home.html
 pullQuote: >
   I'm one of a small but growing contingent of people over the age of 40, who've
   made significant career changes to break into the UK tech industry. I secured
