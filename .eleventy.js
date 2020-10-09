@@ -6,6 +6,8 @@ module.exports = (config) => {
     return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
   });
 
+  config.setUseGitIgnore(false);
+
   return {
     markdownTemplateEngine: "njk",
     dataTemplateEngine: "njk",
