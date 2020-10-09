@@ -16,13 +16,31 @@ This project is a complete overhaul of my existing personal website built in Wor
 
 Go to http://localhost:8080
 
+## Asset Pipeline
+
+Pipeline automation tasks are handled by gulp.
+
+### Styling
+Preprocessed Sass is split out into compressed, merged and minified CSS creating a single `critical CSS` file and `standard CSS` files.
+
+#### CSS reset
+This project uses a [modern-css-reset](https://github.com/hankchizljaw/modern-css-reset). More information on the reset can be found [here](https://hankchizljaw.com/wrote/a-modern-css-reset/).
+
+#### Critical CSS
+Is inlined into the `<head>` and applied to every page. It includes the CSS reset. Page critical CSS is also inlined into the `<head>`.
+
+#### Standard CSS
+Is included using a `link` element.
+
+### Images
+
+Static files placed in `src/images/` directory are copied over to the `dist` folder.
+
 ## Images
 
 Static files placed in `src/images/` directory are copied over to the `dist` folder.
 
 ## Testing
-
-## Styling
 
 ## TODO
 
