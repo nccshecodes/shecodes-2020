@@ -7,6 +7,8 @@ This project is a complete overhaul of my existing personal website built in Wor
 ## Project config
 
 - eleventy
+- gulp
+- sass
 
 ## Running locally
 
@@ -31,6 +33,9 @@ Is inlined into the `<head>` and applied to every page. It includes the CSS rese
 
 #### Standard CSS
 Is included using a `link` element.
+
+#### Fonts
+This project uses custom font subsets with a limited set of glyphs to keep file sizes small. Each font has a `demo.html` file inside the `font-documentation` folder which can be viewed in the browser. The `glyphs & languages` tab lists each available glyph with its unicode.
 
 ### Images
 
