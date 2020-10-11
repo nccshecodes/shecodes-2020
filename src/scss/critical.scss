@@ -1,1 +1,9 @@
-@import "reset";
+@import 'config';
+@import '../../node_modules/gorko/gorko.scss';
+@import 'reset';
+
+// Global styles
+
+// Import blocks using @import 'blocks/<file-name>';
+
+// Import utilities using @import 'utilities/<file-name>';
