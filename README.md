@@ -18,6 +18,12 @@ This project is a complete overhaul of my existing personal website built in Wor
 
 Go to http://localhost:8080
 
+### Running production build locally
+- Run `yarn run production` to start the production build.
+- Run `cd dist && npx serve` to start the server
+
+Go to http://localhost:5000
+
 ## Fonts
 This project uses custom font subsets with a limited set of glyphs to keep file sizes small. Each font has a `demo.html` file inside the `font-documentation` folder which can be viewed in the browser. The `glyphs & languages` tab lists each available glyph with its unicode.
 
