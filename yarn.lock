@@ -2669,6 +2669,13 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
+gorko@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/gorko/-/gorko-0.2.3.tgz#7f77c467708b26fcae93c45bd27e8f343537ddaf"
+  integrity sha512-8U/F4GH+S5n5HnLP9nCYzKwiSvvWv9PEusIwGYe+V+/wMohnF1Byyk2y1lo53MTtTYEVlHMP8+hu3C0PnBnaJQ==
+  dependencies:
+    sass "^1.26.5"
+
 got@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/got/-/got-7.1.0.tgz#05450fd84094e6bbea56f451a43a9c289166385a"
@@ -5347,7 +5354,7 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass@^1.27.0:
+sass@^1.26.5, sass@^1.27.0:
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.27.0.tgz#0657ff674206b95ec20dc638a93e179c78f6ada2"
   integrity sha512-0gcrER56OkzotK/GGwgg4fPrKuiFlPNitO7eUJ18Bs+/NBlofJfMxmxqpqJxjae9vu0Wq8TZzrSyxZal00WDig==
