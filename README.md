@@ -10,6 +10,7 @@ This project is a complete overhaul of my existing personal website built in Wor
 
 - eleventy
 - gulp
+- netlify
 - sass
 
 ## Running locally
@@ -56,6 +57,10 @@ Gulp optimises jpg and png files using [gulp-imagemin](https://github.com/sindre
 SVGs are not handled by gulp and are optimised before adding to the project using SVGO, because they are currently inlined. However, this could be automated by extending the `images.js.` watcher function to include SVGO.
 
 ## Testing
+
+## Production
+
+The site is hosted on netlify. Production build is updated each time work is merged into the master branch.
 
 ## TODO
 

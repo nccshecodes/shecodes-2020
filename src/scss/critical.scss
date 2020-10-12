@@ -3,6 +3,30 @@
 @import 'reset';
 
 // Global styles
+:root {
+  --flow-space: #{get-size('600')};
+}
+
+body {
+  background-color: get-color('light');
+  color: get-color('dark');
+  font-size: get-size('500');
+  line-height: 1.5;
+
+  @include apply-utility('font', 'base');
+}
+
+a:not([class]) {
+  color: currentColor;
+  text-decoration-color: get-color('primary');
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @include apply-utility('font', 'header');
+}
 
 // Import blocks using @import 'blocks/<file-name>';
 
