@@ -1,0 +1,19 @@
+.logo {
+  fill: get-color('light');
+  .o {
+    fill: get-color('secondary');
+  }
+}
+
+.shecodes {
+  display: none;
+}
+
+@include media-query('md') {
+  .shecodes-stacked {
+    display: none;
+  }
+  .shecodes {
+    display: block;
+  }
+}
