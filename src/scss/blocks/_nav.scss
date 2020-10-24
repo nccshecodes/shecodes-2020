@@ -1,0 +1,20 @@
+.nav {
+  text-transform: uppercase;
+}
+
+.nav__list {
+  color: get-color('light');
+  display: inline-flex;
+  flex-wrap: wrap;
+  > li {
+    padding-bottom: get-size('300');
+    padding-right: get-size('600');
+  }
+  a {
+    text-decoration: none;
+    &[aria-current='page'] {
+      border-bottom: 2px solid get-color('light');
+    }
+  }
+
+}

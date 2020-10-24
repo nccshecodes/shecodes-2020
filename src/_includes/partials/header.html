@@ -1,22 +1,24 @@
 <header role="banner" class="site-header">
-  <nav class="nav" aria-label="Primary">
-    <ul class="nav__list">
-      {% for link in navigation_primary.links %}
-      <li>
-        <a
-          href="{{ link.url }}"
-          {{
-          helpers.getLinkActiveState(link.url,
-          page.url)
-          |
-          safe
-          }}
-          >{{ link.text }}</a
-        >
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
-  {% include "../../images/logo/shecodes-logo-stacked.svg" %} {% include
-  "../../images/logo/shecodes-logo.svg" %}
+  <div class="wrapper">
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        {% for link in navigation_primary.links %}
+        <li>
+          <a
+            href="{{ link.url }}"
+            {{
+            helpers.getLinkActiveState(link.url,
+            page.url)
+            |
+            safe
+            }}
+            >{{ link.text }}</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% include "../../images/logo/shecodes-logo-stacked.svg" %}
+    {% include "../../images/logo/shecodes-logo.svg" %}
+  </div>
 </header>
