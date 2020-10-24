@@ -45,7 +45,7 @@ awards:
 
 <h2>Getting started</h2>
 <p>
-  There was never a grand plan to beome a developer, it just happened. I was
+  There was never a grand plan to become a developer, it just happened. I was
   juggling working from home and bringing up my two boys at the time when it was
   becoming urgent for small businesses to get an online presence. We needed a
   website for our home business and we didn't have a budget to pay a professional.

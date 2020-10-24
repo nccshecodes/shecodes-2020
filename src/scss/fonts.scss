@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: 'roboto_monoregular';
-  src: url('../fonts/robotomono-variablefont_wght-webfont.woff2') format('woff2'),
+  src: local("roboto_monoregular"),
+       url('../fonts/robotomono-variablefont_wght-webfont.woff2') format('woff2'),
        url('../fonts/robotomono-variablefont_wght-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -11,7 +12,8 @@
 
 @font-face {
   font-family: 'robotolight';
-  src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+  src: local("robotolight"),
+       url('../fonts/roboto-light-webfont.woff2') format('woff2'),
        url('../fonts/roboto-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -20,7 +22,8 @@
 
 @font-face {
   font-family: 'robotomedium';
-  src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+  src: local("robotomedium"),
+       url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
        url('../fonts/roboto-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
