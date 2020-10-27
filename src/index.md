@@ -47,15 +47,15 @@ awards:
 <h2>Getting started</h2>
 <p>
   There was never a grand plan to become a developer, it just happened. I was
-  juggling working from home and bringing up my two boys at the time when it was
-  becoming urgent for small businesses to get an online presence. We needed a
-  website for our home business and we didn't have a budget to pay a professional.
-  So I sat at the kitchen table, ploughed my way through tutorial after tutorial
-  and built my first website. It seemed a pretty good fit to upskills my graphics
-  background and for some reason I enjoyed pulling my hair out night after night,
-  just for that one moment when finally, the code would just work. Over time I
-  started building sites for friends and local small businesses, winning two
-  awards for a responsive website.
+  juggling being mum with working from home at the time when small businesses
+  really needed to have an online presence to survive. We needed a website for
+  our home business and we didn't have a budget to pay a professional. So I sat
+  at the kitchen table, ploughed my way through tutorial after tutorial and built
+  my first website. It seemed a pretty good fit to upskills my graphics background
+  and for some reason I enjoyed pulling my hair out night after night, just for
+  that one moment when finally, the code would just work. Over time I started
+  building sites for friends and local small businesses, winning two awards for
+  a responsive website.
 </p>
 
 <p>
@@ -66,7 +66,7 @@ awards:
 
 <p>
   The startup gained attention very early on, and with it an invitation to go pitch
-  at the Seeds&Chips food summit in Milan. A judge pointed to me and asked "Why
+  at the Seeds&Chips food summit in Milan. A judge asked me "Why
   is it that you can build websites, but you're not building the app?". It was
   a damn good question that wouldn't stop niggling and pushed me to go apply to a
   fullstack coding bootcamp at Le Wagon. In summer 2016 I joined the first London
@@ -88,7 +88,7 @@ awards:
 
 <h2>And now</h2>
 <p>
-  It's 2020 and I'm half way throug my third year of working in tech. I've stepped
+  It's 2020 and I'm half way through my third year of working in tech. I've stepped
   away from working fullstack to focus on Front End development and enjoying life
   as a Software Engineer at Zoopla.
 </p>
@@ -100,8 +100,8 @@ awards:
 <p>
   The startup journey was not easy and I made the difficult decision to resign
   from TreatOut in May 2019. I gathered my thoughts rebranding as myFeastOut and
-  gave myself time to recover from burnout. Perhaps at some point soon, I'll pick
-  up the project again.
+  gave myself time to recover from burnout. Perhaps I'll pick
+  up the project again, but I'm not there yet.
 </p>
 <p>
   In the meantime, I write about the journey of making the transition from a solo,

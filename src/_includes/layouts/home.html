@@ -1,8 +1,8 @@
 {% extends "layouts/base.html" %} {% block content %}
-<div class="wrapper">
-  <article>
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
-  </article>
-</div>
+<article>
+  <div class="[ panel ] [ bg-secondary ]">
+    <h1 class="[ wrapper ]">{{ title }}</h1>
+  </div>
+  <div class="[ wrapper ]">{{ content | safe }}</div>
+</article>
 {% endblock %}
