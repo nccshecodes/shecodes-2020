@@ -1,4 +1,5 @@
 ---
+metaTitle: Nathalie - SheCodes
 title: Hi, I'm Nathalie
 layout: layouts/home.html
 pullQuote: >
