@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1d25df11-0cd2-46a1-a5c1-ed59e202b3a6/deploy-status)](https://app.netlify.com/sites/lucid-kepler-c8b25c/deploys)
 
+[Project link](https://lucid-kepler-c8b25c.netlify.app/)
+
 ## SheCodes 2020
 
 I'm focussing this year on learning about accessibility ([thanks to W3C and EdX](https://www.edx.org/course/web-accessibility-introduction)), web performance ([courtesy of smashing magazine and Harry Roberts](https://smashingconf.com/online-workshops/workshops/harry-roberts)), and eleventy ([thanks Andy Bell!](https://piccalil.li/course/learn-eleventy-from-scratch/)), setting out with basic or zero knowledge on each subject beforehand.
