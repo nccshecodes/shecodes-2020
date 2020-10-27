@@ -30,37 +30,42 @@ $gorko-colors: (
 * CORE CONFIG - utility class generation
 */
 $gorko-config: (
- 'color': (
-   'items': $gorko-colors,
-   'output': 'standard',
-   'property': 'color',
- ),
- 'flow-space': (
-   'items': $gorko-size-scale,
-   'output': 'responsive',
-   'property': '--flow-space',
- ),
- 'font': (
-   'items': (
-     'base': '"robotolight", Arial, sans-serif',
-     'header': '"roboto_monoregular", monospace',
-     'heavy': '"robotomedium", Arial, sans-serif',
-   ),
+  'bg': (
+    'items': $gorko-colors,
+    'output': 'standard',
+    'property': 'background',
+  ),
+  'color': (
+    'items': $gorko-colors,
+    'output': 'standard',
+    'property': 'color',
+  ),
+  'flow-space': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': '--flow-space',
+  ),
+  'font': (
+    'items': (
+      'base': '"robotolight", Arial, sans-serif',
+      'header': '"roboto_monoregular", monospace',
+      'heavy': '"robotomedium", Arial, sans-serif',
+    ),
    'output': 'standard',
    'property': 'font-family',
- ),
- 'spacing-top': (
-   'items': $gorko-size-scale,
-   'output': 'responsive',
-   'property': 'margin-top',
- ),
- 'text': (
-   'items': $gorko-size-scale,
-   'output': 'responsive',
-   'property': 'font-size',
- ),
- 'breakpoints': (
-   'md': '(min-width: 37em)',
-   'lg': '(min-width: 62em)',
- ),
+  ),
+  'spacing-top': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': 'margin-top',
+  ),
+  'text': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': 'font-size',
+  ),
+  'breakpoints': (
+    'md': '(min-width: 37em)',
+    'lg': '(min-width: 62em)',
+  ),
 );
