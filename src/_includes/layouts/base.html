@@ -6,7 +6,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% include "partials/meta-info-title.html" %}
-    <link rel="stylesheet" media="print" href="/css/fonts.css?{{ assetHash }}" onload="this.media='all'" />
     {# Add facility for pages to declare an array of stylesheet paths #}
     {% if pageStylesheets %}
       {% for item in pageStylesheets %}
@@ -24,8 +23,6 @@
 
     <link rel="preload" as="font" href="/fonts/robotomono-variablefont_wght-webfont.woff2" crossorigin />
     <link rel="preload" as="font" href="/fonts/roboto-light-webfont.woff2" crossorigin />
-    <link rel="preload" as="font" href="/fonts/roboto-medium-webfont.woff2" crossorigin />
-    <link rel="preload" as="style" href="/css/fonts.css?{{ assetHash }}" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
   </head>
