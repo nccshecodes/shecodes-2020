@@ -1,3 +1,4 @@
+@import 'fonts';
 @import 'config';
 @import '../../node_modules/gorko/gorko.scss';
 @import 'reset';
@@ -12,8 +13,9 @@ body {
   color: get-color('dark');
   font-size: get-size('500');
   line-height: 1.5;
-
-  @include apply-utility('font', 'base');
+  letter-spacing: -1.6px;
+  word-spacing: -1.1px;
+  @include apply-utility('font', 'base-system');
 }
 
 a:not([class]) {
@@ -25,8 +27,32 @@ h1,
 h2,
 h3,
 h4 {
-  @include apply-utility('font', 'header');
+  @include apply-utility('font', 'header-system');
 }
+
+h1,
+h2 {
+  font-size: 34px;
+  letter-spacing: -0.5px;
+  word-spacing: 0.15px;
+}
+
+.fonts-loaded {
+  body {
+    letter-spacing: 0.1px;
+    word-spacing: 0;
+    @include apply-utility('font', 'base');
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: 0;
+    word-spacing: 0;
+    @include apply-utility('font', 'header');
+  }
+}
+
 
 // Import blocks using @import 'blocks/<file-name>';
 @import 'blocks/header';
