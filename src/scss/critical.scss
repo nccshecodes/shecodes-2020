@@ -15,7 +15,7 @@ body {
   line-height: 1.5;
   letter-spacing: -1.6px;
   word-spacing: -1.1px;
-  @include apply-utility('font', 'base-system');
+  font-family: Arial, sans-serif;
 }
 
 a:not([class]) {
@@ -27,7 +27,7 @@ h1,
 h2,
 h3,
 h4 {
-  @include apply-utility('font', 'header-system');
+  font-family: monospace;
 }
 
 h1,
