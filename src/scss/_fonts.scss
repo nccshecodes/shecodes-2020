@@ -5,7 +5,7 @@
   src: local("roboto_monoregular"),
        url('../fonts/robotomono-variablefont_wght-webfont.woff2') format('woff2'),
        url('../fonts/robotomono-variablefont_wght-webfont.woff') format('woff');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -15,7 +15,8 @@
   src: local("robotolight"),
        url('../fonts/roboto-light-webfont.woff2') format('woff2'),
        url('../fonts/roboto-light-webfont.woff') format('woff');
-  font-weight: normal;
+
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -25,7 +26,7 @@
   src: local("robotomedium"),
        url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
        url('../fonts/roboto-medium-webfont.woff') format('woff');
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
