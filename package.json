@@ -18,7 +18,7 @@
     "sass": "^1.27.0"
   },
   "scripts": {
-    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
-    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
+    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy",
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\""
   }
 }
