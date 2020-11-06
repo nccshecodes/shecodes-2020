@@ -18,6 +18,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+:focus,
+a:hover {
+  box-shadow: 0 0 0 1px #{get-color(light)};
+  outline: 2px dotted #{get-color(secondary)};
+  outline-offset: #{get-size('100')};
+}
+
 a:not([class]) {
   color: currentColor;
   text-decoration-color: get-color('primary');
@@ -55,11 +62,11 @@ h2 {
 
 
 // Import blocks using @import 'blocks/<file-name>';
-@import 'blocks/header';
+@import 'blocks/footer';
 @import 'blocks/logo';
 @import 'blocks/nav';
 
-
 // Import utilities using @import 'utilities/<file-name>';
 @import 'utilities/panel';
+@import 'utilities/patterned';
 @import 'utilities/wrapper';

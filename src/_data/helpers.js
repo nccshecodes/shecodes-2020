@@ -19,5 +19,9 @@ module.exports = {
     }
 
     return response;
+  },
+
+  getYear() {
+    return new Date().getFullYear();
   }
 };
