@@ -65,8 +65,10 @@ h2 {
 @import 'blocks/footer';
 @import 'blocks/logo';
 @import 'blocks/nav';
+@import 'blocks/skip-link';
 
 // Import utilities using @import 'utilities/<file-name>';
 @import 'utilities/panel';
 @import 'utilities/patterned';
+@import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
