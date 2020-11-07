@@ -1,0 +1,9 @@
+@import 'config';
+// Set Gorko to output no CSS for this file
+$outputTokenCSS: false;
+@import '../../node_modules/gorko/gorko.scss';
+
+
+h2 {
+  --flow-space: #{get-size('800')};
+}
