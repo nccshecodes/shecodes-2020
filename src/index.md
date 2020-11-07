@@ -60,7 +60,7 @@ awards:
 
 <p>
   Then I watched the BBC Girls Can Code and that changed everything. I wanted to be
-  working in a tech startup. So I formed food tech startup TreatOut in Spetember
+  working in a tech startup. So I formed food tech startup TreatOut in September
   2015 bagging a place on the Google Campus for Mums Startup Programme.
 </p>
 
