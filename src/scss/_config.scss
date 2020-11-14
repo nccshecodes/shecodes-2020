@@ -1,21 +1,23 @@
 $gorko-base-size: 1rem;
 
 /**
-* SIZE SCALE - [Perfect Fourth scale](- https://type-scale.com/)
+* SIZE SCALE - [Major second scale](https://www.modularscale.com/?62.5&%&1.2)
 * powers all relevant utilities (font-size, margin, padding).
-* All items calculated off base size.
+* All items calculated off base size
 */
 $gorko-size-scale: (
-  '100': $gorko-base-size * 0.42,
-  '200': $gorko-base-size * 0.56,
-  '300': $gorko-base-size * 0.75,
-  '400': $gorko-base-size,
-  '500': $gorko-base-size * 1.33,
-  '600': $gorko-base-size * 1.77,
-  '700': $gorko-base-size * 2.36,
-  '800': $gorko-base-size * 3.15,
-  '900': $gorko-base-size * 4.2,
-  'major': $gorko-base-size * 5.6,
+  'minor': $gorko-base-size * 0.5,
+  'base': $gorko-base-size,
+  '100': $gorko-base-size * 1.424,
+  '200': $gorko-base-size * 1.602,
+  '300': $gorko-base-size * 1.802,
+  '400': $gorko-base-size * 2.027,
+  '500': $gorko-base-size * 2.281,
+  '600': $gorko-base-size * 2.566,
+  '700': $gorko-base-size * 2.887,
+  '800': $gorko-base-size * 3.247,
+  '900': $gorko-base-size * 3.653,
+  'major': $gorko-base-size * 4.11,
 );
 
 /**
