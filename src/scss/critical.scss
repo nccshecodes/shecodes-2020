@@ -5,13 +5,14 @@
 
 // Global styles
 :root {
-  --flow-space: #{get-size('600')};
+  --flow-space: #{get-size('700')};
+  font-size: 62.5%;
 }
 
 body {
   background-color: get-color('light');
   color: get-color('dark');
-  font-size: get-size('500');
+  font-size: get-size('400');
   line-height: 1.5;
   letter-spacing: -1.6px;
   word-spacing: -1.1px;
@@ -20,9 +21,8 @@ body {
 
 :focus,
 a:hover {
-  box-shadow: 0 0 0 1px #{get-color(light)};
-  outline: 2px dotted #{get-color(secondary)};
-  outline-offset: #{get-size('100')};
+  outline: 2px dotted var(--focus-color, get-color('light'));
+  outline-offset: get-size('minor');
 }
 
 a:not([class]) {
@@ -30,18 +30,25 @@ a:not([class]) {
   text-decoration-color: get-color('primary');
 }
 
-h1,
+h1 {
+  font-family: monospace;
+}
+
 h2,
 h3,
 h4 {
-  font-family: monospace;
+  font-family: Arial;
 }
 
 h1,
 h2 {
-  font-size: 34px;
+  font-size: get-size('800');
   letter-spacing: -0.5px;
   word-spacing: 0.15px;
+}
+
+h2 {
+  color: get-color('primary');
 }
 
 .fonts-loaded {
@@ -56,7 +63,15 @@ h2 {
   h4 {
     letter-spacing: 0;
     word-spacing: 0;
+  }
+  h1 {
     @include apply-utility('font', 'header');
+  }
+  h2,
+  h3,
+  h4 {
+    font-weight: lighter;
+    @include apply-utility('font', 'base');
   }
 }
 
@@ -68,6 +83,7 @@ h2 {
 @import 'blocks/skip-link';
 
 // Import utilities using @import 'utilities/<file-name>';
+@import 'utilities/flow';
 @import 'utilities/panel';
 @import 'utilities/patterned';
 @import 'utilities/visually-hidden';
