@@ -1,6 +1,6 @@
 ---
 title: "Chat"
-layout: "layouts/chat.html"
+layout: "layouts/contact.html"
 permalink: "/contact/index.html"
 ---
 
