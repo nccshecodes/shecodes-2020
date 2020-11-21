@@ -4,45 +4,11 @@ title: Hi, I'm Nathalie
 layout: layouts/home.html
 pullQuote: >
   I'm one of a small but growing contingent of people over the age of 40, who've
-  made significant career changes to break into the UK tech industry. I secured
-  my first developer role at the start of 2018, which was also my first ’employed’
-  position in 22 years. This made me a firm advocate not only for women returners
-  but also career changers looking to make the switch into tech.
-expertise:
-  - front end development
-  - responsive design
-  - design systems
-  - accessibility
-languages:
-  - HTML
-  - CSS, Sass and Grunt
-  - Javascript, Typescript
-  - Ruby
-frameworks:
-  - React, Svelte
-  - Storybook
-  - Jest, testing library
-  - Rails, RSpec
-  - Github, Gitlab
-  - Postgres
-awards:
-  - award: Most Influential Women in UK Tech - the 2019 Longlist
-    detail: compiled by Computer Weekly
-  - award: Women in Software Powerlist 2019
-    detail: Makers and Level39
-  - award: Most Innovative App Finalist
-    detail: Appster Awards 2016
-  - award: Most Influential Startup Finalist
-    detail: Appster Awards 2016
-  - award: WeAreTheCity 2016 Rising Stars Top 100
-    detail: Entrpreneur Category (shortlisted)
-  - award: Gold - Sports & Entertainment Website
-    detail: Kent Digital Awards 2015
-  - award: Silver - Responsive Website
-    detail: Kent Digital Awards 2015
+  made significant career changes to break into the UK tech industry. My first
+  developer role at the start of 2018 was also my first ’employed’ position in
+  22 years. This made me a firm advocate not only for women returners but also
+  career changers looking to make the switch into tech.
 ---
-
-{{ pullQuote }}
 
 <h2>Getting started</h2>
 <p>
