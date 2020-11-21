@@ -6,6 +6,11 @@
   <div class="[ panel ] [ bg-secondary ]">
     <h1 class="[ wrapper ]">{{ title }}</h1>
   </div>
+  <div class="[ flow panel wrapper ]">
+    {% include "partials/pullquote.html" %}
+    <img src="/images/nathalie_christmann_cooper.jpg" />
+  </div>
+
   <div class="[ flow panel wrapper ]">{{ content | safe }}</div>
 </article>
 {% endblock %}

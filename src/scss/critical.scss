@@ -5,7 +5,7 @@
 
 // Global styles
 :root {
-  --flow-space: #{get-size('600')};
+  --flow-space: #{get-size('700')};
   font-size: 62.5%;
 }
 
@@ -21,9 +21,8 @@ body {
 
 :focus,
 a:hover {
-  box-shadow: 0 0 0 1px #{get-color(light)};
-  outline: 2px dotted #{get-color(secondary)};
-  outline-offset: #{get-size('100')};
+  outline: 2px dotted var(--focus-color, get-color('light'));
+  outline-offset: get-size('minor');
 }
 
 a:not([class]) {
