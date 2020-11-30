@@ -9,3 +9,29 @@ img {
   --flow-space: #{get-size('major')};
   border-bottom: 10px solid get-color('secondary');
 }
+
+.article__content {
+  padding-top: get-size('major');
+  padding-bottom: get-size('major');
+}
+
+@include media-query('lg') {
+  .article__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10rem 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--layout-width);
+  }
+
+  .intro {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+  }
+
+  .main-content {
+    grid-column: span 2;
+    grid-row: 2;
+  }
+}
