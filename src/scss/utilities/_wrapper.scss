@@ -11,3 +11,9 @@
   margin-right: auto;
   position: relative;
 }
+
+@include media-query('lg') {
+  .wrapper {
+    max-width: var(--layout-width);
+  }
+}

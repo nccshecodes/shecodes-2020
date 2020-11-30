@@ -74,4 +74,3 @@ pullQuote: >
   self-taught coder to professional software engineer and who knows, maybe even
   a startup founder with a day job again too.
 </p>
-<p>All views expressed are my own.</p>

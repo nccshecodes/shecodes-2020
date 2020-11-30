@@ -3,14 +3,15 @@
 
 {% block content %}
 <article>
-  <div class="[ panel ] [ bg-secondary ]">
-    <h1 class="[ wrapper ]">{{ title }}</h1>
+  <header class="[ panel ] [ bg-secondary ]">
+    <h1 class="wrapper">{{ title }}</h1>
+  </header>
+  <div class="[ article__content ] [ panel ]">
+    <div class="[ intro ] [ flow panel wrapper ]">
+      {% include "partials/pullquote.html" %}
+      <img src="/images/nathalie_christmann_cooper.jpg" alt="me laughing" loading="lazy"/>
+    </div>
+    <div class="[ main-content ] [ flow panel wrapper ]">{{ content | safe }}</div>
   </div>
-  <div class="[ flow panel wrapper ]">
-    {% include "partials/pullquote.html" %}
-    <img src="/images/nathalie_christmann_cooper.jpg" alt="me laughing"/>
-  </div>
-
-  <div class="[ flow panel wrapper ]">{{ content | safe }}</div>
 </article>
 {% endblock %}
