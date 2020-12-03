@@ -3,7 +3,6 @@
 }
 
 .nav__list {
-  color: get-color('light');
   display: inline-flex;
   flex-wrap: wrap;
   > li {
@@ -12,9 +11,5 @@
   }
   a {
     text-decoration: none;
-    &[aria-current='page'] {
-      border-bottom: 2px solid get-color('light');
-    }
   }
-
 }

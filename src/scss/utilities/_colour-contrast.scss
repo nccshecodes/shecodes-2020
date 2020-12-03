@@ -1,0 +1,31 @@
+.a11y-bg-dark {
+  background-color: get-color('dark');
+  color: get-color('light');
+  [aria-current] {
+    border-bottom: 2px solid get-color('light');
+  }
+}
+
+.a11y-bg-light {
+  background-color: get-color('light');
+  color: get-color('primary');
+  [aria-current] {
+    border-bottom: 2px solid get-color('primary');
+  }
+}
+
+.a11y-bg-primary {
+  background-color: get-color('primary');
+  color: get-color('light');
+  [aria-current] {
+    border-bottom: 2px solid get-color('light');
+  }
+}
+
+.a11y-bg-secondary {
+  background-color: get-color('secondary');
+  color: get-color('dark');
+  [aria-current] {
+    border-bottom: 2px solid get-color('dark');
+  }
+}
