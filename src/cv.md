@@ -1,5 +1,5 @@
 ---
-title: "Nathalie Christmann-Cooper CV"
+title: "Experience"
 layout: "layouts/cv.html"
 permalink: "/nathalie-christmann-cooper-curriculum-vitae/index.html"
 expertise:
@@ -7,34 +7,21 @@ expertise:
   - responsive design
   - design systems
   - accessibility
+  - startups
 languages:
-  - HTML
-  - CSS, Sass and Grunt
+  - HTML, Erb, Haml, Nunjucks
+  - CSS, Sass, Emotion
   - Javascript, Typescript
   - Ruby
   # frameworks and tools
 frameworks:
-  - React, Svelte
+  - React, Svelte, Eleventy
   - Storybook
   - Jest, testing library
   - Rails, RSpec
+  - Webpack, Rollup, Grunt
   - Github, Gitlab
   - Postgres
-awards:
-  - award: Most Influential Women in UK Tech - the 2019 Longlist
-    detail: compiled by Computer Weekly
-  - award: Women in Software Powerlist 2019
-    detail: Makers and Level39
-  - award: Most Innovative App Finalist
-    detail: Appster Awards 2016
-  - award: Most Influential Startup Finalist
-    detail: Appster Awards 2016
-  - award: WeAreTheCity 2016 Rising Stars Top 100
-    detail: Entrpreneur Category (shortlisted)
-  - award: Gold - Sports & Entertainment Website
-    detail: Kent Digital Awards 2015
-  - award: Silver - Responsive Website
-    detail: Kent Digital Awards 2015
 ---
 
 Work experience details summary.
