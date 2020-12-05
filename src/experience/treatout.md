@@ -10,7 +10,3 @@ deliverables:
   - "Public speaking within tech and academic community"
   - "Grew network of key partnerships"
 ---
-
-•
-•
-• Development of next phase to launch

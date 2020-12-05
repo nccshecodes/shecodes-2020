@@ -9,7 +9,7 @@ expertise:
   - accessibility
   - startups
 languages:
-  - HTML, Haml, Nunjucks
+  - HTML, Erb, Haml, Nunjucks
   - CSS, Sass, Emotion
   - Javascript, Typescript
   - Ruby
