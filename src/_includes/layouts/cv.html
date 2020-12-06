@@ -7,7 +7,23 @@
 {% block content %}
 <article class="cv">
   {% include "partials/page-title.html" %}
-  <div class="[ main-content ] [ flow panel wrapper ]">
+  <div class="[ cv__timeline ] [ wrapper ]">
+    <dl class="flow flow-space-400">
+      <dt><span class="bullseye-solid"></span>Expertise</dt>
+      {% for skill in skills %}
+        <dd><span class="bullseye-outline"></span>{{ skill }}</dd>
+      {% endfor %}
+
+      <dt><span class="bullseye-solid"></span>Languages</dt>
+      {% for language in languages %}
+        <dd><span class="bullseye-outline"></span>{{ language }}</dd>
+      {% endfor %}
+
+      <dt><span class="bullseye-solid"></span>Frameworks</dt>
+      {% for framework in frameworks %}
+        <dd><span class="bullseye-outline"></span>{{ framework }}</dd>
+      {% endfor %}
+    </dl>
   </div>
 </article>
 {%endblock %}
