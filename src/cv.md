@@ -2,7 +2,7 @@
 title: "Experience"
 layout: "layouts/cv.html"
 permalink: "/nathalie-christmann-cooper-curriculum-vitae/index.html"
-expertise:
+skills:
   - front end development
   - responsive design
   - design systems

@@ -1,0 +1,10 @@
+@import 'config';
+// Set Gorko to output no CSS for this file
+$outputTokenCSS: false;
+@import '../../node_modules/gorko/gorko.scss';
+
+.cv {
+  h2 {
+    @include apply-utility('font', 'heavy');
+  }
+}

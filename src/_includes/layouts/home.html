@@ -5,9 +5,7 @@
 
 {% block content %}
 <article>
-  <header class="[ panel a11y-bg-secondary ]">
-    <h1 class="wrapper">{{ title }}</h1>
-  </header>
+  {% include "partials/page-title.html" %}
   <div class="[ article__content ] [ panel ]">
     <div class="[ intro ] [ flow panel wrapper ]">
       {% include "partials/pullquote.html" %}

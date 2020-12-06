@@ -1,9 +1,13 @@
 {% extends "layouts/base.html" %}
-{% set pageHeaderTitle = title %}
-{% set pageHeaderSummary = content %}
+{% set pageCriticalStyles = ['css/cv.css'] %}
 {% set headerCol = "secondary" %}
+{% set pageHeaderColor = "dark" %}
+{% set pageHeaderTitle = title %}
 
 {% block content %}
-  {% include "partials/page-header.html" %}
-  CV page placeholder
+<article class="cv">
+  {% include "partials/page-title.html" %}
+  <div class="[ main-content ] [ flow panel wrapper ]">
+  </div>
+</article>
 {%endblock %}
