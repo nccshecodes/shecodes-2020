@@ -3,8 +3,78 @@
 $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
-.cv {
-  h2 {
-    @include apply-utility('font', 'heavy');
+.cv__timeline {
+  position: relative;
+}
+
+dl {
+  padding-bottom: get-size('900');
+  position: relative;
+  &::before {
+    content: "";
+    border-left: 1px solid get-color(dark);
+    height: 100%;
+    position: absolute;
+    left: 1rem;
+    z-index: -1;
   }
+}
+
+dt, dd {
+  display: flex;
+  > * {
+    flex: 1
+  }
+}
+
+dt {
+  @include apply-utility('font', 'heavy');
+  color: get-color(primary);
+  font-size: get-size('600');
+  padding-bottom: get-size('400');
+  padding-top: get-size('900');
+}
+
+dd {
+  position: relative;
+}
+
+.bullseye-outline {
+  background-clip: content-box;
+  background-color: get-color(primary);
+  border: 1px solid get-color(secondary);
+  border-radius: 50%;
+  display: block;
+  flex: 0 0 auto;
+  height: 2rem;
+  margin-right: 1.2rem;
+  margin-top: 0.6rem;
+  padding: 0.3rem;
+  position: relative;
+  width: 2rem;
+
+  &::before {
+    background-color: get-color(light);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2rem;
+    z-index:-1;
+  }
+}
+
+.bullseye-solid {
+  background-color: get-color(primary);
+  border-radius: 50%;
+  display: inline-block;
+  flex: 0 0 auto;
+  height: 2rem;
+  margin-right: 1.2rem;
+  margin-top: 1.1rem;
+  position: relative;
+  width: 2rem;
 }
