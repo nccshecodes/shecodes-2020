@@ -1,7 +1,7 @@
 ---
 name: "Buyapowa"
-startDate: "2019-02-18"
-endDate: "2020-01-10"
+date: 2019-02-18
+endDate: 2020-01-10
 title: "Product Engineer"
 deliverables:
   - "Building React internal CRM product"

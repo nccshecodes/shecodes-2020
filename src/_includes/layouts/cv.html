@@ -24,6 +24,16 @@
         <dd><span class="bullseye-outline"></span>{{ framework }}</dd>
       {% endfor %}
     </dl>
+
+    <dl class="flow flow-space-400">
+      <dt><span class="bullseye-solid"></span>Work Experience</dt>
+      {% for item in collections.work %}
+        <dd><span class="bullseye-outline"></span>{{ item.data.name }}</dd>
+          {% for deliverable in item.data.deliverables %}
+            <dd><span class="bullet"></span>{{ deliverable }}</dd>
+          {% endfor %}
+      {% endfor %}
+    </dl>
   </div>
 </article>
 {%endblock %}
