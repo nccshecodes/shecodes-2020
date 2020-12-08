@@ -15,8 +15,8 @@ module.exports = (config) => {
     return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
   });
 
-   config.addCollection("work", (collection) => {
-    return (collection.getFilteredByGlob("./src/experience/*.md")).reverse();
+   config.addCollection("jobs", (collection) => {
+    return (collection.getFilteredByGlob("./src/jobs/*.md")).reverse();
   });
 
   config.setUseGitIgnore(false);
