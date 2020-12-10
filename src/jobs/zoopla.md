@@ -1,6 +1,6 @@
 ---
 name: "Zoopla"
-date: 2020-01-13
+date: "2020-01-13"
 endDate: "current"
 title: "Frontend Software Engineer 2"
 deliverables:

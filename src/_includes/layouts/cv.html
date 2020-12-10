@@ -38,7 +38,7 @@
       <dl aria-labelledby="work-ex" class="flow flow-space-400">
         {% for job in collections.jobs %}
           <dt><span class="bullseye outline"></span>{{ job.data.name}}</dt>
-          <dt>{{ job.data.date.toString() }} - {{job.data.endDate.toString() }}</dt>
+          <dt>{{ job.data.date | dateFilter }} - {{job.data.endDate | dateFilter }}</dt>
           <dt>{{ job.data.title }}</dt>
           {% for deliverable in job.data.deliverables%}
             <dd><span class="bullseye"></span>{{ deliverable }}</dd>
