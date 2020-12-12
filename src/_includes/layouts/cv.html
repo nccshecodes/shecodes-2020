@@ -24,24 +24,26 @@
         {% endfor %}
       </ul>
 
-
       <h2 id="framework" class="cv__heading"><span class="bullseye solid"></span>Frameworks</h2>
       <ul aria-labelledby="framework" class="flow flow-space-400">
         {% for framework in frameworks %}
           <li><span class="bullseye outline"></span>{{ framework }}</li>
         {% endfor %}
       </ul>
-
     </section>
+
     <section class="flow flow-space-400">
       <h2 id="work-ex" class="cv__heading"><span class="bullseye solid"></span>Work Experience</h2>
-      <dl aria-labelledby="work-ex" class="flow flow-space-400">
+      <dl aria-labelledby="work-ex" class="flow">
         {% for job in collections.jobs %}
-          <dt><span class="bullseye outline"></span>{{ job.data.name}}</dt>
-          <dt>{{ job.data.date | dateFilter }} - {{job.data.endDate | dateFilter }}</dt>
-          <dt>{{ job.data.title }}</dt>
+          <dt class="cv__company"><span class="bullseye outline"></span>{{ job.data.name}}</dt>
+          <dt class="cv__meta">
+            <div class="cv__timespan">{{ job.data.date | dateFilter }} - {{job.data.endDate | dateFilter }}</div>
+            <div class="cv__position">{{ job.data.title }}</div>
+          </dt>
+
           {% for deliverable in job.data.deliverables%}
-            <dd><span class="bullseye"></span>{{ deliverable }}</dd>
+            <dd><span class="bullseye bullet"></span>{{ deliverable }}</dd>
           {% endfor %}
         {% endfor %}
       </dl>
