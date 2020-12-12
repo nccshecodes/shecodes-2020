@@ -2,7 +2,7 @@
 name: "TreatOut"
 date: "2015-10-01"
 endDate: "2019-05-21"
-title: "Technical Co-founder"
+position: "Technical Co-founder"
 deliverables:
   - "Created the TreatOut brand & concept"
   - "Built MVP in Ruby on Rails"

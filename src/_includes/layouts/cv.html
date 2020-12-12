@@ -39,7 +39,7 @@
           <dt class="cv__company"><span class="bullseye outline"></span>{{ job.data.name}}</dt>
           <dt class="cv__meta">
             <div class="cv__timespan">{{ job.data.date | dateFilter }} - {{job.data.endDate | dateFilter }}</div>
-            <div class="cv__position">{{ job.data.title }}</div>
+            <div class="cv__position">{{ job.data.position }}</div>
           </dt>
 
           {% for deliverable in job.data.deliverables%}

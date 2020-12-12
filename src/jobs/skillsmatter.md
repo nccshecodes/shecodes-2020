@@ -2,7 +2,7 @@
 name: "Skills Matter"
 date: "2018-01-30"
 endDate: "2019-02-15"
-title: "Fullstack Engineer"
+position: "Fullstack Engineer"
 deliverables:
   - "Maintenance of large Rails codebase"
   - "Introduced small, iterative UX/UI improvements"
