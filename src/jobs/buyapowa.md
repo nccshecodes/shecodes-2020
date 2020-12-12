@@ -1,8 +1,8 @@
 ---
 name: "Buyapowa"
-startDate: "2019-02-18"
+date: "2019-02-18"
 endDate: "2020-01-10"
-title: "Product Engineer"
+position: "Product Engineer"
 deliverables:
   - "Building React internal CRM product"
   - "Building React components from Zeplin design templates based on atomic design principles"

@@ -1,6 +1,11 @@
+const dateFilter = require('./src/filters/date-filter.js');
+
 module.exports = (config) => {
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy("./src/fonts/");
+
+  // add filters
+  config.addFilter('dateFilter', dateFilter);
 
   // Transforms
   const htmlMinTransform = require('./src/transforms/html-min-transform.js');
@@ -13,6 +18,10 @@ module.exports = (config) => {
 
   config.addCollection("blog", (collection) => {
     return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
+  });
+
+   config.addCollection("jobs", (collection) => {
+    return (collection.getFilteredByGlob("./src/jobs/*.md")).reverse();
   });
 
   config.setUseGitIgnore(false);

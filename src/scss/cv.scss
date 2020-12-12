@@ -3,78 +3,109 @@
 $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
-.cv__timeline {
-  position: relative;
-}
 
-dl {
+dl, section {
   padding-bottom: get-size('900');
   position: relative;
+
   &::before {
-    content: "";
     border-left: 1px solid get-color(dark);
+    content: "";
     height: 100%;
-    position: absolute;
     left: 1rem;
+    position: absolute;
     z-index: -1;
   }
 }
 
-dt, dd {
+dt, dd, h2, li {
+  align-items: center;
   display: flex;
+
   > * {
     flex: 1
   }
 }
 
 dt {
-  @include apply-utility('font', 'heavy');
-  color: get-color(primary);
-  font-size: get-size('600');
-  padding-bottom: get-size('400');
-  padding-top: get-size('900');
+  color: get-color('primary');
+
+  &.cv__company{
+    @include apply-utility('font', 'header');
+    --flow-space: #{get-size('major')};
+    font-size: get-size('500');
+    font-weight: bold;
+  }
+
+  &.cv__meta {
+    display: block;
+    margin-top: 0;
+    padding-left: var(--left-space);
+  }
 }
 
 dd {
+  align-items: flex-start;
   position: relative;
 }
 
-.bullseye-outline {
+.bullseye {
   background-clip: content-box;
-  background-color: get-color(primary);
-  border: 1px solid get-color(secondary);
+  background-color: get-color('primary');
   border-radius: 50%;
   display: block;
   flex: 0 0 auto;
   height: 2rem;
   margin-right: 1.2rem;
-  margin-top: 0.6rem;
+  margin-left: var(--left-space);
   padding: 0.3rem;
   position: relative;
   width: 2rem;
 
-  &::before {
-    background-color: get-color(light);
-    border-radius: 50%;
-    content: "";
-    display: block;
-    height: 2rem;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 2rem;
-    z-index:-1;
+  &.bullet {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+  }
+
+  &.outline {
+    border: 1px solid get-color(secondary);
+    margin-left: 0;
+
+    &::before {
+      background-color: get-color(light);
+      border-radius: 50%;
+      content: "";
+      display: block;
+      height: 2rem;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 2rem;
+      z-index:-1;
+    }
+  }
+
+  &.solid {
+    background-clip: border-box;
+    display: inline-block;
+    margin-top: 0.3rem;
+    margin-left: 0;
+    padding: 0;
   }
 }
 
-.bullseye-solid {
-  background-color: get-color(primary);
-  border-radius: 50%;
-  display: inline-block;
-  flex: 0 0 auto;
-  height: 2rem;
-  margin-right: 1.2rem;
-  margin-top: 1.1rem;
+.cv__timeline {
+  --left-space: 3.2rem;
   position: relative;
-  width: 2rem;
+  ul, ol {
+    padding-left: 0;
+  }
+}
+
+.fonts-loaded .cv__heading {
+  @include apply-utility('font', 'heavy');
+  color: get-color(primary);
+  font-size: get-size('600');
+  padding-bottom: get-size('400');
+  padding-top: get-size('900');
 }

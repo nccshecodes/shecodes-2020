@@ -5,25 +5,49 @@
 {% set pageHeaderTitle = title %}
 
 {% block content %}
-<article class="cv">
+<article>
   {% include "partials/page-title.html" %}
   <div class="[ cv__timeline ] [ wrapper ]">
-    <dl class="flow flow-space-400">
-      <dt><span class="bullseye-solid"></span>Expertise</dt>
-      {% for skill in skills %}
-        <dd><span class="bullseye-outline"></span>{{ skill }}</dd>
-      {% endfor %}
+    <section class="flow flow-space-400">
+      <h2 id="skill" class="cv__heading"><span class="bullseye solid"></span>Expertise</h2>
+      <ul aria-labelledby="skill" class="flow flow-space-400">
+        {% for skill in skills %}
+          <li><span class="bullseye outline"></span>{{ skill }}</li>
+        {% endfor %}
+      </ul>
 
-      <dt><span class="bullseye-solid"></span>Languages</dt>
-      {% for language in languages %}
-        <dd><span class="bullseye-outline"></span>{{ language }}</dd>
-      {% endfor %}
 
-      <dt><span class="bullseye-solid"></span>Frameworks</dt>
-      {% for framework in frameworks %}
-        <dd><span class="bullseye-outline"></span>{{ framework }}</dd>
-      {% endfor %}
-    </dl>
+      <h2 id="language" class="cv__heading"><span class="bullseye solid"></span>Languages</h2>
+      <ul aria-labelledby="language" class="flow flow-space-400">
+        {% for language in languages %}
+          <li><span class="bullseye outline"></span>{{ language }}</li>
+        {% endfor %}
+      </ul>
+
+      <h2 id="framework" class="cv__heading"><span class="bullseye solid"></span>Frameworks</h2>
+      <ul aria-labelledby="framework" class="flow flow-space-400">
+        {% for framework in frameworks %}
+          <li><span class="bullseye outline"></span>{{ framework }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="flow flow-space-400">
+      <h2 id="work-ex" class="cv__heading"><span class="bullseye solid"></span>Work Experience</h2>
+      <dl aria-labelledby="work-ex" class="flow">
+        {% for job in collections.jobs %}
+          <dt class="cv__company"><span class="bullseye outline"></span>{{ job.data.name}}</dt>
+          <dt class="cv__meta">
+            <div class="cv__timespan">{{ job.data.date | dateFilter }} - {{job.data.endDate | dateFilter }}</div>
+            <div class="cv__position">{{ job.data.position }}</div>
+          </dt>
+
+          {% for deliverable in job.data.deliverables%}
+            <dd><span class="bullseye bullet"></span>{{ deliverable }}</dd>
+          {% endfor %}
+        {% endfor %}
+      </dl>
+    </section>
   </div>
 </article>
 {%endblock %}
