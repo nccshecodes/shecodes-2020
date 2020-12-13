@@ -55,8 +55,7 @@
         {% for course in collections.education %}
           <dt class="term--primary"><span class="bullseye outline"></span>{{ course.data.course}}</dt>
           <dt class="term--meta">
-            <div>{{ course.data.provider }}</div>
-            <div>{{ course.data.date | dateFilter }}</div>
+            <div>{{ course.data.provider }}, <span class="no-wrap">{{ course.data.date | dateFilter }}</span></div>
           </dt>
             <dd><span class="bullseye bullet"></span>{{ course.templateContent | safe }}</dd>
         {% endfor %}
@@ -75,7 +74,7 @@
               {{ talk.data.title}}
             {% endif %}
           </dt>
-          <dt class="term--meta">{{ talk.data.event }} - {{ talk.data.date | dateFilter }}</dt>
+          <dt class="term--meta">{{ talk.data.event }}, <span class="no-wrap">{{ talk.data.date | dateFilter }}</span></dt>
 
           <dd><span class="bullseye bullet"></span><div class="flow flow-space-400">{{ talk.templateContent | safe }}</div></dd>
         {% endfor %}
@@ -87,8 +86,6 @@
       <dl aria-labelledby="awards" class="flow">
         {% for award in collections.awards %}
           <dt class="term--primary"><span class="bullseye outline"></span>{{ award.data.award}}</dt>
-          <dt class="term--meta">{{ award.data.date | dateFilter }}</dt>
-
           {% for detail in award.data.details%}
             <dd><span class="bullseye bullet"></span>{{ detail }}</dd>
           {% endfor %}
