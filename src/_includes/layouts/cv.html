@@ -62,6 +62,20 @@
         {% endfor %}
       </dl>
     </section>
+
+    <section class="flow flow-space-400">
+      <h2 id="awards" class="cv__heading"><span class="bullseye solid"></span>Honours and Awards</h2>
+      <dl aria-labelledby="awards" class="flow">
+        {% for award in collections.awards %}
+          <dt class="term--primary"><span class="bullseye outline"></span>{{ award.data.award}}</dt>
+          <dt class="term--meta">{{ award.data.date | dateFilter }}</dt>
+
+          {% for detail in award.data.details%}
+            <dd><span class="bullseye bullet"></span>{{ detail }}</dd>
+          {% endfor %}
+        {% endfor %}
+      </dl>
+    </section>
   </div>
 </article>
 {%endblock %}
