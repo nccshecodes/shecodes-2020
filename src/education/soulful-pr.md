@@ -1,7 +1,8 @@
 ---
 course: "Soulful PR"
 provider: "Janet Murray"
-startDate: "2016-01-11"
+date: "2016-04-01"
 ---
 
-12 week Soulful PR Coaching Course deliverd online.
+12 week coaching course on marketing and PR strategies for entrpreneurs. Delivered
+online.
