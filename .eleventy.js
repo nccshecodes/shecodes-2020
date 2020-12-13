@@ -20,7 +20,11 @@ module.exports = (config) => {
     return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
   });
 
-   config.addCollection("jobs", (collection) => {
+  config.addCollection("education", (collection) => {
+    return (collection.getFilteredByGlob("./src/education/*.md")).reverse();
+  });
+
+  config.addCollection("jobs", (collection) => {
     return (collection.getFilteredByGlob("./src/jobs/*.md")).reverse();
   });
 

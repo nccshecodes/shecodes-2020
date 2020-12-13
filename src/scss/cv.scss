@@ -30,14 +30,14 @@ dt, dd, h2, li {
 dt {
   color: get-color('primary');
 
-  &.cv__company{
+  &.term--primary{
     @include apply-utility('font', 'header');
     --flow-space: #{get-size('major')};
     font-size: get-size('500');
     font-weight: bold;
   }
 
-  &.cv__meta {
+  &.term--meta {
     display: block;
     margin-top: 0;
     padding-left: var(--left-space);
