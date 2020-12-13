@@ -1,7 +1,7 @@
 ---
-award: "WeAreTheCity Rising Stars '16"
+award: "WeAreTheCity Rising Stars 2016"
 details:
   - "Entrepreneur category - Shortlisted"
-  - "Project: TreatOut"
+  - "Startup - TreatOut"
 date: "2016-04-26"
 ---
