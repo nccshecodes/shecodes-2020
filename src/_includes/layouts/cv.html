@@ -64,6 +64,25 @@
     </section>
 
     <section class="flow flow-space-400">
+      <h2 id="talks" class="cv__heading"><span class="bullseye solid"></span>Talks</h2>
+      <dl aria-labelledby="talks" class="flow">
+        {% for talk in collections.talks %}
+          <dt class="term--primary">
+            <span class="bullseye outline"></span>
+            {% if talk.data.link %}
+              <a href="{{ talk.data.link}}">{{ talk.data.title}}</a>
+            {% else %}
+              {{ talk.data.title}}
+            {% endif %}
+          </dt>
+          <dt class="term--meta">{{ talk.data.event }} - {{ talk.data.date | dateFilter }}</dt>
+
+          <dd><span class="bullseye bullet"></span><div class="flow flow-space-400">{{ talk.templateContent | safe }}</div></dd>
+        {% endfor %}
+      </dl>
+    </section>
+
+    <section class="flow flow-space-400">
       <h2 id="awards" class="cv__heading"><span class="bullseye solid"></span>Honours and Awards</h2>
       <dl aria-labelledby="awards" class="flow">
         {% for award in collections.awards %}

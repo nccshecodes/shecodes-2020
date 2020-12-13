@@ -32,6 +32,10 @@ module.exports = (config) => {
     return (collection.getFilteredByGlob("./src/jobs/*.md")).reverse();
   });
 
+  config.addCollection("talks", (collection) => {
+    return (collection.getFilteredByGlob("./src/talks/*.md")).reverse();
+  });
+
   config.setUseGitIgnore(false);
 
   return {
