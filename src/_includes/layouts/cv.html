@@ -36,15 +36,29 @@
       <h2 id="work-ex" class="cv__heading"><span class="bullseye solid"></span>Work Experience</h2>
       <dl aria-labelledby="work-ex" class="flow">
         {% for job in collections.jobs %}
-          <dt class="cv__company"><span class="bullseye outline"></span>{{ job.data.name}}</dt>
-          <dt class="cv__meta">
-            <div class="cv__timespan">{{ job.data.date | dateFilter }} - {{job.data.endDate | dateFilter }}</div>
-            <div class="cv__position">{{ job.data.position }}</div>
+          <dt class="term--primary"><span class="bullseye outline"></span>{{ job.data.name}}</dt>
+          <dt class="term--meta">
+            <div>{{ job.data.date | dateFilter }} - {{job.data.endDate | dateFilter }}</div>
+            <div>{{ job.data.position }}</div>
           </dt>
 
           {% for deliverable in job.data.deliverables%}
             <dd><span class="bullseye bullet"></span>{{ deliverable }}</dd>
           {% endfor %}
+        {% endfor %}
+      </dl>
+    </section>
+
+    <section class="flow flow-space-400">
+      <h2 id="education" class="cv__heading"><span class="bullseye solid"></span>Education</h2>
+      <dl aria-labelledby="education" class="flow">
+        {% for course in collections.education %}
+          <dt class="term--primary"><span class="bullseye outline"></span>{{ course.data.course}}</dt>
+          <dt class="term--meta">
+            <div>{{ course.data.provider }}</div>
+            <div>{{ course.data.date | dateFilter }}</div>
+          </dt>
+            <dd><span class="bullseye bullet"></span>{{ course.templateContent | safe }}</dd>
         {% endfor %}
       </dl>
     </section>
