@@ -16,6 +16,10 @@ module.exports = (config) => {
     config.addTransform('htmlmin', htmlMinTransform);
   }
 
+  config.addCollection("awards", (collection) => {
+    return (collection.getFilteredByGlob("./src/awards/*.md")).reverse();
+  });
+
   config.addCollection("blog", (collection) => {
     return [...collection.getFilteredByGlob("./src/blog/*.md")].reverse();
   });
