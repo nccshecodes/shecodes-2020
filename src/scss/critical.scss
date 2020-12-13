@@ -31,6 +31,10 @@ a:not([class]) {
   text-decoration-color: get-color('primary');
 }
 
+main:focus {
+  outline: none;
+}
+
 h1 {
   font-family: monospace;
 }
