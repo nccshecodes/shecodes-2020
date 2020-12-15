@@ -58,6 +58,11 @@ $gorko-config: (
    'output': 'standard',
    'property': 'font-family',
   ),
+  'panel-space': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': '--panel-space',
+  ),
   'spacing-top': (
     'items': $gorko-size-scale,
     'output': 'responsive',
