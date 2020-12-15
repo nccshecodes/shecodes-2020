@@ -1,7 +1,9 @@
 ---
-title: "Let's talk"
-layout: "layouts/contact.html"
-permalink: "/contact/index.html"
+layout: layouts/contact.html
+metaDescription: Best ways to get in touch and say hi.
+metaTitle: Contact Details
+title: Let's talk
+permalink: /contact/index.html
 ---
 
 I'm not currently accepting contract work, but if you want to chat about startups, learning to code or making a career change into tech, please do get in touch. I've had a lot of help and advice along the way and although it might take me a little while to reply, if I can pass that advice on, I will.
