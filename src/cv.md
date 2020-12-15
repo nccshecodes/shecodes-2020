@@ -1,19 +1,4 @@
 ---
-title: "Experience"
-layout: "layouts/cv.html"
-permalink: "/nathalie-christmann-cooper-curriculum-vitae/index.html"
-skills:
-  - Front-end development
-  - Responsive design
-  - Design systems
-  - Accessibility
-  - Startups
-languages:
-  - HTML, Erb, Haml, Nunjucks
-  - CSS, Sass, Emotion
-  - Javascript, Typescript
-  - Ruby
-  # frameworks and tools
 frameworks:
   - React, Svelte, Eleventy
   - Storybook
@@ -22,4 +7,20 @@ frameworks:
   - Webpack, Rollup, Grunt
   - Github, Gitlab
   - Postgres
+languages:
+  - HTML, Erb, Haml, Nunjucks
+  - CSS, Sass, Emotion
+  - Javascript, Typescript
+  - Ruby
+layout: layouts/cv.html
+metaDesc: My CV in digital format - work experience and skillset, training, talks, honours and awards.
+metaTitle: CV Nathalie Christmann-Cooper
+permalink: /nathalie-christmann-cooper-curriculum-vitae/index.html
+skills:
+  - Front-end development
+  - Responsive design
+  - Design systems
+  - Accessibility
+  - Startups
+title: Experience
 ---
