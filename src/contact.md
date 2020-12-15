@@ -1,6 +1,6 @@
 ---
 layout: layouts/contact.html
-metaDescription: Best ways to get in touch and say hi.
+metaDesc: Best ways to get in touch and say hi.
 metaTitle: Contact Details
 title: Let's talk
 permalink: /contact/index.html

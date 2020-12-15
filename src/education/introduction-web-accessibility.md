@@ -1,7 +1,7 @@
 ---
-course: "Introduction to Web Accessibility"
-provider: "W3C and edX"
-date: "2020-04-23"
+course: Introduction to Web Accessibility
+provider: W3C and edX
+date: '2020-04-23'
 ---
 
 Online course covering the broad scope of web accessibility, how people with

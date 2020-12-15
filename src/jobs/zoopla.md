@@ -1,11 +1,11 @@
 ---
-name: "Zoopla"
-date: "2020-01-13"
-endDate: "current"
-position: "Frontend Software Engineer 2"
+name: Zoopla
+date: '2020-01-13'
+endDate: current
+position: Frontend Software Engineer 2
 deliverables:
-  - "Greenfield customer CRM"
-  - "Contributor to Design System in Svelte and React"
-  - "Accessibility champion"
-  - "Contributor to Accessibility and Performance working groups"
+  - Greenfield customer CRM
+  - Contributor to Design System in Svelte and React
+  - Accessibility champion
+  - Contributor to Accessibility and Performance working groups
 ---
