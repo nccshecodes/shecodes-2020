@@ -1,7 +1,13 @@
 {% extends "layouts/base.html" %}
 {% set pageHeaderTitle = title %}
+{% set headerCol = "dark" %}
+{% set pageHeaderColor = "primary" %}
 
 {% block content %}
-  {% include "partials/page-title.html" %}
-  contact page placeholder
+  <article>
+    {% include "partials/page-title.html" %}
+    <div class="[ article__content ] [ flow panel wrapper ] [ panel-space-major ]">
+      {{ content | safe }}
+    </div>
+  </article>
 {%endblock %}
