@@ -10,9 +10,15 @@
   font-size: 62.5%;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: get-color('light');
   color: get-color('dark');
+  display: flex;
+  flex-direction: column;
   font-size: get-size('400');
   line-height: 1.5;
   letter-spacing: -1.6px;
@@ -54,6 +60,10 @@ h2 {
 
 h2 {
   color: get-color('primary');
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 .fonts-loaded {
