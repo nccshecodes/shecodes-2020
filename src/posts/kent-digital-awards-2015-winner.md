@@ -1,18 +1,14 @@
 ---
 title: Kent digital awards 2015 winner
-date: 2015-06-19
-category: startup-life
+date: '2015-06-19'
 tags:
+  - startup
   - awards
 excerpt: >
   Complete girl geek heaven with the Kent Digital Awards 2015 and a Responsive
   Day Out in Brighton.
 featureImage: /images/blog/kent-digital-awards-2015-she-codes.jpg
 featureImageAlt: Beaming smile while posing for photo holding the gold award
-goldImage: /images/blog/kent-digital-awards-2015-she-codes-gold.jpg
-goldImageAlt: posing for photo holding the silver award
-silverImage: /images/blog/kent-digital-awards-2015-she-codes-silver.jpg
-SilverImageAlt: on stage talking with compare about winning the gold award
 ---
 
 ## A Golden Night Out
@@ -24,6 +20,9 @@ First up was the Responsive Website Category. We have worked hard to deliver a s
 Next category was for best Sports and Entertainment Website. This included looking at web design, development, cross-platform accessibility and user experience. The attention to detail that was put into the site build paid off, and we were thrilled to come away with the Gold Award.
 
 There’s no greater reward than seeing a client so delighted, not only with the tangible business results the site has already brought in, but to have industry recognition alongside is an incredible buzz. Luckily I’d selected my handbag wisely and it was just large enough to fit both awards into for the taxi ride home.
+
+<img src="/images/blog/kent-digital-awards-2015-she-codes-silver.jpg" alt="holding the silver award">
+<img src="/images/blog/kent-digital-awards-2015-she-codes-gold.jpg" alt="talking with the compare on stage with the gold award">
 
 ## Getting Set For Next Year
 
