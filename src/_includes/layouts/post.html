@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+{% set headerCol = "light" %}
+{% set pageHeaderColor = "primary" %}
+{% set pageHeaderTitle = title %}
+{% set postListItems = pagination.items %}
+
+{% block content %}
+  <article>
+    {% include "partials/page-title.html" %}
+    {{ content | safe }}
+  </article>
+{% endblock %}
