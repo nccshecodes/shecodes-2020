@@ -4,3 +4,10 @@ $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
 @import 'blocks/tags';
+
+.post {
+  h2 {
+    @include apply-utility('font', 'header');
+    color: inherit;
+  }
+}
