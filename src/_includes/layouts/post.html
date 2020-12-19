@@ -12,6 +12,8 @@
   <article>
     {% include "partials/page-title.html" %}
     {% include "partials/tags.html" %}
-    {{ content | safe }}
+    <div class="panel wrapper flow">
+      {{ content | safe }}
+    <div>
   </article>
 {% endblock %}
