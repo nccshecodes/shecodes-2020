@@ -1,0 +1,27 @@
+.list--tags {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: get-size('100');
+  margin-inline-start: -#{get-size('base')};
+  text-transform: uppercase;
+
+  > * {
+    margin-inline-start: get-size('base');
+  }
+
+  a {
+    border: solid 2px get-color('secondary');
+    padding: get-size('minor') get-size('base');
+    text-decoration: none;
+    transition: all .2s ease;
+    &:hover,
+    &:focus {
+      border-color: get-color('dark');
+      border-style: dotted;
+      outline: none;
+    }
+    &:hover {
+      background-color: get-color('secondary');
+    }
+  }
+}

@@ -3,7 +3,7 @@
 {% endif %}
 
 <header class="[ panel a11y-bg-{{ pageHeaderColor }} ]">
-  <h1 class="wrapper">{{ blogTitle if blogTitle else title }}</h1>
+  <h1 class="wrapper">{{ title }}</h1>
   {% if pageHeaderSummary %}
    {{ pageHeaderSummary | safe }}
   {% endif %}

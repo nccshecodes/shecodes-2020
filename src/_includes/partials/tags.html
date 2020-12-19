@@ -1,0 +1,20 @@
+{% if not pattern %}
+  {% set pattern = "light" %}
+{% endif %}
+
+{% if tags %}
+  <div class="[ panel patterned-{{ pattern }} a11y-bg-{{ headerCol }} ]">
+    <p class="visually-hidden" id="tags-desc">
+      Topics covered by this post.
+    </p>
+    <div class="wrapper">
+      <ul class="[ list--tags ]" aria-describedby="tags-desc">
+        {% for tag in tags %}
+          <li class="rounded">
+            <a class="rounded" href="/tag/{{ tag | slug }}/">{{ tag }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endif %}
