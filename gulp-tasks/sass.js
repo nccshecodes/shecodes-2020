@@ -9,7 +9,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // An array of outputs that should be sent over to includes
 // eg. const criticalStyles = ['critical.scss', 'home.scss', 'page.scss', 'work-item.scss'];
-const criticalStyles = ['critical.scss', 'home.scss', 'cv.scss'];
+const criticalStyles = ['critical.scss', 'cv.scss', 'home.scss', 'post.scss' ];
 
 // Takes the arguments passed by `dest` and determines where the output file goes
 const calculateOutput = ({history}) => {
