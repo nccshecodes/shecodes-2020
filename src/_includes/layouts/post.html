@@ -9,9 +9,11 @@
 
 
 {% block content %}
-  <article>
+  <article class="post">
     {% include "partials/page-title.html" %}
     {% include "partials/tags.html" %}
-    {{ content | safe }}
+    <div class="flow panel wrapper">
+      {{ content | safe }}
+    <div>
   </article>
 {% endblock %}
