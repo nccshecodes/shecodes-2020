@@ -1,0 +1,32 @@
+.list--tags {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: get-size('100');
+  text-transform: uppercase;
+  margin-inline-start: -#{get-size('base')};
+
+  > * {
+    margin-inline-start: get-size('base');
+  }
+
+  li {
+    border-radius: 10px; // TODO create variable for radius or utility class
+  }
+
+  a {
+    border: solid 2px get-color('secondary');
+    border-radius: 10px; // TODO create variable for radius or utility class
+    padding: get-size('minor') get-size('base');
+    text-decoration: none;
+    transition: all .2s ease; //TODO utility class or mixin?
+    &:hover,
+    &:focus {
+      outline: none;
+      border-style: dotted;
+      border-color: get-color('dark');
+    }
+    &:hover {
+      background-color: get-color('secondary');
+    }
+  }
+}
