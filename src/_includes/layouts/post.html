@@ -12,6 +12,8 @@
   <article class="post">
     {% include "partials/page-title.html" %}
     {% include "partials/tags.html" %}
+    <div class="panel wrapper">{{ date | dateFilter("full") }}</div>
+
     <div class="flow panel wrapper">
       {{ content | safe }}
     <div>
