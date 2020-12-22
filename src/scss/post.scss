@@ -10,6 +10,43 @@ $outputTokenCSS: false;
   padding-bottom: get-size('major');
   h2 {
     @include apply-utility('font', 'header');
-    color: inherit;
+  }
+
+  h2:not(:first-of-type) {
+    border-bottom: 2px solid get-color('secondary');
+  }
+
+  em {
+    color: get-color('primary');
+    font-weight: bold;
+  }
+
+  .feature {
+    margin-top: 0;
+  }
+
+  .pullquote {
+    display: none;
+  }
+
+  @include media-query('md') {
+    .pullquote {
+      display: block;
+      position: relative;
+      text-align: right;
+      &:before {
+        color: get-color('secondary');
+        content: '\2019\2019';
+        display: block;
+        font-family: monotype;
+        font-size: 60rem;
+        left: -110px;
+        letter-spacing: -6.25rem;
+        position: absolute;
+        top: -262px;
+        opacity: 0.2;
+        z-index: -1;
+      }
+    }
   }
 }

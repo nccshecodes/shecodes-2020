@@ -24,21 +24,21 @@ My teenage kids don’t need me at home now, I’m ready and excited to be makin
 
 I started out full of optimism, with awards and industry recognition under my belt to validate the work I’ve done during my time remote working. I’ve continually updated my skills through a mix of online learning, classroom based learning and on-the-job experience. Together with two friends, I’ve created a food tech startup and stepped up to the role of technical co-founder. I still continue to work on this greenfield project which has already gained attention.
 
-And yet.
+And yet:
 
-**1) I’ve just been playing at it**
+_1) I’ve just been playing at it_
 
 As a remote working ‘mother’ I’ve not been doing this seriously, my experience is worthless in the eyes of the tech industry.
 
-**2) I don’t have any ‘commercial’ experience**
+_2) I don’t have any ‘commercial’ experience_
 
 My clients I’ve worked with as a freelance developer don’t count. Nor does working as part of a startup team. Not really.
 
-**3) I shouldn’t set my expectations high**
+_3) I shouldn’t set my expectations high_
 
 I should expect to earn between £20-£25k and stick closer to home, don’t apply to London.
 
-**4) I won’t understand complex projects**
+_4) I won’t understand complex projects_
 
 I’ve just been building ‘mom-and-pop’ websites of only a few pages. A large company that’s spent tens of thousands if not hundreds of thousands of pounds on a complex site (that I won’t be able to understand) won’t let me work on it in case I break it. Yes, I actually had that said in a conversation with a recruiter last December.
 
