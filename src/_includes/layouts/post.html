@@ -13,7 +13,7 @@
 
     <div class="grid-12-col flow wrapper">
       <img class="feature" src="{{ featureImage }}" alt="{{ featureAlt }}" />
-      <time class="panel" datetime="{{ date }}">{{ date | dateFilter("full") }}</time>
+      <time datetime="{{ date }}">{{ date | dateFilter("full") }}</time>
       {{ content | safe }}
     </div>
   </article>

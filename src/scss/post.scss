@@ -21,8 +21,14 @@ $outputTokenCSS: false;
     font-weight: bold;
   }
 
+  time {
+    display: block;
+  }
+
   .feature {
     margin-top: 0;
+    margin-left: -#{get-size('500')};
+    max-width: 100vw;
   }
 
   .pullquote {
@@ -30,6 +36,12 @@ $outputTokenCSS: false;
   }
 
   @include media-query('md') {
+
+    .feature {
+      margin-left: 0;
+      max-width: 100%;
+    }
+
     .pullquote {
       display: block;
       position: relative;
