@@ -4,8 +4,10 @@ $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
 @import 'blocks/tags';
+@import 'blocks/grid-12-col';
 
 .post {
+  padding-bottom: get-size('major');
   h2 {
     @include apply-utility('font', 'header');
     color: inherit;

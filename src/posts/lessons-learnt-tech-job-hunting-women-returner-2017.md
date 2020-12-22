@@ -8,37 +8,45 @@ excerpt: >
   I was really pleased to kiss goodbye to 2017. Having started job hunting back
   in May, it’s been the most soul destroying, confidence sucking past 8 months
   I’ve ever had to endure.
-# featureImage: ""
-# featureImageAlt:
+featureImage: /images/blog/2017-01-01/women-returner-gratisography-640x344.jpg
+featureImageAlt: A woman with scruffy hair, smeared makeup and a blank stare sitting in front of a typewriter on the floor. She's sipping a whiskey, surrounded by screwed up sheets of paper.
 ---
+
+## The Survivor's Tale
 
 I was really pleased to kiss goodbye to 2017. Having started job hunting back in May, it’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
 
 My teenage kids don’t need me at home now, I’m ready and excited to be making my entrance back into the workforce. I may have been nurturing my boys but I still kept working throughout.
 
+<p class="pullquote" aria-hidden="true">
+  It’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
+</p>
+
 I started out full of optimism, with awards and industry recognition under my belt to validate the work I’ve done during my time remote working. I’ve continually updated my skills through a mix of online learning, classroom based learning and on-the-job experience. Together with two friends, I’ve created a food tech startup and stepped up to the role of technical co-founder. I still continue to work on this greenfield project which has already gained attention.
 
 And yet.
 
-1) I’ve just been playing at it.
+**1) I’ve just been playing at it**
 
 As a remote working ‘mother’ I’ve not been doing this seriously, my experience is worthless in the eyes of the tech industry.
 
-2) I don’t have any ‘commercial’ experience.
+**2) I don’t have any ‘commercial’ experience**
 
 My clients I’ve worked with as a freelance developer don’t count. Nor does working as part of a startup team. Not really.
 
-3) I shouldn’t set my expectations high.
+**3) I shouldn’t set my expectations high**
 
 I should expect to earn between £20-£25k and stick closer to home, don’t apply to London.
 
-4) I won’t understand complex projects.
+**4) I won’t understand complex projects**
 
 I’ve just been building ‘mom-and-pop’ websites of only a few pages. A large company that’s spent tens of thousands if not hundreds of thousands of pounds on a complex site (that I won’t be able to understand) won’t let me work on it in case I break it. Yes, I actually had that said in a conversation with a recruiter last December.
 
 I’ve learnt that there are some really bad recruiters out there who seem to think I’ve spent my time in front of a computer covered in cake mix and wearing a pinny, but thankfully I’ve also discovered some high calibre recruiters worth talking to who’ve encouraged me to persevere.
 
-The most common thanks but no thanks, we won’t be taking your application forward conversation is that a company is looking for someone who can hit the ground running. I’ve found that comment interesting enough to look it up in the oxford dictionary.
+## Hit the ground running
+
+The most common _thanks but no thanks, we won’t be taking your application forward_ conversation is that a company is looking for someone who can hit the ground running. I’ve found that comment interesting enough to look it up in the oxford dictionary.
 
 Definition of hit the ground running:
 
