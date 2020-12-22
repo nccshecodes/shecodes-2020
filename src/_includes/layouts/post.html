@@ -6,16 +6,15 @@
 {% set pattern = "dark" %}
 {% set postListItems = pagination.items %}
 
-
-
 {% block content %}
   <article class="post">
     {% include "partials/page-title.html" %}
     {% include "partials/tags.html" %}
-    <div class="panel wrapper">{{ date | dateFilter("full") }}</div>
 
-    <div class="flow panel wrapper">
+    <div class="grid-12-col flow wrapper">
+      <img class="feature" src="{{ featureImage }}" alt="{{ featureAlt }}" />
+      <time datetime="{{ date }}">{{ date | dateFilter("full") }}</time>
       {{ content | safe }}
-    <div>
+    </div>
   </article>
 {% endblock %}
