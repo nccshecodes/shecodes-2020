@@ -18,7 +18,7 @@ I was really pleased to kiss goodbye to 2017. Having started job hunting back in
 
 My teenage kids don’t need me at home now, I’m ready and excited to be making my entrance back into the workforce. I may have been nurturing my boys but I still kept working throughout.
 
-<p class="pullquote" aria-hidden="true">
+<p class="pullquote repeated" aria-hidden="true">
   It’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
 </p>
 
