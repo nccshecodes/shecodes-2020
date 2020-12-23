@@ -16,9 +16,7 @@ It’s been another exciting start to the week. I’ve been shortlisted as co-fo
 
 The WATC Rising Star Awards are the first to focus on the UK’s female talent pipeline below management level and celebrates 100 individual female contributors representing the leaders and role models of tomorrow.
 
-<p class="pullquote">
-The awards are now in their second term and with over 950 nominations spanning across the UK and Northern Ireland, the number of entries received are treble that of last year.
-</p>
+The awards are now in their second term and with over 950 nominations spanning across the UK and Northern Ireland, the number of entries received are treble that of last year. {.pullquote}
 
 I’m really looking forward to attending the shortlisted celebration event sponsored by Bloomberg on the 17 May 2016. To have come this far since founding TreatOut in September is breathtaking. I feel both humbled and inspired to be listed amongst such a wealth of talented women.
 

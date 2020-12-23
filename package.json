@@ -15,6 +15,9 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "html-minifier": "^4.0.0",
+    "markdown-it": "^12.0.4",
+    "markdown-it-attrs": "^3.0.3",
+    "markdown-it-deflist": "^2.1.0",
     "sass": "^1.27.0"
   },
   "scripts": {
