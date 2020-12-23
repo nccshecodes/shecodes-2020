@@ -18,9 +18,7 @@ I was really pleased to kiss goodbye to 2017. Having started job hunting back in
 
 My teenage kids don’t need me at home now, I’m ready and excited to be making my entrance back into the workforce. I may have been nurturing my boys but I still kept working throughout.
 
-<p class="pullquote repeated" aria-hidden="true">
-  It’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
-</p>
+It’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure. {.pullquote .repeated aria-hidden=true}
 
 I started out full of optimism, with awards and industry recognition under my belt to validate the work I’ve done during my time remote working. I’ve continually updated my skills through a mix of online learning, classroom based learning and on-the-job experience. Together with two friends, I’ve created a food tech startup and stepped up to the role of technical co-founder. I still continue to work on this greenfield project which has already gained attention.
 
@@ -48,9 +46,8 @@ I’ve learnt that there are some really bad recruiters out there who seem to th
 
 The most common _thanks but no thanks, we won’t be taking your application forward_ conversation is that a company is looking for someone who can hit the ground running. I’ve found that comment interesting enough to look it up in the oxford dictionary.
 
-Definition of hit the ground running:
-
-Start something and proceed at a fast pace with great enthusiasm.
+<dfn>Hit the ground running</dfn>
+: Start something and proceed at a fast pace with great enthusiasm.
 
 Hello? I think what they really mean to say is that sadly it seems that the tech industry has a much wider problem in general, there is a real shortage of senior tech talent. The knock on effect is that junior roles generally require at least ‘three years plus’ experience and an unrealistic sound working knowledge of a whole heap of technologies and frameworks. There’s very little manpower available to support the intake of more junior positions, so where will the senior developers of tomorrow come from? I now realise how wrong I was when I originally wrote my piece for the Guardian. The tech industry is great if you are carving your own path, but try breaking into an employed role and it’s a different story. I know I’m not the only one banging on doors and this isn’t a gender issue, these doors just aren’t opening for anyone.
 

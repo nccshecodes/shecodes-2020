@@ -1,4 +1,7 @@
 const dateFilter = require('./src/filters/date-filter.js');
+const mdIt = require('markdown-it');
+const mdDeflist = require('markdown-it-deflist');
+const mdAttrs = require('markdown-it-attrs');
 
 module.exports = (config) => {
   // Set directories to pass through to the dist folder
@@ -37,6 +40,21 @@ module.exports = (config) => {
   });
 
   config.setUseGitIgnore(false);
+
+  // customise and extend markdown
+  // mdAttr - add ids and classes
+  // mdDefList - create description lists
+  const options = {
+    html: true
+  }
+
+  const markdownLib = mdIt(options)
+    .use(mdAttrs, {
+      allowedAttributes: ['class', 'id', /^aria.*$/, ]
+    })
+    .use(mdDeflist);
+
+  config.setLibrary('md', markdownLib);
 
   return {
     markdownTemplateEngine: "njk",

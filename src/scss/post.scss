@@ -8,6 +8,13 @@ $outputTokenCSS: false;
 
 .post {
   padding-bottom: get-size('major');
+
+  dt {
+    border-bottom: 2px solid get-color('secondary');
+    font-size: get-size('500');
+    font-weight: bold;
+  }
+
   h2 {
     @include apply-utility('font', 'header');
   }
