@@ -1,0 +1,6 @@
+@import 'config';
+// Set Gorko to output no CSS for this file
+$outputTokenCSS: false;
+@import '../../node_modules/gorko/gorko.scss';
+
+@import 'blocks/grid-12-col';

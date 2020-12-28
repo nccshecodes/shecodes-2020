@@ -5,15 +5,19 @@
 {% set pattern = "dark" %}
 {% set postListItems = pagination.items %}
 
+{% set pageCriticalStyles = ['css/blog.css'] %}
+
 {% block content %}
   <article>
     {% include "partials/page-title.html" %}
-    <ol>
-      {% for item in postListItems %}
-        <li>
-          <a href="{{ item.url }}">{{ item.data.title }}</a>
-        </li>
-      {% endfor %}
-    </ol>
+    <div class="grid-12-col flow panel wrapper">
+      <ul>
+        {% for item in postListItems %}
+          <li>
+            <a href="{{ item.url }}">{{ item.data.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </article>
 {% endblock %}
