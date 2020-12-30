@@ -8,71 +8,82 @@
 {% set pageCriticalStyles = ['css/blog.css'] %}
 
 {% block content %}
-  <article>
+  <article class="blog">
     {% include "partials/page-title.html" %}
-    <div class="grid-12-col flow panel wrapper">
-      <div class="latest">
-        {% set latest = collections.blog[0]%}
-        <img class="feature" src="{{ latest.data.featureImage }}" alt="{{ latest.data.featureAlt }}" />
-        <h2>Latest</h2>
-        <h3><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
+    <div class="grid-12-col wrapper">
+
+      {% set latest = collections.blog[0] %}
+      <section class="[ latest ] [ flow panel ]">
+        <h2 class="section__heading">Latest</h2>
+        <h3 class="latest__heading"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
         <time datetime="{{ latest.data.date }}">{{ latest.data.date | dateFilter("full") }}</time>
-        <p>{{ latest.data.excerpt }}</p>
+        <p class="latest__excerpt">{{ latest.data.excerpt }}</p>
         {% set tags = latest.data.tags %}
         {% include "partials/tags.html" %}
-      </div>
+      </section>
+      <img class="latest__image" src="{{ latest.data.featureImage }}" alt="" />
+
       {# divider utlility vertical #}
-      <div class="category">
-        {% set level_posts =  collections['level up'] %}
-        <h2>Level Up</h2>
-        <ul>
-          {% for post in level_posts %}
-            <a href="{{ post.url }}">
-              <li>
-                <h3>{{ post.data.title }}</h3>
-                <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-                {% set tags = post.data.tags %}
-                {% include "partials/tags.html" %}
-              </li>
-            </a>
-          {% endfor %}
-        </ul>
-        {# divider utility horizontal #}
-      </div>
-      <div class="category">
-        {% set startup_posts =  collections['startup'] %}
-        <h2>Startup</h2>
-        <ul>
-          {% for post in startup_posts %}
-            <a href="{{ post.url }}">
-              <li>
-                <h3>{{ post.data.title }}</h3>
-                <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-                {% set tags = post.data.tags %}
-                {% include "partials/tags.html" %}
-              </li>
-            </a>
-          {% endfor %}
-        </ul>
-        {# divider utility horizontal #}
-      </div>
-      <div class="category">
-        {% set soapbox_posts =  collections['soapbox'] %}
-        <h2>Soapbox</h2>
-        <ul>
-          {% for post in soapbox_posts %}
-            <li>
+      {% set levelPosts =  collections['level up'] %}
+      {% if levelPosts %}
+        <div class="category">
+          <h2>Level Up</h2>
+          <ul>
+            {% for post in levelPosts %}
               <a href="{{ post.url }}">
-                <h3>{{ post.data.title }}</h3>
-                <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-                {% set tags = post.data.tags %}
-                {% include "partials/tags.html" %}
+                <li>
+                  <h3>{{ post.data.title }}</h3>
+                  <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
+                  {% set tags = post.data.tags %}
+                  {% include "partials/tags.html" %}
+                </li>
               </a>
-            </li>
-          {% endfor %}
-        </ul>
-        {# divider utility horizontal #}
-      </div>
+            {% endfor %}
+          </ul>
+          {# divider utility horizontal #}
+        </div>
+      {% endif %}
+
+      {% set startupPosts =  collections['startup'] %}
+      {% if startupPosts %}
+        <div class="category">
+          <h2>Startup</h2>
+          <ul>
+            {% for post in startupPosts %}
+              <a href="{{ post.url }}">
+                <li>
+                  <h3>{{ post.data.title }}</h3>
+                  <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
+                  {% set tags = post.data.tags %}
+                  {% include "partials/tags.html" %}
+                </li>
+              </a>
+            {% endfor %}
+          </ul>
+          {# divider utility horizontal #}
+        </div>
+      {% endif %}
+
+      {% set soapboxPosts =  collections['soapbox'] %}
+      {% if soapboxPosts %}
+        <div class="category">
+          <h2>Soapbox</h2>
+          <ul>
+            {% for post in soapboxPosts %}
+              <li>
+                <a href="{{ post.url }}">
+                  <h3>{{ post.data.title }}</h3>
+                  <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
+                  {% set tags = post.data.tags %}
+                  {% include "partials/tags.html" %}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          {# divider utility horizontal #}
+        </div>
+      {% endif %}
+
       <aside>
         <h2>Archives</h2>
         <ul>
@@ -81,13 +92,6 @@
           {% endfor %}
         </ul>
       </aside>
-      <ul>
-        {% for item in postListItems %}
-          <li>
-            <a href="{{ item.url }}">{{ item.data.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
     </div>
   </article>
 {% endblock %}

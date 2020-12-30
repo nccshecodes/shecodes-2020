@@ -4,3 +4,21 @@ $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
 @import 'blocks/grid-12-col';
+
+.blog {
+  aside {
+    grid-column: 2 / span 3;
+    grid-row-start: 3;
+  }
+
+  .latest {
+    grid-column: 2 / span 3;
+    grid-row: span 2;
+  }
+
+  .latest__image,
+  .category {
+    grid-column: 5 / -2;
+  }
+}
+
