@@ -62,13 +62,29 @@ $outputTokenCSS: false;
   }
 
   @include media-query('md') {
+    p {
+      grid-column: 6 / -2;
+    }
+
+    h2:first-of-type {
+      grid-column: 2 / span 4;
+    }
+
+    time {
+      grid-column: 2 / span 4;
+      grid-row: 1;
+    }
 
     .feature {
+      grid-column: 6 / -2;
+      grid-row: span 3;
       margin-left: 0;
       max-width: 100%;
     }
 
     .pullquote {
+      grid-column: 2 / span 3;
+      grid-row: span 2;
       text-align: right;
 
       &.repeated {

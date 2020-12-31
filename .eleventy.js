@@ -5,7 +5,7 @@ const mdAttrs = require('markdown-it-attrs');
 
 module.exports = (config) => {
   // Set directories to pass through to the dist folder
-  config.addPassthroughCopy("./src/fonts/");
+  config.addPassthroughCopy('./src/fonts/');
 
   // add filters
   config.addFilter('dateFilter', dateFilter);
@@ -19,24 +19,35 @@ module.exports = (config) => {
     config.addTransform('htmlmin', htmlMinTransform);
   }
 
-  config.addCollection("awards", (collection) => {
-    return (collection.getFilteredByGlob("./src/awards/*.md")).reverse();
+  config.addCollection('cv_awards', (collection) => {
+    return (collection.getFilteredByGlob('./src/awards/*.md')).reverse();
   });
 
-  config.addCollection("blog", (collection) => {
-    return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+  config.addCollection('blog', (collection) => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
-  config.addCollection("education", (collection) => {
-    return (collection.getFilteredByGlob("./src/education/*.md")).reverse();
+  config.addCollection('cv_education', (collection) => {
+    return (collection.getFilteredByGlob('./src/education/*.md')).reverse();
   });
 
-  config.addCollection("jobs", (collection) => {
-    return (collection.getFilteredByGlob("./src/jobs/*.md")).reverse();
+  config.addCollection('cv_jobs', (collection) => {
+    return (collection.getFilteredByGlob('./src/jobs/*.md')).reverse();
   });
 
-  config.addCollection("talks", (collection) => {
-    return (collection.getFilteredByGlob("./src/talks/*.md")).reverse();
+  config.addCollection('cv_talks', (collection) => {
+    return (collection.getFilteredByGlob('./src/talks/*.md')).reverse();
+  });
+
+  config.addCollection('tagList', (collection) => {
+    const tagsSet = new Set();
+    collection.getAll().forEach(item => {
+      if (!item.data.tags) return;
+      item.data.tags
+        .filter(tag => !['all'].includes(tag))
+        .forEach(tag => tagsSet.add(tag));
+    });
+    return Array.from(tagsSet).sort();
   });
 
   config.setUseGitIgnore(false);
@@ -57,12 +68,12 @@ module.exports = (config) => {
   config.setLibrary('md', markdownLib);
 
   return {
-    markdownTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
     dir: {
-      input: "src",
-      output: "dist",
+      input: 'src',
+      output: 'dist',
     },
   };
 };

@@ -11,7 +11,7 @@
     {% include "partials/page-title.html" %}
     {% include "partials/tags.html" %}
 
-    <div class="grid-12-col flow wrapper">
+    <div class="post__grid grid-12-col flow wrapper">
       <img class="feature" src="{{ featureImage }}" alt="{{ featureAlt }}" />
       <time datetime="{{ date }}">{{ date | dateFilter("full") }}</time>
       {{ content | safe }}
