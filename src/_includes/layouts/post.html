@@ -9,7 +9,11 @@
 {% block content %}
   <article class="post">
     {% include "partials/page-title.html" %}
-    {% include "partials/tags.html" %}
+    <div class="[ panel patterned-{{ pattern }} a11y-bg-{{ headerCol }} ]">
+      <div class="wrapper">
+        {% include "partials/tags.html" %}
+      </div>
+    </div>
 
     <div class="post__grid grid-12-col flow wrapper">
       <img class="feature" src="{{ featureImage }}" alt="{{ featureAlt }}" />
