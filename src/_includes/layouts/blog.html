@@ -26,18 +26,20 @@
       {# divider utlility vertical #}
       {% set levelPosts =  collections['level up'] %}
       {% if levelPosts %}
-        <div class="category">
+        <div class="[ category ] [ panel ]">
           <h2>Level Up</h2>
-          <ul>
+          <ul class="flow flow-space-400">
             {% for post in levelPosts %}
-              <a href="{{ post.url }}">
-                <li>
-                  <h3>{{ post.data.title }}</h3>
+                <li class="flow">
+                  <a href="{{ post.url }}">
+                    <h3>{{ post.data.title }}</h3>
+                  </a>
                   <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
                   {% set tags = post.data.tags %}
-                  {% include "partials/tags.html" %}
+                  <div class="flow-space-100">
+                    {% include "partials/tags.html" %}
+                  </div>
                 </li>
-              </a>
             {% endfor %}
           </ul>
           {# divider utility horizontal #}
@@ -48,16 +50,19 @@
       {% if startupPosts %}
         <div class="category">
           <h2>Startup</h2>
-          <ul>
+          <ul class="flow flow-space-400">
             {% for post in startupPosts %}
-              <a href="{{ post.url }}">
-                <li>
+              <li class="flow">
+                <a href="{{ post.url }}">
                   <h3>{{ post.data.title }}</h3>
-                  <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-                  {% set tags = post.data.tags %}
+                </a>
+                <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
+                {% set tags = post.data.tags %}
+                <div class="flow-space-100">
                   {% include "partials/tags.html" %}
-                </li>
-              </a>
+                </div>
+              </li>
+
             {% endfor %}
           </ul>
           {# divider utility horizontal #}
@@ -66,17 +71,19 @@
 
       {% set soapboxPosts =  collections['soapbox'] %}
       {% if soapboxPosts %}
-        <div class="category">
+        <div class="[ category ] [ panel ]">
           <h2>Soapbox</h2>
-          <ul>
+          <ul class="flow flow-space-400">
             {% for post in soapboxPosts %}
-              <li>
+              <li class="flow">
                 <a href="{{ post.url }}">
                   <h3>{{ post.data.title }}</h3>
-                  <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-                  {% set tags = post.data.tags %}
-                  {% include "partials/tags.html" %}
                 </a>
+                <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
+                {% set tags = post.data.tags %}
+                <div class="flow-space-100">
+                  {% include "partials/tags.html" %}
+                </div>
               </li>
             {% endfor %}
           </ul>
