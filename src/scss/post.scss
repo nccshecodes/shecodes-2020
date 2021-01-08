@@ -93,3 +93,9 @@ $outputTokenCSS: false;
     }
   }
 }
+
+@include media-query('md') {
+  .grid-12-col > * {
+    grid-column: 2 / -2;
+  }
+}
