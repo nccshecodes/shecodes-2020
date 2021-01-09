@@ -20,10 +20,9 @@ body {
   display: flex;
   flex-direction: column;
   font-size: get-size('400');
-  line-height: 1.5;
-  letter-spacing: -1.6px;
-  word-spacing: -1.1px;
-  font-family: Arial, sans-serif;
+  letter-spacing: 0.1px;
+  word-spacing: 0;
+  @include apply-utility('font', 'base');
 }
 
 :focus,
@@ -37,57 +36,65 @@ a:not([class]) {
   text-decoration-color: get-color('primary');
 }
 
-main:focus {
-  outline: none;
-}
-
 h1 {
-  font-family: monospace;
-}
-
-h2,
-h3,
-h4 {
-  font-family: Arial;
-}
-
-h1,
-h2 {
-  font-size: get-size('800');
-  letter-spacing: -0.5px;
-  word-spacing: 0.15px;
+  @include apply-utility('font', 'header');
 }
 
 h2 {
   color: get-color('primary');
 }
 
+h2,
+h3,
+h4 {
+  font-weight: lighter;
+  @include apply-utility('font', 'base')
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0;
+  word-spacing: 0;
+}
+
+main:focus {
+  outline: none;
+}
+
 .content {
   flex: 1 0 auto;
 }
 
-.fonts-loaded {
+
+.fonts-loading {
   body {
-    letter-spacing: 0.1px;
-    word-spacing: 0;
-    @include apply-utility('font', 'base');
+    font-size: get-size('400');
+    line-height: 1.5;
+    letter-spacing: -1.6px;
+    word-spacing: -1.1px;
+    font-family: Arial, sans-serif;
   }
-  h1,
-  h2,
-  h3,
-  h4 {
-    letter-spacing: 0;
-    word-spacing: 0;
-  }
+
   h1 {
-    @include apply-utility('font', 'header');
+    font-family: monospace;
   }
+
   h2,
   h3,
   h4 {
-    font-weight: lighter;
-    @include apply-utility('font', 'base');
+    font-family: Arial;
   }
+
+  h1,
+  h2 {
+    font-size: get-size('800');
+    letter-spacing: -0.5px;
+    word-spacing: 0.15px;
+  }
+
+
 }
 
 
