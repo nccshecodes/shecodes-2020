@@ -30,8 +30,33 @@ $outputTokenCSS: false;
     font-size: get-size('200');
   }
 
-  ul {
+  ol {
+    counter-reset: post-counter;
     grid-column: 6 / -2;
+
+    > li {
+      display: flex;
+      &::before {
+        align-items: center;
+        background-clip: content-box;
+        background-color: get-color('primary');
+        border: 2px solid get-color('secondary');
+        border-radius: 50%;
+        color: get-color('light');
+        content: counter(post-counter);
+        counter-increment: post-counter;
+        display: flex;
+        flex-shrink: 0;
+        font-size: get-size('600');
+        font-style: italic;
+        height: 6rem;
+        justify-content: center;
+        letter-spacing: 0.35rem;
+        margin-right: get-size('200');
+        padding: get-size('minor');
+        width: 6rem;
+      }
+    }
   }
 
   #arc {
@@ -74,6 +99,10 @@ $outputTokenCSS: false;
     width: 1px;
   }
 
+  .grid-12-col {
+    padding-bottom: get-size('major');
+  }
+
   .latest {
     grid-column: 2 / span 3;
     grid-row: span 4;
@@ -81,7 +110,9 @@ $outputTokenCSS: false;
     header {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      span {
+        margin-right: get-size('200');
+      }
     }
   }
 
@@ -118,16 +149,16 @@ $outputTokenCSS: false;
     border-radius: 50%;
     color: get-color('light');
     display: flex;
+    font-size: get-size('600');
     font-style: italic;
     height: 6rem;
-    font-size: get-size('600');
     justify-content: center;
     letter-spacing: 0.35rem;
-    padding: 0.5rem;
+    padding: get-size('minor');
     width: 6rem;
 
     &.outline {
-      border: 2px solid get-color(secondary);
+      border: 2px solid get-color('secondary');
     }
   }
 
@@ -136,15 +167,16 @@ $outputTokenCSS: false;
     background-color: get-color('secondary-tint');
     border-radius: 50%;
     display: flex;
-    font-style: italic;
-    height: 5.5rem;
     font-size: get-size('600');
+    font-style: italic;
+    height: 4rem;
     justify-content: center;
     padding: 0.75rem;
-    width: 5.5rem;
+    width: 4rem;
   }
 
   .tags-wrapper {
     padding-bottom: get-size('800');
+    padding-top: get-size('400');
   }
 }
