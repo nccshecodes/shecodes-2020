@@ -7,20 +7,19 @@ $outputTokenCSS: false;
 @import 'blocks/tags';
 
 .blog {
-  .divider { // applied to <hr>
-    border: none;
-    height: 1px;
-    margin: 0;
-    background-color: get-color('dark-tint');
+  a {
+    text-decoration: none;
+    h3 {
+      color: get-color('primary');
+    }
   }
 
-  .divider-bottom { // applied to <li>
-    border-bottom: solid 1px get-color('dark-tint');
+  h3 {
+    @include apply-utility('font', 'header');
   }
 
-  .divider--vertical {
-    width: 1px;
-    height: 100%;
+  ul {
+    grid-column: 6 / -2;
   }
 
   #arc {
@@ -28,12 +27,20 @@ $outputTokenCSS: false;
     grid-row-start: 5;
   }
 
-  ul {
-    grid-column: 6 / -2;
-  }
-
   .cat-header {
     grid-column: 6 / -1;
+  }
+
+  .divider { // applied to <hr>
+    background-color: get-color('dark-tint');
+    border: none;
+    height: 1px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .divider-bottom { // applied to <li>
+    border-bottom: solid 1px get-color('dark-tint');
   }
 
   .divider--left-col {
@@ -48,6 +55,8 @@ $outputTokenCSS: false;
   .divider--vertical {
     grid-column-start: 5;
     grid-row: 2 / span 6;
+    height: 100%;
+    width: 1px;
   }
 
   .latest {
@@ -55,8 +64,13 @@ $outputTokenCSS: false;
     grid-row: span 4;
   }
 
+  .latest__heading {
+    font-size: get-size('800');
+  }
+
   .latest__image {
     grid-column: 5 / -2;
+    margin-top: 0;
   }
 
   .list-archives {
