@@ -18,6 +18,10 @@ $outputTokenCSS: false;
     @include apply-utility('font', 'header');
   }
 
+  li:last-child {
+    border-bottom: none;
+  }
+
   ul {
     grid-column: 6 / -2;
   }
@@ -37,6 +41,7 @@ $outputTokenCSS: false;
     height: 1px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
   }
 
   .divider-bottom { // applied to <li>
@@ -76,5 +81,9 @@ $outputTokenCSS: false;
   .list-archives {
     grid-column: 2 / span 3;
     grid-row-start: 7;
+  }
+
+  .tags-wrapper {
+    padding-bottom: get-size('800');
   }
 }
