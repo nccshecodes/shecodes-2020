@@ -26,6 +26,10 @@ $outputTokenCSS: false;
     border-bottom: none;
   }
 
+  time {
+    font-size: get-size('200');
+  }
+
   ul {
     grid-column: 6 / -2;
   }
