@@ -89,7 +89,11 @@
       <hr class="divider divider--left-col">
       <ul class="list-archives" aria-labelledby="arc">
         {% for tag in collections.tagList %}
-          <li class="divider-bottom">{{ collections[ tag ] | length }} {{ tag }}</li>
+          <li class="[ divider-bottom ] [ panel ] [ panel-space-100 ]">
+            <a href="/tag/{{ tag | slug }}/">
+              <span class="number--secondary">{{ collections[ tag ] | length }}</span><span class="tag">{{ tag }}<span>
+            </a>
+          </li>
         {% endfor %}
       </ul>
     </div>
