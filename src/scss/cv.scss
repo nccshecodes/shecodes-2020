@@ -105,7 +105,6 @@ dd {
 
 h2 {
   @include apply-utility('font', 'heavy');
-  color: get-color('contrast');
   font-size: get-size('600');
   padding-bottom: get-size('400');
   padding-top: get-size('900');
