@@ -10,8 +10,7 @@
 {% block content %}
   <article class="blog">
     {% include "partials/page-title.html" %}
-    <div class="grid-12-col wrapper">
-
+    <div class="[ grid-12-col ] [ flow wrapper ] [ flow-space-400 ]">
       {% set latest = collections.blog[0] %}
       <section class="[ latest ] [ flow panel ]">
         <h2 class="section__heading">Latest</h2>
@@ -25,13 +24,13 @@
 
       <hr class="divider divider--vertical">
 
-      {% set levelPosts =  collections['level up'] %}
+      {% set levelPosts = collections['level up'] %}
       {% if levelPosts %}
         <h2 id="lup" class="cat-header">Level Up</h2>
         <hr class="divider divider--right-col">
-        <ul class="flow flow-space-400" aria-labelledby="lup">
+        <ul class="[ flow ] [ flow-space-400 ]" aria-labelledby="lup">
           {% for post in levelPosts %}
-              <li class="flow divider-bottom">
+              <li class="[ divider-bottom ] [ flow ]">
                 <a href="{{ post.url }}">
                   <h3>{{ post.data.title }}</h3>
                 </a>
@@ -45,13 +44,13 @@
         </ul>
       {% endif %}
 
-      {% set startupPosts =  collections['startup'] %}
+      {% set startupPosts = collections['startup'] %}
       {% if startupPosts %}
         <h2 id="sup" class="cat-header">Startup</h2>
         <hr class="divider divider--right-col">
-        <ul class="flow flow-space-400" aria-labelledby="sup">
+        <ul class="[ flow ] [ flow-space-400 ]" aria-labelledby="sup">
           {% for post in startupPosts %}
-            <li class="flow divider-bottom">
+            <li class="[ divider-bottom ] [ flow ]">
               <a href="{{ post.url }}">
                 <h3>{{ post.data.title }}</h3>
               </a>
@@ -66,13 +65,13 @@
         </ul>
       {% endif %}
 
-      {% set soapboxPosts =  collections['soapbox'] %}
+      {% set soapboxPosts = collections['soapbox'] %}
       {% if soapboxPosts %}
         <h2 id="sbox" class="cat-header">Soapbox</h2>
         <hr class="divider divider--right-col">
-        <ul class="flow flow-space-400" aria-labelledby="sbox">
+        <ul class="[ flow ] [ flow-space-400 ]" aria-labelledby="sbox">
           {% for post in soapboxPosts %}
-            <li class="flow divider-bottom">
+            <li class="[ divider-bottom ] [ flow ]">
               <a href="{{ post.url }}">
                 <h3>{{ post.data.title }}</h3>
               </a>
