@@ -99,6 +99,10 @@ $outputTokenCSS: false;
     width: 1px;
   }
 
+  .grid-12-col {
+    padding-bottom: get-size('major');
+  }
+
   .latest {
     grid-column: 2 / span 3;
     grid-row: span 4;
@@ -106,7 +110,9 @@ $outputTokenCSS: false;
     header {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      span {
+        margin-right: get-size('200');
+      }
     }
   }
 
