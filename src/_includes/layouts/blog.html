@@ -24,66 +24,14 @@
 
       <hr class="divider divider--vertical">
 
-      {% set levelPosts = collections['level up'] %}
-      {% if levelPosts %}
-        <h2 id="lup" class="cat-header">Level Up</h2>
-        <hr class="divider divider--right-col">
-        <ul class="[ flow ] [ flow-space-400 ]" aria-labelledby="lup">
-          {% for post in levelPosts %}
-              <li class="[ divider-bottom ] [ flow ]">
-                <a href="{{ post.url }}">
-                  <h3>{{ post.data.title }}</h3>
-                </a>
-                <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-                {% set tags = post.data.tags %}
-                <div class="[ tags-wrapper ] [ flow-space-100 ]">
-                  {% include "partials/tags.html" %}
-                </div>
-              </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      {% set collectionType = 'level up' %}
+      {% include "partials/collections.html" %}
 
-      {% set startupPosts = collections['startup'] %}
-      {% if startupPosts %}
-        <h2 id="sup" class="cat-header">Startup</h2>
-        <hr class="divider divider--right-col">
-        <ul class="[ flow ] [ flow-space-400 ]" aria-labelledby="sup">
-          {% for post in startupPosts %}
-            <li class="[ divider-bottom ] [ flow ]">
-              <a href="{{ post.url }}">
-                <h3>{{ post.data.title }}</h3>
-              </a>
-              <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-              {% set tags = post.data.tags %}
-              <div class="[ tags-wrapper ] [ flow-space-100 ]">
-                {% include "partials/tags.html" %}
-              </div>
-            </li>
+      {% set collectionType = 'startup' %}
+      {% include "partials/collections.html" %}
 
-          {% endfor %}
-        </ul>
-      {% endif %}
-
-      {% set soapboxPosts = collections['soapbox'] %}
-      {% if soapboxPosts %}
-        <h2 id="sbox" class="cat-header">Soapbox</h2>
-        <hr class="divider divider--right-col">
-        <ul class="[ flow ] [ flow-space-400 ]" aria-labelledby="sbox">
-          {% for post in soapboxPosts %}
-            <li class="[ divider-bottom ] [ flow ]">
-              <a href="{{ post.url }}">
-                <h3>{{ post.data.title }}</h3>
-              </a>
-              <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
-              {% set tags = post.data.tags %}
-              <div class="[ tags-wrapper ] [ flow-space-100 ]">
-                {% include "partials/tags.html" %}
-              </div>
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      {% set collectionType = 'soapbox' %}
+      {% include "partials/collections.html" %}
 
       <h2 id="arc">Archives</h2>
       <hr class="divider divider--left-col">

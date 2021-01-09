@@ -41,6 +41,7 @@ $outputTokenCSS: false;
 
   .cat-header {
     grid-column: 6 / -1;
+    text-transform: capitalize;
   }
 
   .divider { // applied to <hr>
