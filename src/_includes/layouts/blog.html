@@ -15,7 +15,7 @@
       <section class="[ latest ] [ flow panel ]">
         <header>
           <h2 class="section__heading">Latest</h2>
-          <span class="number--primary outline">{{ collections.blog | length }}</span>
+          <span class="number--primary outline" aria-label="latest post number">{{ collections.blog | length }}</span>
         </header>
         <h3 class="latest__heading"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
         <time datetime="{{ latest.data.date }}">{{ latest.data.date | dateFilter("full") }}</time>
