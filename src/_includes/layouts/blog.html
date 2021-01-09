@@ -10,10 +10,13 @@
 {% block content %}
   <article class="blog">
     {% include "partials/page-title.html" %}
-    <div class="[ grid-12-col ] [ flow wrapper ] [ flow-space-400 ]">
+    <div class="[ grid-12-col ] [ flow panel wrapper ] [ flow-space-400 panel-space-major ]">
       {% set latest = collections.blog[0] %}
       <section class="[ latest ] [ flow panel ]">
-        <h2 class="section__heading">Latest</h2>
+        <header>
+          <h2 class="section__heading">Latest</h2>
+          <span class="number--primary outline">{{ collections.blog | length }}</span>
+        </header>
         <h3 class="latest__heading"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
         <time datetime="{{ latest.data.date }}">{{ latest.data.date | dateFilter("full") }}</time>
         <p class="latest__excerpt">{{ latest.data.excerpt }}</p>
