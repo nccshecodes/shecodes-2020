@@ -123,6 +123,9 @@ $outputTokenCSS: false;
   .latest__image {
     grid-column: 5 / -2;
     margin-top: 0;
+    img {
+      object-fit: cover;
+    }
   }
 
   .list-archives {
