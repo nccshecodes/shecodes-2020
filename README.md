@@ -60,6 +60,44 @@ Gulp optimises jpg and png files using [gulp-imagemin](https://github.com/sindre
 **NOTE**
 SVGs are not handled by gulp and are optimised before adding to the project using SVGO, because they are currently inlined. However, this could be automated by extending the `images.js.` watcher function to include SVGO.
 
+**UPDATE 10/01/21**
+Images are handled by the eleventy [image plugin](https://www.11ty.dev/docs/plugins/image/). The plugin performs build-time image transformations for both vector and raster images.
+
+#### **imageShortcode**
+- Outputs multiple images in 3 widths - `640px`, `1280px` and `1920px` - which are saved directly to the `dist` directory.
+- Outputs two formats - `jpeg` and `WebP`.
+- Uses image [metadata](https://www.11ty.dev/docs/plugins/image/#sample-return-object) to add `width` and `height` attributes on a `picture` element for proper [aspect ratio mapping](https://developer.mozilla.org/en-US/docs/Web/Media/images/aspect_ratio_mapping).
+
+The generated `picture` element:
+- provides a jpeg fallback where `WebP` is not supported
+- uses native lazyload.
+
+| Argument | Default | Required | Description                                           |
+| -------- | ------- | -------- | ----------------------------------------------------- |
+| src      | -       | Y        | Relative path to original image.                      |
+| alt      | -       | Y        | Alt text. Set null attr with `""`.                    |
+| classes  | ""      | -        | Add CSS classes to the generated `<picture>` element. |
+| sizes    | "100vw" | -        | Value for the [sizes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) attribute. |
+
+To use the shortcode in a layout:
+```
+{% imageShortcode <src>, <alt>, <classes>, <sizes> %}
+```
+**NOTE**:
+- The comma between arguments is required in Nunjucks templates.
+- An error will throw if the alt text is not given.
+
+This example is taken from the `blog template` to generate the feature image:
+```
+{% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
+
+Output =>
+<picture class="latest__image">
+  <source type="image/webp" srcset="/images/aeeca916-640.webp 640w, /images/aeeca916-1280.webp 1280w, /images/aeeca916-1920.webp 1920w" sizes="(min-width: 62em) 612px, 100vw">
+<source type="image/jpeg" srcset="/images/aeeca916-640.jpeg 640w, /images/aeeca916-1280.jpeg 1280w, /images/aeeca916-1920.jpeg 1920w" sizes="(min-width: 62em) 612px, 100vw">
+      <img src="/images/aeeca916-640.jpeg" width="640" height="360" alt="my image alt text." loading="lazy" decoding="async">
+  </picture>
+```
 ## Testing
 
 Plan to implement during first half of 2021.
