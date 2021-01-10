@@ -11,4 +11,3 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
 
-TODO add a relevant blog strapline (summary)
