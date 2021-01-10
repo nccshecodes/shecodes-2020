@@ -3,7 +3,7 @@ layout: layouts/home.html
 metaDesc: >
   I'm Nathalie, a graphic designer turned Frontend developer who make a career
   switch to work in tech.
-metaTitle: Nathalie - SheCodes
+metaTitle: Nathalie
 pullQuote: >
   I'm one of a small but growing contingent of people over the age of 40, who've
   made significant career changes to break into the UK tech industry. My first

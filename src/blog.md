@@ -1,6 +1,7 @@
 ---
 title: 'She codes, she blogs'
 layout: 'layouts/blog.html'
+metaDesc: Daily struggles as a front end engineer, endless notes on trying to keep up with tech and the occasional soapbox rant.
 pagination:
   data: collections.blog
   size: 5
@@ -10,4 +11,3 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
 
-TODO add a relevant blog strapline (summary)

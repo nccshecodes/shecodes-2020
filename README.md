@@ -6,7 +6,9 @@
 
 I'm focussing this year on learning about accessibility ([thanks to W3C and EdX](https://www.edx.org/course/web-accessibility-introduction)), web performance ([courtesy of smashing magazine and Harry Roberts](https://smashingconf.com/online-workshops/workshops/harry-roberts)), and eleventy ([thanks Andy Bell!](https://piccalil.li/course/learn-eleventy-from-scratch/)), setting out with basic or zero knowledge on each subject beforehand.
 
-This project is a complete overhaul of my existing personal website built in Wordpress. There's lots of features not being used, a CMS is definitely overkill for what I need and I'm tired of chasing updates to keep the site locked down and secure. Intention is to improve security, up my accessibility game and start thinking about performance with a brand new shiny Eleventy site.
+This project is a complete overhaul of my existing personal website built in Wordpress. There's lots of features not being used on my old site, a CMS is definitely overkill for what I need and I'm tired of chasing updates to keep the site locked down and secure.
+
+My intention is to improve security, up my accessibility game and start thinking about performance, tooling and testing with a brand new shiny Eleventy site. No doubt I will break, pull apart and put this site back together many times to come.
 
 ## Project config
 
@@ -60,10 +62,8 @@ SVGs are not handled by gulp and are optimised before adding to the project usin
 
 ## Testing
 
+Plan to implement during first half of 2021.
+
 ## Production
 
-The site is hosted on netlify. Production build is updated each time work is merged into the master branch.
-
-## TODO
-
-- update favicon and social-share image (png)
+The site is hosted on netlify. Production build is updated each time work is merged into the main branch.
