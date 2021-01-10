@@ -23,7 +23,7 @@
         {% set tags = latest.data.tags %}
         {% include "partials/tags.html" %}
       </section>
-      <img class="latest__image" src="{{ latest.data.featureImage }}" alt="" />
+      {% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
 
       <hr class="divider divider--vertical">
 

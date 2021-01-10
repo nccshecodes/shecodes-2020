@@ -1,4 +1,5 @@
 const dateFilter = require('./src/filters/date-filter.js');
+const imageShortcode = require('./src/shortcodes/image.js');
 const mdIt = require('markdown-it');
 const mdDeflist = require('markdown-it-deflist');
 const mdAttrs = require('markdown-it-attrs');
@@ -9,6 +10,9 @@ module.exports = (config) => {
 
   // add filters
   config.addFilter('dateFilter', dateFilter);
+
+  // Shortcodes
+  config.addNunjucksAsyncShortcode('imageShortcode', imageShortcode);
 
   // Transforms
   const htmlMinTransform = require('./src/transforms/html-min-transform.js');

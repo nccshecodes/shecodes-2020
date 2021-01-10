@@ -8,7 +8,7 @@ excerpt: >
   I was really pleased to kiss goodbye to 2017. Having started job hunting back
   in May, it’s been the most soul destroying, confidence sucking past 8 months
   I’ve ever had to endure.
-featureImage: /images/blog/2017-01-01/women-returner-gratisography-640x344.jpg
+featureImage: src/images/blog/lessons-learnt-tech-job-hunting-women-returner-2017/gratisography-439H.jpg
 featureImageAlt: A woman with scruffy hair, smeared makeup and a blank stare sitting in front of a typewriter on the floor. She's sipping a whiskey, surrounded by screwed up sheets of paper.
 ---
 
