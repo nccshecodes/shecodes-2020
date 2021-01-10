@@ -1,14 +1,7 @@
-{% set pageTitle = title + ' - ' + site.name %}
+{% set pageTitle = title %}
 
-{# We don't want any duplication. This is likely for the home page. #}
-{% if site.name === title %}
-  {% set pageTitle = title %}
-{% endif %}
-
-{# If the page’s Front Matter has specific metaTitle and/or metaDesc items, switch
-  them into the mix. #}
 {% if metaTitle %}
   {% set pageTitle = metaTitle %}
 {% endif %}
 
-<title>{{ pageTitle }}</title>
+<title>{{ pageTitle + ' - ' + site.name }}</title>
