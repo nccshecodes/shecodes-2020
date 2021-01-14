@@ -1,11 +1,12 @@
       {% set posts = collections[collectionType] %}
       {% set collectionHash = global.random() %}
 
-      {% if posts %}
+      {% if posts.length > 0 %}
         <h2 id="posts-{{ collectionHash }}" class="cat-header">{{ collectionType }}</h2>
         <hr class="divider divider--right-col">
         <ol class="[ flow ] [ flow-space-400 ]" aria-labelledby="posts-{{ collectionHash }}">
-          {% for post in posts %}
+          {% for post in posts | reverse %}
+            {% if loop.index < 6 %}
               <li class="[ divider-bottom ] [ flow ]">
                 <div>
                   <a href="{{ post.url }}">
@@ -18,6 +19,7 @@
                   </div>
                 <div>
               </li>
+            {% endif %}
           {% endfor %}
         </ol>
       {% endif %}
