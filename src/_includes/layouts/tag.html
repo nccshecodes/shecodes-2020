@@ -1,5 +1,31 @@
 {% extends "layouts/base.html" %}
+{% set pattern = "dark" %}
+{% set title = 'Tag: ' + tag | slug %}
+
+{% set pageCriticalStyles = ['css/blog.css', 'css/tag.css'] %}
 
 {% block content %}
-  <p>{{ tag }} tag page</p>
+  <article class="blog">
+    {% include "partials/page-title.html" %}
+    <div class="[ grid-12-col ] [ panel wrapper ] [ panel-space-major ]">
+      <div class="tag-archives">
+        <h2 id="arc">Archives</h2>
+        <hr class="divider divider--left-col">
+        <ul class="list-archives" aria-labelledby="arc">
+          {% for tag in collections.tagList %}
+            <li class="[ divider-bottom ] [ panel ] [ panel-space-100 ]">
+              <a href="/tag/{{ tag | slug }}/">
+                <span class="number--secondary">{{ collections[ tag ] | length }}</span><span class="tag">{{ tag }}<span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% set posts = collections[ tag ] %}
+      <div class="[ tag-posts ] [ flow ]">
+        {% include "partials/collections.html" %}
+      </div>
+    </div>
+  </article>
 {% endblock %}
