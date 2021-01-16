@@ -14,6 +14,15 @@ $outputTokenCSS: false;
     }
   }
 
+  .latest__heading a,
+  .post-link {
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+  }
+
   h2 {
     @include apply-utility('font', 'heavy');
   }
