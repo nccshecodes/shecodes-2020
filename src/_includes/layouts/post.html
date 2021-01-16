@@ -16,7 +16,9 @@
     </div>
 
     <div class="post__grid grid-12-col flow wrapper">
-      <img class="feature" src="{{ featureImage }}" alt="{{ featureAlt }}" />
+      {% if featureImage %}
+        {% imageShortcode featureImage, featureImageAlt, "feature", "(min-width: 62em) 612px, 100vw" %}
+      {% endif %}
       <time datetime="{{ date }}">{{ date | dateFilter("full") }}</time>
       {{ content | safe }}
     </div>

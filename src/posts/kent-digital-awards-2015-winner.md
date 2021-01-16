@@ -7,8 +7,8 @@ tags:
 excerpt: >
   Complete girl geek heaven with the Kent Digital Awards 2015 and a Responsive
   Day Out in Brighton.
-featureImage: /images/blog/kent-digital-awards-2015-she-codes.jpg
-featureImageAlt: Beaming smile while posing for photo holding the gold award
+featureImage: src/images/blog/kent-digital-awards-2015-she-codes.jpg
+featureImageAlt: Beamings smile while posing for photo holding the gold award
 ---
 
 ## A Golden Night Out
@@ -21,11 +21,10 @@ Next category was for best Sports and Entertainment Website. This included looki
 
 There’s no greater reward than seeing a client so delighted, not only with the tangible business results the site has already brought in, but to have industry recognition alongside is an incredible buzz. Luckily I’d selected my handbag wisely and it was just large enough to fit both awards into for the taxi ride home.
 
-<img src="/images/blog/kent-digital-awards-2015-she-codes-silver.jpg" alt="holding the silver award">
-<img src="/images/blog/kent-digital-awards-2015-she-codes-gold.jpg" alt="talking with the compare on stage with the gold award">
+{% imageShortcode "src/images/blog/kent-digital-awards-2015-she-codes-silver.jpg", "holding the silver award" %}
+{% imageShortcode "src/images/blog/kent-digital-awards-2015-she-codes-gold.jpg", "talking with the compare on stage with the gold award" %}
 
-## Getting Set For Next Year
-
+## Getting Set For Next Year
 But the fun didn’t stop there, and today has been a full day geek fest at the Responsive Day Out 3 Conference. With a big grin still firmly in place, it’s been an inspiring day in Brighton swatting up on the latest web developments and what the future web may bring.
 
 Just a shame the shops had shut before I could grab a bigger handbag ready for next year’s awards.

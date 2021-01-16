@@ -8,7 +8,7 @@ excerpt: >
   I’ve often thought about what took me so long to get involved in the tech
   industry and then I realised.
 # featureImage:
-# featureImageAlt:
+featureImageAlt: ""
 ---
 
 ## Why Take so Long?
