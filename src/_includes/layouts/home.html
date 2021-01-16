@@ -9,7 +9,7 @@
   <div class="[ article__content ] [ panel ]">
     <div class="[ intro ] [ flow panel wrapper ]">
       {% include "partials/pullquote.html" %}
-      <img src="/images/nathalie_christmann_cooper.jpg" alt="me laughing" loading="lazy"/>
+      {% imageShortcode "src/images/nathalie_christmann_cooper.jpg", "me laughing" %}
     </div>
     <div class="[ main-content ] [ flow panel wrapper ]">{{ content | safe }}</div>
   </div>
