@@ -7,7 +7,7 @@ const mdAttrs = require('markdown-it-attrs');
 module.exports = (config) => {
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/fonts/');
-
+  config.addPassthroughCopy('./src/images/static/');
   // add filters
   config.addFilter('dateFilter', dateFilter);
 

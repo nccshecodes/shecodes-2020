@@ -6,7 +6,7 @@ tags:
  - awards
 excerpt: >
   I’ve been shortlisted for the WeAretheCity Top 100 Rising Star Awards 2016 Entrepreneur Category and I need your vote!
-featureImage: /images/blog/2016-04-26/Nathalie-Christmann-Cooper-Rising-Stars-2016-Shortlisted.jpg
+featureImage: src/images/blog/2016-04-26/Nathalie-Christmann-Cooper-Rising-Stars-2016-Shortlisted.jpg
 featureImageAlt: ""
 ---
 
