@@ -9,6 +9,11 @@
   <article class="blog">
     {% include "partials/page-title.html" %}
     <div class="[ grid-12-col ] [ panel wrapper ] [ panel-space-major ]">
+      {% set posts = collections[ tag ] %}
+      <div class="[ tag-posts ] [ flow ]">
+        {% include "partials/collections.html" %}
+      </div>
+
       <div class="tag-archives">
         <h2 id="arc">Archives</h2>
         <hr class="divider divider--left-col">
@@ -21,11 +26,6 @@
             </li>
           {% endfor %}
         </ul>
-      </div>
-
-      {% set posts = collections[ tag ] %}
-      <div class="[ tag-posts ] [ flow ]">
-        {% include "partials/collections.html" %}
       </div>
     </div>
   </article>
