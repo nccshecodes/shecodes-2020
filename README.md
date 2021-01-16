@@ -56,11 +56,6 @@ Is inlined into the `<head>` and applied to every page. It includes the CSS rese
 Is included using a `link` element.
 
 ### Images
-Gulp optimises jpg and png files using [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin).
-**NOTE**
-SVGs are not handled by gulp and are optimised before adding to the project using SVGO, because they are currently inlined. However, this could be automated by extending the `images.js.` watcher function to include SVGO.
-
-**UPDATE 10/01/21**
 Images are handled by the eleventy [image plugin](https://www.11ty.dev/docs/plugins/image/). The plugin performs build-time image transformations for both vector and raster images.
 
 #### **imageShortcode**
@@ -79,12 +74,12 @@ The generated `picture` element:
 | classes  | ""      | -        | Add CSS classes to the generated `<picture>` element. |
 | sizes    | "100vw" | -        | Value for the [sizes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) attribute. |
 
-To use the shortcode in a layout:
+To use the shortcode in a nunjucks template or markdown file:
 ```
 {% imageShortcode <src>, <alt>, <classes>, <sizes> %}
 ```
 **NOTE**:
-- The comma between arguments is required in Nunjucks templates.
+- The comma between arguments is required when using the Nunjucks template engine.
 - An error will throw if the alt text is not given.
 
 This example is taken from the `blog template` to generate the feature image:

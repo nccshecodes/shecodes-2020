@@ -8,7 +8,7 @@ excerpt: >
   Complete girl geek heaven with the Kent Digital Awards 2015 and a Responsive
   Day Out in Brighton.
 featureImage: src/images/blog/kent-digital-awards-2015-she-codes.jpg
-featureImageAlt: Beamings smile while posing for photo holding the gold award
+featureImageAlt: Beaming smile while posing for photo holding the gold award
 ---
 
 ## A Golden Night Out
