@@ -21,6 +21,26 @@ module.exports = {
     return response;
   },
 
+   /**
+   * Filters out item (usually latest post) from the passed collection
+   * and limits number of items returned based on flag
+   *
+   * @param {Array} collection The 11ty collection
+   * @param {Object} item The item to exclude
+   * @param {Number} limit How many items to return. Default of zero does not apply a limit.
+   * @returns {Array} The resulting collection
+   */
+  getSiblingContent(collection, item, limit = 0) {
+    if (!collection) return null;
+    let filteredItems = collection.filter(x => x.date !== item.date);
+
+    if (limit > 0) {
+      filteredItems = filteredItems.slice(0, limit);
+    }
+
+    return filteredItems;
+  },
+
   getYear() {
     return new Date().getFullYear();
   }
