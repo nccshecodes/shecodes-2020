@@ -63,6 +63,13 @@ main:focus {
   outline: none;
 }
 
+p > a:hover,
+p > a:focus {
+  font-weight: bolder;
+  outline: none;
+  text-decoration-style: dotted;
+}
+
 .content {
   flex: 1 0 auto;
 }
