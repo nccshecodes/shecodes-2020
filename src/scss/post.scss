@@ -19,7 +19,8 @@ $outputTokenCSS: false;
     @include apply-utility('font', 'header');
   }
 
-  h2:not(:first-of-type) {
+  h2:not(:first-of-type),
+  h3 {
     border-bottom: 2px solid get-color('secondary');
   }
 
@@ -62,6 +63,7 @@ $outputTokenCSS: false;
   }
 
   @include media-query('md') {
+    h3,
     p {
       grid-column: 6 / -2;
     }
@@ -73,6 +75,15 @@ $outputTokenCSS: false;
     time {
       grid-column: 2 / span 4;
       grid-row: 1;
+    }
+
+    .break-left {
+      grid-column: 2 / span 4;
+      grid-row: span 2;
+    }
+
+    .break-right {
+      grid-column: 6 / -2;
     }
 
     .feature {
