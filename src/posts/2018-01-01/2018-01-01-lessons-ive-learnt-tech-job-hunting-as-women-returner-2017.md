@@ -1,15 +1,15 @@
 ---
-title: Lessons Learnt Tech Job Hunting as a Women Returner in 2017
 date: '2018-01-01'
-tags:
- - soapbox
- - diversity
 excerpt: >
   I was really pleased to kiss goodbye to 2017. Having started job hunting back
   in May, it’s been the most soul destroying, confidence sucking past 8 months
   I’ve ever had to endure.
-featureImage: src/images/blog/lessons-learnt-tech-job-hunting-women-returner-2017/gratisography-439H.jpg
+featureImage: src/posts/2018-01-01/gratisography-439H.jpg
 featureImageAlt: A woman with scruffy hair, smeared makeup and a blank stare sitting in front of a typewriter on the floor. She's sipping a whiskey, surrounded by screwed up sheets of paper.
+tags:
+ - soapbox
+ - diversity
+title: Lessons Learnt Tech Job Hunting as a Woman Returner in 2017
 ---
 
 ## The Survivor's Tale

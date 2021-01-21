@@ -40,7 +40,8 @@ h1 {
   @include apply-utility('font', 'header');
 }
 
-h2 {
+h2,
+h3 {
   color: get-color('primary');
 }
 

@@ -1,14 +1,14 @@
 ---
-title: Kent digital awards 2015 winner
 date: '2015-06-19'
-tags:
-  - startup
-  - awards
 excerpt: >
   Complete girl geek heaven with the Kent Digital Awards 2015 and a Responsive
   Day Out in Brighton.
-featureImage: src/images/blog/kent-digital-awards-2015-she-codes.jpg
+featureImage: src/posts/2015-06-19/kent-digital-awards-2015-she-codes.jpg
 featureImageAlt: Beaming smile while posing for photo holding the gold award
+tags:
+  - startup
+  - awards
+title: Kent digital awards 2015 winner
 ---
 
 ## A Golden Night Out
@@ -21,8 +21,9 @@ Next category was for best Sports and Entertainment Website. This included looki
 
 There’s no greater reward than seeing a client so delighted, not only with the tangible business results the site has already brought in, but to have industry recognition alongside is an incredible buzz. Luckily I’d selected my handbag wisely and it was just large enough to fit both awards into for the taxi ride home.
 
-{% imageShortcode "src/images/blog/kent-digital-awards-2015-she-codes-silver.jpg", "holding the silver award" %}
-{% imageShortcode "src/images/blog/kent-digital-awards-2015-she-codes-gold.jpg", "talking with the compare on stage with the gold award" %}
+{% imageShortcode "src/posts/2015-06-19/kent-digital-awards-2015-she-codes-silver.jpg", "Kent Digital Awards 2015 Silver for Responsive Website", "break-left" %}
+
+{% imageShortcode "src/posts/2015-06-19/kent-digital-awards-2015-she-codes-gold.jpg", "Kent Digital Awards 2015 Gold for best Sports and Entertainment Website", "break-right" %}
 
 ## Getting Set For Next Year
 But the fun didn’t stop there, and today has been a full day geek fest at the Responsive Day Out 3 Conference. With a big grin still firmly in place, it’s been an inspiring day in Brighton swatting up on the latest web developments and what the future web may bring.
