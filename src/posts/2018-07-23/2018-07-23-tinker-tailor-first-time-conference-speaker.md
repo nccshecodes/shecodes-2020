@@ -18,7 +18,7 @@ As a first time conference speaker I can honestly say that standing up to give a
 
 Although I didn't _want_ to do this, I knew that at some point I would have to. Back when I was tinkering with code, learning from home, I wanted to find role models of people doing the same. Did older women successfully retrain and move across into tech? I looked for reassurance but the relatable role models I so desperately needed were sadly in very short supply.
 
-6 months into my job as a developer, I was offered training on [Giving Engaging Technical Talks][2]. My CTO Dylan suggested that I should be a speaker at [FullStack London][3] to put that training straight into practice. Now that I have my job, I always advocate for people to be visible and vocal no matter what stage of their career. Personally, seeing others who were and indeed _who are_ just like me, hearing about their challenges and experiences does make a difference. It was a good idea, how could I say no?
+6 months into my job as a developer, I was offered training on 'Giving Engaging Technical Talks' run by Jenny Martin. My CTO Dylan suggested that I should be a speaker at [FullStack London][3] to put that training straight into practice. Now that I have my job, I always advocate for people to be visible and vocal no matter what stage of their career. Personally, seeing others who were and indeed _who are_ just like me, hearing about their challenges and experiences does make a difference. It was a good idea, how could I say no?
 
 ## Learning to speak
 
@@ -86,10 +86,9 @@ I'd be lying if I didn't say that the thought of speaking terrified me but I alw
 You can watch my talk 'From Pantomime Donkey to Unicorn Designer' in full [here][1].
 
  [1]: https://skillsmatter.com/skillscasts/12009-from-pantomime-donkey-to-unicorn-designer
- [2]: https://skillsmatter.com/courses/550-how-to-give-technical-talks
  [3]: https://skillsmatter.com/conferences/9815-fullstack-2018-the-conference-on-javascript-node-and-internet-of-things#skillscasts
  [4]: https://www.theguardian.com/science/2018/jul/12/the-real-reason-the-sound-of-your-own-voice-makes-you-cringe
- [5]: http://shecodes.co.uk/me-myself-and-imposter-syndrome/
+ [5]: /blog/me-myself-and-imposter-syndrome/
  [6]: https://unsplash.com/
  [7]: https://gratisography.com/
  [8]: https://www.shutterstock.com/
