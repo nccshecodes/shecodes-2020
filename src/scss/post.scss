@@ -39,7 +39,8 @@ $outputTokenCSS: false;
     max-width: 100vw;
   }
 
-  .pullquote{
+  .pullquote,
+  .quote {
     display: block;
     position: relative;
     font-weight: bold;
@@ -64,6 +65,7 @@ $outputTokenCSS: false;
 
   @include media-query('md') {
     h3,
+    ol,
     p {
       grid-column: 6 / -2;
     }
@@ -75,6 +77,10 @@ $outputTokenCSS: false;
     time {
       grid-column: 2 / span 4;
       grid-row: 1;
+    }
+
+    .break-full {
+      grid-column: 2 / -2;
     }
 
     .break-left {
