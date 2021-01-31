@@ -2,7 +2,6 @@
 date: '2018-10-24'
 excerpt: >
   My biggest prize claim to date was a set of tea plates in a harvest festival village raffle. But that was about to change.
-
 featureImage: src/posts/2018-10-24/Festival-of-female-entrepreneurs-brochure-cover-2018.jpg
 featureImageAlt: ""
 tags:

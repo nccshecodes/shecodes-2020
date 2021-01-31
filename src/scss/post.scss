@@ -65,6 +65,7 @@ $outputTokenCSS: false;
 
   @include media-query('md') {
     h3,
+    ol,
     p {
       grid-column: 6 / -2;
     }
