@@ -66,12 +66,34 @@ $outputTokenCSS: false;
   @include media-query('md') {
     h3,
     ol,
-    p {
+    p,
+    ul {
       grid-column: 6 / -2;
     }
 
     h2:first-of-type {
       grid-column: 2 / span 4;
+    }
+
+    .post__content ul {
+      list-style: none;
+      li {
+        display: flex;
+        margin-bottom: get-size('100');
+        &::before {
+          background-clip: content-box;
+          background-color: get-color('primary');
+          border: 2px solid get-color('secondary');
+          border-radius: 50%;
+          content: '';
+          flex-shrink: 0;
+          height: 2.5rem;
+          margin-right: get-size('200');
+          margin-top: get-size('minor');
+          padding: get-size('minor');
+          width: 2.5rem;
+        }
+      }
     }
 
     time {
