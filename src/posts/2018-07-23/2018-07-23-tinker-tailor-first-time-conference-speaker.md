@@ -1,10 +1,12 @@
 ---
-title: Tinker, Tailor, Conference Speaker
+title: Tinker, Tailor, First Time Conference Speaker
 date: '2018-07-23'
 excerpt: >
   I've broken my fear of being a first time conference speaker delivering a tech talk at FullStack London. Although I didn’t want to do this, I knew that at some point I would have to. Back when I was tinkering with code, learning from home, I wanted to find role models of people doing the same. Did older women successfully retrain and move across into tech?
 featureImage: src/posts/2018-07-23/designer-to-developer-tech-talk-FullStack18-London.jpg
 featureImageAlt: ""
+metaDesc: I've broken my fear of being a first time conference speaker delivering a tech talk at FullStack London. Although I didn’t want to do this, I knew that at some point I would have to. Back when I was tinkering with code, learning from home, I wanted to find role models of people doing the same. Did older women successfully retrain and move across into tech?
+metaTitle: Tinker, Tailor, Conference Speaker
 tags:
   - level up
   - public speaking

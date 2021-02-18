@@ -4,6 +4,9 @@ excerpt: >
   So I landed my first tech job. I won't lie, it wasn't easy, and I almost gave up. But I'm glad I didn't and this is a list of 7 tips on what worked to get me through.
 featureImage: src/posts/2018-02-14/girl-smiley-face-gratisography.jpg
 featureImageAlt: ""
+metaDesc: So I've landed my first tech job. I won't lie, it wasn't easy, and I almost gave up. But I'm glad I didn't and this is a list of 7 tips on what worked to get me through.
+metaTitle: Land First Tech Job Over 40
+permalink: /blog/land-first-tech-job-over-40/index.html
 tags:
  - level up
  - diversity

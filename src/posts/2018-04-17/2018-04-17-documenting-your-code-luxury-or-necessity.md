@@ -4,6 +4,9 @@ excerpt: >
   Documenting your code is a marmite topic, a quick google search spews forth articles either dead against the idea or all for it, there's no room for sitting on the fence.
 featureImage: src/posts/2018-04-17/documenting-your-code-gratisography.png
 featureImageAlt: ""
+metaDesc: Documenting your code is a marmite topic, a quick google search spews forth articles either dead against the idea or all for it, there's no room for sitting on the fence.
+metaTitle: Documenting code - luxury or necessity?
+permalink: /blog/documenting-code-luxury-necessity/index.html
 tags:
   - level up
 title: Documenting your code – a luxury or a necessity?

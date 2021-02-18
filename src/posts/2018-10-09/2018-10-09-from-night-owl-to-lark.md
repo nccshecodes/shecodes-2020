@@ -5,6 +5,9 @@ excerpt: >
   It's Ada Lovelace Day. A time to celebrate the achievements of women in STEM. I've spent my morning commute into London pondering on this. As a mother, a wife, a returner holding down a full time position and a tech startup founder, being a women in STEM is damn hard. But I love it.
 featureImage: src/posts/2018-10-09/ada-lovelace-mom.jpg
 featureImageAlt: Small boy grafitti spraying 'mom' onto a white brick wall
+metaDesc: It's Ada Lovelace Day. A time to celebrate the achievements of women in STEM. I've spent my morning commute into London pondering on this. As a mother, a wife, a returner holding down a full time position and a tech startup founder, being a women in STEM is damn hard. But I love it.
+metaTitle: Night Owl to Lark
+permalink: /blog/night-owl-to-lark/index.html
 tags:
   - startup
   - self development
