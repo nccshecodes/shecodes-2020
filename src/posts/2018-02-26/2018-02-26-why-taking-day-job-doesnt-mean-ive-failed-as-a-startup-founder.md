@@ -5,7 +5,7 @@ excerpt: >
 featureImage: src/posts/2018-02-26/gratisography-day-job-startup-founders.jpg
 featureImageAlt: "Homeless man holding hand written cardboard sign. Advice 50 cents. Good advice 2 dollars. Bad jokes for free."
 metaDesc: VCs tend not to back startup founders who still have a day job. Yet here I am and I’ve made the decision to get myself a full time job. Am I mad? No. Have I failed? Emphatically not.
-metaTitle: Taking Day Job Doesn’t Mean Failed Startup Founder
+metaTitle: Taking Day Job Doesn’t Mean I’ve Failed as Startup Founder
 permalink: /blog/taking-day-job-doesnt-mean-failed-startup-founder/index.html
 tags:
   - startup
