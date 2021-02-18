@@ -4,7 +4,9 @@ excerpt: >
   Thinking about the semantic meaning and HTML structure up front, working mobile-first and building responsive layouts as part of the prototyping process pays dividends in terms of the Perceivable accessibility principle.
 featureImage: src/posts/2020-06-29/brain.jpg
 featureImageAlt: ''
-permalink: /testing-for-accessibility-perceivable/
+metaDesc: Semantic meaning, HTML structure, working mobile-first and building responsive layouts pays dividends in terms of the Perceivable accessibility principle.
+metaTitle: Perceivable Accessibility Principle
+permalink: /blog/testing-accessibility-perceivable-principle/index.html
 tags:
   - level up
   - accessibility

@@ -4,6 +4,9 @@ excerpt: >
   There's a lot of tools out there to test accessibility - browser extensions, bookmarklets and apps all designed to make testing accessibility easier. Here's a short list of the tools that I've found most useful.
 featureImage: src/posts/2020-05-23/tools.jpg
 featureImageAlt: ''
+metaDesc: There's many tools available to test accessibility - browser extensions, bookmarklets and apps all designed to make it easier. Here's a short list of my favourites.
+metaTitle: Accessibility Testing Tool Bag
+permalink: /blog/accessibility-testing-tools/index.html
 tags:
   - level up
   - accessibility

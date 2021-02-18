@@ -4,6 +4,7 @@ excerpt: >
   Given the choice of being a duck, eagle or ostrich, I know which we would all want to be.
 featureImage: src/posts/2019-04-19/ostrich.jpg
 featureImageAlt: "closeup headshot of an ostrich looking straight at you"
+metaDesc: Given the choice of being a duck, eagle or ostrich, I know which I want to be.
 tags:
   - startup
   - grit

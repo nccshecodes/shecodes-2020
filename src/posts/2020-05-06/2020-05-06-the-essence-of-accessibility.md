@@ -4,6 +4,9 @@ excerpt: >
   I've wanted to make my work accessible for a long time, but knowing where to start has eluded me. Well no more! I've taken a course, I'm writing my notes and this is the first post getting to grips with what exactly is the essence of accessibility?
 featureImage: src/posts/2020-05-06/accessible_entrance.jpg
 featureImageAlt: 'Accessible Entrance painted onto white brick wall with black arrow pointing right'
+metaDesc: I've wanted to make my work accessible for a long time, but knowing where to start has eluded me. Well no more! So what exactly is the essence of accessibility?
+metaTitle: Essence of Accessibility
+permalink: /blog/essence-accessibility/index.html
 tags:
   - level up
   - accessibility

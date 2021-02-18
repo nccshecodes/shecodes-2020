@@ -5,6 +5,7 @@ excerpt: >
 featureImage: src/posts/2019-01-02/emerging_from_the_startup_trough_of_sorrow.jpg
 featureImageAlt: ""
 metaDesc: Deep inside the trough of sorrow this time last year I announced to the world how pleased I was to kiss goodbye to 2017. 12 months on and I have the same announcement. Not because 2018 was bad. As it turns out, it was quite the opposite.
+metaTitle: Surviving Trough of Sorrow
 permalink: /blog/surviving-trough-sorrow/index.html
 tags:
   - startup

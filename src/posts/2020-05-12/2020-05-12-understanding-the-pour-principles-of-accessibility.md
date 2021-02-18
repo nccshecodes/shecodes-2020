@@ -4,11 +4,13 @@ excerpt: >
   I thought the POUR principles of accessibility was a typo. Yes, there's four principles. But no, it wasn't a typo and here is what POUR actually means.
 featureImage: src/posts/2020-05-12/jon-tyson-RUsczRV6ifY-unsplash.jpg
 featureImageAlt: What do you mean?
-permalink: /blog/understanding-the-pour-principles-of-accessibility/
+metaDesc: I thought the POUR principles of accessibility was a typo. Yes, there's four principles. But no, it wasn't a typo and here is what POUR actually means.
+metaTitle: POUR principles accessibility
+permalink: /blog/understanding-pour-principles-accessibility/index.html
 tags:
   - level up
   - accessibility
-title: The POUR principles of accessibility
+title: Understanding the POUR principles of accessibility
 ---
 
 ## WCAG what?
