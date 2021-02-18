@@ -9,10 +9,10 @@ permalink: /blog/wearethecity-shortlist-2016-entrepreneur-category/index.html
 tags:
  - startup
  - awards
-title: WeAreTheCity Shortlist 2016
+title: WeAreTheCity Shortlist 2016 Entrepreneur Category
 ---
 
-## Humbled to be Shortlisted for the Entrepreneur’s Category
+## Humbled to be Shortlisted
 
 It’s been another exciting start to the week. I’ve been shortlisted as co-founder of TreatOut for the WeAretheCity Top 100 Rising Star Awards 2016 Entrepreneur Category.
 

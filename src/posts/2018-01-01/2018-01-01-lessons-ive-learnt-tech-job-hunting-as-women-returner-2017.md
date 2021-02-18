@@ -7,11 +7,11 @@ excerpt: >
 featureImage: src/posts/2018-01-01/gratisography-439H.jpg
 featureImageAlt: A woman with scruffy hair, smeared makeup and a blank stare sitting in front of a typewriter on the floor. She's sipping a whiskey, surrounded by screwed up sheets of paper.
 metaDesc: I was really pleased to kiss goodbye to 2017. Having started job hunting back in May, it’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
-permalink: /blog/lessons-learnt-tech-job-hunting-woman-returner-2017/index.html
+permalink: /blog/lessons-learnt-tech-job-hunting-woman-returner/index.html
 tags:
  - soapbox
  - diversity
-title: Lessons Learnt Tech Job Hunting as a Woman Returner in 2017
+title: Lessons Learnt Tech Job Hunting as a Woman Returner
 ---
 
 ## The Survivor's Tale
