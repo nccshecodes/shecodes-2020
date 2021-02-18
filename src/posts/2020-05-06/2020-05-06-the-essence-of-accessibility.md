@@ -121,7 +121,7 @@ On a side note, you may have noticed that my website fails accessibility standar
  [3]: https://rcni.com/hosted-content/rcn/first-steps/social-model-of-disability
  [4]: https://webaim.org/projects/million/
  [5]: https://www.w3.org/WAI/standards-guidelines/wcag/
- [6]: /blog/understanding-the-pour-principles-of-accessibility/
+ [6]: /blog/understanding-pour-principles-accessibility/
  [7]: http://www.colourblindawareness.org/colour-blindness/
  [8]: https://www.ehlers-danlos.org/what-is-eds/
  [9]: https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html
