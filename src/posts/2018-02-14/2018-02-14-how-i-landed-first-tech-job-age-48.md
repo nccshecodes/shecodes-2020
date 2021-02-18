@@ -87,7 +87,7 @@ Sometimes a more technical question would throw me off guard highlighting a gap 
 
 ### Recruiters
 
-I developed quite the _love-hate_ relationship with recruiters. I'd make a plan to contact a handful of recruiters each week to get some conversations started. More often that not I'd end a call regretting I'd even started. If like me you're not a standard tick box candidate it can be hard to get recruiters to engage and take interest. They were dismissive, disinterested and some were just downright rude. I even wrote about the [lessons learnt tech job hunting as a woman returner](/blog/lessons-learnt-tech-job-hunting-as-a-woman-returner-in-2017/).
+I developed quite the _love-hate_ relationship with recruiters. I'd make a plan to contact a handful of recruiters each week to get some conversations started. More often that not I'd end a call regretting I'd even started. If like me you're not a standard tick box candidate it can be hard to get recruiters to engage and take interest. They were dismissive, disinterested and some were just downright rude. I even wrote about the [lessons learnt tech job hunting as a woman returner](/blog/lessons-learnt-tech-job-hunting-woman-returner/).
 
 But, you have to remember that not all recruiters are like that. In fact, I've made a contact list of those who were lovely to deal with. Start conversations, quickly end calls that aren't looking promising and keep in regular contact with the good ones, trust me, they are worth their weight in gold.
 
