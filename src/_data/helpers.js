@@ -35,7 +35,8 @@ module.exports = {
     let filteredItems = collection.filter(x => x.date !== item.date);
 
     if (limit > 0) {
-      filteredItems = filteredItems.slice(0, limit);
+      filteredItems = filteredItems.slice(-limit);
+
     }
 
     return filteredItems;
