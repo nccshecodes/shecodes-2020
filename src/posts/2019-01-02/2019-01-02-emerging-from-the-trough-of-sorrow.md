@@ -4,10 +4,12 @@ excerpt: >
   This time last year I announced to the world how I was really pleased to kiss goodbye to 2017. Twelve months on to the day I'm making the same announcement. Not because 2018 was bad. As it turns out, it was quite the opposite.
 featureImage: src/posts/2019-01-02/emerging_from_the_startup_trough_of_sorrow.jpg
 featureImageAlt: ""
+metaDesc: Deep inside the trough of sorrow this time last year I announced to the world how pleased I was to kiss goodbye to 2017. 12 months on and I have the same announcement. Not because 2018 was bad. As it turns out, it was quite the opposite.
+permalink: /blog/surviving-trough-sorrow/index.html
 tags:
-  - level up
+  - startup
   - grit
-title: Emerging from the startup Trough of Sorrow
+title: Surviving the Startup Trough of Sorrow
 ---
 
 ## Kiss goodbye to another year

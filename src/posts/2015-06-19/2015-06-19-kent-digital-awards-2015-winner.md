@@ -5,10 +5,11 @@ excerpt: >
   Day Out in Brighton.
 featureImage: src/posts/2015-06-19/kent-digital-awards-2015-she-codes.jpg
 featureImageAlt: Beaming smile while posing for photo holding the gold award
+metaDesc: SheCodes Responsive Website for client Darenth Valley Golf Course, Sevenoaks wins Gold and Silver at this year's Kent Digital Awards 2015.
 tags:
   - startup
   - awards
-title: Kent digital awards 2015 winner
+title: Kent Digital Awards 2015 Winner
 ---
 
 ## A Golden Night Out

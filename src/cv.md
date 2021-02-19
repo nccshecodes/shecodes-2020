@@ -14,7 +14,7 @@ languages:
   - Ruby
 layout: layouts/cv.html
 metaDesc: My CV in digital format - work experience and skillset, training, talks, honours and awards.
-metaTitle: CV Nathalie Christmann-Cooper
+metaTitle: Curriculum Vitae
 permalink: /nathalie-christmann-cooper-curriculum-vitae/index.html
 skills:
   - Front-end development

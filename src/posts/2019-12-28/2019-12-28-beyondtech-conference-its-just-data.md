@@ -4,6 +4,8 @@ excerpt: >
   I’m trying to solve a big problem through tech, pushing for full menu transparency. I’ve been told the problem is too big. I’ve been told I’ll fail. But surely, it’s just data?
 featureImage: src/posts/2019-12-28/46960600294_d9161af20b_k.jpg
 featureImageAlt: ""
+metaDesc: I’m trying to solve a big problem through tech, pushing for full menu transparency. I’ve been told the problem is too big. I’ve been told I’ll fail. But surely, it’s just data?
+metaTitle: Just Data - BeyondTech Conf
 permalink: /blog/beyondtech-conference-its-just-data/index.html
 tags:
   - startup

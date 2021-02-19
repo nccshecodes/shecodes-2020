@@ -4,6 +4,9 @@ excerpt: >
   I've wanted to make my work accessible for a long time, but knowing where to start has eluded me. Well no more! I've taken a course, I'm writing my notes and this is the first post getting to grips with what exactly is the essence of accessibility?
 featureImage: src/posts/2020-05-06/accessible_entrance.jpg
 featureImageAlt: 'Accessible Entrance painted onto white brick wall with black arrow pointing right'
+metaDesc: I've wanted to make my work accessible for a long time, but knowing where to start has eluded me. Well no more! So what exactly is the essence of accessibility?
+metaTitle: Essence of Accessibility
+permalink: /blog/essence-accessibility/index.html
 tags:
   - level up
   - accessibility
@@ -118,7 +121,7 @@ On a side note, you may have noticed that my website fails accessibility standar
  [3]: https://rcni.com/hosted-content/rcn/first-steps/social-model-of-disability
  [4]: https://webaim.org/projects/million/
  [5]: https://www.w3.org/WAI/standards-guidelines/wcag/
- [6]: /blog/understanding-the-pour-principles-of-accessibility/
+ [6]: /blog/understanding-pour-principles-accessibility/
  [7]: http://www.colourblindawareness.org/colour-blindness/
  [8]: https://www.ehlers-danlos.org/what-is-eds/
  [9]: https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html

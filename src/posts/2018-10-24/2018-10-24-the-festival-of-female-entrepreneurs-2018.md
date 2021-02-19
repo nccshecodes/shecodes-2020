@@ -4,12 +4,15 @@ excerpt: >
   My biggest prize claim to date was a set of tea plates in a harvest festival village raffle. But that was about to change.
 featureImage: src/posts/2018-10-24/Festival-of-female-entrepreneurs-brochure-cover-2018.jpg
 featureImageAlt: ""
+metaDesc: My biggest prize claim to date was a set of tea plates in a harvest festival village raffle. But that was about to change.
+metaTitle: Festival of Female Entrepreneurs 2018
+permalink: /blog/festival-female-entrepreneurs-2018/index.html
 tags:
   - startup
 title: 'The Festival of Female Entrepreneurs 2018'
 ---
 
-## A twitter win
+## A twitter prize win
 
 My biggest prize claim to date was a set of tea plates in a harvest festival village raffle, oooo over twenty years ago. Imagine my shock when Direct Line Business Insurance contacted me to say that I'd won their twitter competition bagging a prize for travel, accommodation and two tickets to the Festival of Female Entrepreneurs, an event run by Enterprise Nation. Move over teaplates.
 

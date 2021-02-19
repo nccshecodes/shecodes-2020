@@ -4,7 +4,9 @@ excerpt: >
   Thinking about the semantic meaning and HTML structure up front, working mobile-first and building responsive layouts as part of the prototyping process pays dividends in terms of the Perceivable accessibility principle.
 featureImage: src/posts/2020-06-29/brain.jpg
 featureImageAlt: ''
-permalink: /testing-for-accessibility-perceivable/
+metaDesc: Semantic meaning, HTML structure, working mobile-first and building responsive layouts pays dividends in terms of the Perceivable accessibility principle.
+metaTitle: Perceivable Accessibility Principle
+permalink: /blog/testing-accessibility-perceivable-principle/index.html
 tags:
   - level up
   - accessibility
@@ -21,7 +23,7 @@ title: Testing for Accessibility Part 1 – Perceivable
 
 Users need to be able to choose how they access digital content, picking a combination of sight, sound and touch that best matches their specific needs.
 
-With this in mind thinking about the semantic meaning and HTML structure upfront, working mobile-first and building responsive layouts as part of the prototyping process pays dividends in terms of accessibility. Using native HTML elements that come with built-in accessibility features helps keep the code cleaner and simpler. These features work well with assistive technologies, enabling users to consume and perceive digital content in a way that works best for them. This all builds towards meeting the checks that fall under the [Perceivable accessibility principle][1].
+With this in mind thinking about the semantic meaning and HTML structure upfront, working mobile-first and building responsive layouts as part of the prototyping process pays dividends in terms of accessibility. Using native HTML elements that come with built-in accessibility features helps keep the code cleaner and simpler. These features work well with assistive technologies, enabling users to consume and perceive digital content in a way that works best for them. This all builds towards meeting the checks that fall under the Perceivable accessibility principle.
 
 #### Page Titles
 
@@ -131,16 +133,15 @@ I'm busy writing up Testing for Accessibility Part 2 - Operable. For those of yo
 
 ### References
 
-These are based on my notes taken from the free course [An Introduction to Web Accessibility][9] and [Smashing Magazine's][10] Front-end Accessibility Masterclass with Marcy Sutton.
+These are based on my notes taken from the free course [An Introduction to Web Accessibility][9] and Smashing Magazine's [Front-end Accessibility Masterclass with Marcy Sutton][10].
 
- [1]: https://shecodes.co.uk/understanding-the-pour-principles-of-accessibility/#perceivable
  [2]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
  [3]: https://a11yproject.com/posts/how-to-hide-content/
  [4]: https://www.w3.org/WAI/wcag-curric/sam110-0.htm
- [5]: https://shecodes.co.uk/the-accessibility-testing-tool-bag/#web-developer
+ [5]: /blog/accessibility-testing-tools/#web-developer
  [6]: https://developer.paciellogroup.com/blog/2012/05/whats-large-text-in-wcag-2-0-parlance/
- [7]: https://shecodes.co.uk/the-accessibility-testing-tool-bag/#text-spacing
+ [7]: /blog/accessibility-testing-tools/#text-spacing
  [8]: https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one
  [9]: https://www.edx.org/course/web-accessibility-introduction
- [10]: https://www.smashingmagazine.com/
+ [10]: https://smashingconf.com/online-workshops/workshops/marcy-sutton
 

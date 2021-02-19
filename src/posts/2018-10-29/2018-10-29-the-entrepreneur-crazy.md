@@ -4,6 +4,7 @@ excerpt: >
   I'm in the middle of wallpapering my garden office. I've been 'wallpapering' since the end of August. "Big deal" I hear you say, "what makes that a blogpost?" It's a blogpost because this is no ordinary wall. And this is no ordinary wallpaper. Let me explain.
 featureImage: src/posts/2018-10-29/office-wall.jpg
 featureImageAlt: ''
+metaDesc: I'm in the middle of wallpapering my garden office. I've been 'wallpapering' since the end of August. "Big deal" I hear you say, "what makes that a blogpost?" It's a blogpost because this is no ordinary wall. And this is no ordinary wallpaper.
 tags:
   - soapbox
   - startup

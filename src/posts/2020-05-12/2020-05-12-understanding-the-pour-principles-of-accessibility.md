@@ -4,11 +4,12 @@ excerpt: >
   I thought the POUR principles of accessibility was a typo. Yes, there's four principles. But no, it wasn't a typo and here is what POUR actually means.
 featureImage: src/posts/2020-05-12/jon-tyson-RUsczRV6ifY-unsplash.jpg
 featureImageAlt: What do you mean?
-permalink: /blog/understanding-the-pour-principles-of-accessibility/
+metaDesc: I thought the POUR principles of accessibility was a typo. Yes, there's four principles. But no, it wasn't a typo and here is what POUR actually means.
+permalink: /blog/understanding-pour-principles-accessibility/index.html
 tags:
   - level up
   - accessibility
-title: The POUR principles of accessibility
+title: Understanding the POUR principles of accessibility
 ---
 
 ## WCAG what?
@@ -72,9 +73,9 @@ Keep focus on the user and context, and the accessibility checklist should start
  [1]: https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
  [2]: https://unsplash.com/s/photos/confusion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
  [3]: https://courses.edx.org/courses/course-v1:W3Cx+WAI0.1x+3T2019/course/
- [4]: /blog/the-essence-of-accessibility/
+ [4]: /blog/essence-accessibility/
  [5]: https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/
  [6]: https://www.w3.org/WAI/standards-guidelines/wcag/20/glance/
  [7]: https://www.w3.org/WAI/standards-guidelines/wcag/glance/
  [8]: https://webaim.org/articles/pour/#beyond
- [9]: /blog/the-accessibility-testing-tool-bag
+ [9]: /blog/accessibility-testing-tools/
