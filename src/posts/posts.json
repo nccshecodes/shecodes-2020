@@ -1,5 +1,5 @@
 {
   "blogTitle": "She codes, she blogs",
   "layout": "layouts/post.html",
-  "permalink": "/blog/{{ title | slug }}/index.html"
+  "permalink": "/{{ title | slug }}/index.html"
 }
