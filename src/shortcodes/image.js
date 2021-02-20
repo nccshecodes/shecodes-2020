@@ -1,3 +1,4 @@
+const path = require('path');
 const image = require('@11ty/eleventy-img');
 
 // https://www.11ty.dev/docs/plugins/image/
@@ -8,10 +9,16 @@ module.exports = async (src, alt, classes = "", sizes = "100vw") => {
   }
 
   let metadata = await image(src, {
-    formats: ['webp', 'jpeg'],
+    formats: ['jpeg'],
     outputDir: "./dist/images/",
     urlPath: "/images/",
     widths: [640, 1280, 1920],
+    filenameFormat: function (id, src, width) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+
+      return `${name}-${width}${extension}`
+    }
   });
 
   let lowsrc = metadata.jpeg[0];
