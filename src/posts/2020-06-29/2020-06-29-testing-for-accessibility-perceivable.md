@@ -7,6 +7,7 @@ featureImageAlt: ''
 metaDesc: Semantic meaning, HTML structure, working mobile-first and building responsive layouts pays dividends in terms of the Perceivable accessibility principle.
 metaTitle: Perceivable Accessibility Principle
 permalink: /blog/testing-accessibility-perceivable-principle/index.html
+socialImage: brain
 tags:
   - level up
   - accessibility
