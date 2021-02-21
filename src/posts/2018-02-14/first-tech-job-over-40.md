@@ -1,12 +1,10 @@
 ---
 date: '2018-02-14'
-excerpt: >
-  So I landed my first tech job. I won't lie, it wasn't easy, and I almost gave up. But I'm glad I didn't and this is a list of 7 tips on what worked to get me through.
 featureImage: src/posts/2018-02-14/girl-smiley-face-gratisography.jpg
-featureImageAlt: ""
-metaDesc: So I've landed my first tech job. I won't lie, it wasn't easy, and I almost gave up. But I'm glad I didn't and this is a list of 7 tips on what worked to get me through.
-metaTitle: Land First Tech Job Over 40
-permalink: /blog/land-first-tech-job-over-40/index.html
+featureImageAlt: "Happy woman goofing around with a magnifing glass in front of her mouth to show her big teethy grin"
+metaDesc: Here's 7 tips on how I landed my first tech job as a woman returner after a long career break. I won't lie, it wasn't easy. But if I can do it, so can you!
+metaTitle: How To Get First Tech Job Over 40
+socialImage: girl-smiley-face-gratisography
 tags:
  - level up
  - diversity
@@ -87,7 +85,7 @@ Sometimes a more technical question would throw me off guard highlighting a gap 
 
 ### Recruiters
 
-I developed quite the _love-hate_ relationship with recruiters. I'd make a plan to contact a handful of recruiters each week to get some conversations started. More often that not I'd end a call regretting I'd even started. If like me you're not a standard tick box candidate it can be hard to get recruiters to engage and take interest. They were dismissive, disinterested and some were just downright rude. I even wrote about the [lessons learnt tech job hunting as a woman returner](/blog/lessons-learnt-tech-job-hunting-woman-returner/).
+I developed quite the _love-hate_ relationship with recruiters. I'd make a plan to contact a handful of recruiters each week to get some conversations started. More often that not I'd end a call regretting I'd even started. If like me you're not a standard tick box candidate it can be hard to get recruiters to engage and take interest. They were dismissive, disinterested and some were just downright rude. I even wrote about the [lessons learnt tech job hunting as a woman returner](/lessons-learnt-tech-job-hunting-woman-returner).
 
 But, you have to remember that not all recruiters are like that. In fact, I've made a contact list of those who were lovely to deal with. Start conversations, quickly end calls that aren't looking promising and keep in regular contact with the good ones, trust me, they are worth their weight in gold.
 

@@ -8,7 +8,7 @@ socialImage: getting-more-women-into-tech-rolemodel
 tags:
   - soapbox
   - diversity
-title: Getting More Women Into Tech
+title: Getting more women into tech
 ---
 
 ## Give Us Everyday Role Models

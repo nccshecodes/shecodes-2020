@@ -10,7 +10,7 @@ socialImage: kent-digital-awards-2015-she-codes
 tags:
   - startup
   - awards
-title: Kent Digital Awards 2015 Winner
+title: Kent Digital Awards 2015 winner
 ---
 
 ## A Golden Night Out
