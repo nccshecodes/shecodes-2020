@@ -1,16 +1,13 @@
 ---
 date: '2018-01-01'
-excerpt: >
-  I was really pleased to kiss goodbye to 2017. Having started job hunting back
-  in May, it’s been the most soul destroying, confidence sucking past 8 months
-  I’ve ever had to endure.
-featureImage: src/posts/2018-01-01/gratisography-439H.jpg
-featureImageAlt: A woman with scruffy hair, smeared makeup and a blank stare sitting in front of a typewriter on the floor. She's sipping a whiskey, surrounded by screwed up sheets of paper.
-metaDesc: I was really pleased to kiss goodbye to 2017. Having started job hunting back in May, it’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
-permalink: /blog/lessons-learnt-tech-job-hunting-woman-returner/index.html
+featureImage: src/posts/2018-01-01/tech-job-hunting-woman-gratisography.jpg
+featureImageAlt: A woman with scruffy hair, smeared makeup and a blank stare sitting in front of a typewriter on the floor. Sipping from a whiskey glass, surrounded by screwed up sheets of paper.
+metaDesc: >
+  Having started job hunting back in May 2017, this has been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
 tags:
  - soapbox
  - diversity
+socialImage: tech-job-hunting-woman-gratisography
 title: Lessons Learnt Tech Job Hunting as a Woman Returner
 ---
 

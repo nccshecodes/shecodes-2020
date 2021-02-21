@@ -7,10 +7,10 @@ socialImage: nathalie-christmann-cooper-rising-stars-2016-shortlisted
 tags:
  - startup
  - awards
-title: WeAreTheCity Shortlist 2016 Entrepreneur Category
+title: Shortlisted for the WeAreTheCity Rising Star Awards 2016
 ---
 
-## Humbled to be Shortlisted
+## Humbled to be shortlisted for the Entrepreneur Category
 
 It’s been another exciting start to the week. I’ve been shortlisted as co-founder of TreatOut for the WeAretheCity Top 100 Rising Star Awards 2016 Entrepreneur Category.
 
