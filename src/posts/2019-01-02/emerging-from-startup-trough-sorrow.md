@@ -1,7 +1,7 @@
 ---
 date: "2019-01-02"
 featureImage: src/posts/2019-01-02/emerging-from-the-startup-trough-of-sorrow.jpg
-featureImageAlt: "Looking down a long empty road in the middle of nowhere with double yellow lines. Leading to distant snow capped mountains."
+featureImageAlt: Looking down a long empty road in the middle of nowhere with double yellow lines. Leading to distant snow capped mountains.
 metaDesc: It's been 12 long months burrowed deep inside the fabled startup trough of sorrow. How on earth do I dig myself out?
 socialImage: emerging-from-the-startup-trough-of-sorrow
 tags:

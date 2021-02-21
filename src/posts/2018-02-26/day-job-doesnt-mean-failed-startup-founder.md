@@ -1,7 +1,7 @@
 ---
 date: '2018-02-26'
 featureImage: src/posts/2018-02-26/day-job-startup-founders-gratisography.jpg
-featureImageAlt: "Homeless man holding hand written cardboard sign. Advice 50 cents. Good advice 2 dollars. Bad jokes for free."
+featureImageAlt: Homeless man holding hand written cardboard sign. Advice 50 cents. Good advice 2 dollars. Bad jokes for free.
 metaDesc: >
  VCs tend not to back startup founders with a day job. Yet here I am with a new full time job. Am I mad? No. Have I failed? Emphatically not.
 metaTitle: Taking Day Job Doesn’t Mean Failed Startup Founder

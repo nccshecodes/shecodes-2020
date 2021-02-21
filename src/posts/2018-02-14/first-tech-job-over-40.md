@@ -1,7 +1,7 @@
 ---
 date: '2018-02-14'
 featureImage: src/posts/2018-02-14/girl-smiley-face-gratisography.jpg
-featureImageAlt: "Happy woman goofing around with a magnifying glass in front of her mouth to show her big toothy grin."
+featureImageAlt: Happy woman goofing around with a magnifying glass in front of her mouth to show her big toothy grin.
 metaDesc: Here's 7 tips on how I landed my first tech job as a woman returner after a long career break. I won't lie, it wasn't easy. But if I can do it, so can you!
 metaTitle: How To Get First Tech Job Over 40
 socialImage: girl-smiley-face-gratisography

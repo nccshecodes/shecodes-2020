@@ -1,7 +1,7 @@
 ---
 date: '2018-04-17'
 featureImage: src/posts/2018-04-17/documenting-your-code-gratisography.png
-featureImageAlt: "Looking up through a sculpture of metal letters spiralling up towards a blue sky."
+featureImageAlt: Looking up through a sculpture of metal letters spiralling up towards a blue sky.
 metaDesc: >
   Documenting your code is a marmite topic. Google spews forth articles either dead against the idea or all for it. There's no room for sitting on the fence.
 metaTitle: Documenting code - luxury or necessity?

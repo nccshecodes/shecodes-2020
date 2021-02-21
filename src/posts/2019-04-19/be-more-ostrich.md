@@ -1,7 +1,7 @@
 ---
 date: '2019-04-19'
 featureImage: src/posts/2019-04-19/ostrich.jpg
-featureImageAlt: "closeup head shot of an ostrich looking straight into the camera"
+featureImageAlt: Closeup head shot of an ostrich looking straight into the camera.
 metaDesc: Given the choice of being a duck, eagle or ostrich, I know which I'd rather be. Do you?
 tags:
   - startup

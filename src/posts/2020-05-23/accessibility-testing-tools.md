@@ -1,7 +1,7 @@
 ---
 date: '2020-05-23'
 featureImage: src/posts/2020-05-23/tools.jpg
-featureImageAlt: "Person's dungarees chest pockets filled with strange mix of items - a play figure, pens, ruler, scissors, glasses and tickets"
+featureImageAlt: Person's dungarees chest pockets filled with strange mix of items - a play figure, pens, ruler, scissors, glasses and tickets.
 metaDesc: There's lots of tools available to test accessibility, all designed to make it easier. Here's a short list of my favourites.
 metaTitle: Accessibility Testing Tool Bag
 tags:

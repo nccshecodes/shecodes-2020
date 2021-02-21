@@ -1,7 +1,7 @@
 ---
 date: '2018-10-29'
 featureImage: src/posts/2018-10-29/office-wall.jpg
-featureImageAlt: 'My desk and chair set up next to my newly wallpaper wall'
+featureImageAlt: My desk and chair set up next to my newly wallpaper wall.
 metaDesc: >
   I've been 'wallpapering' my garden office since the end of August. What makes that a blogpost? This is no ordinary wall. And this is no ordinary wallpaper.
 metaTitle: The Entrepreneur Crazy

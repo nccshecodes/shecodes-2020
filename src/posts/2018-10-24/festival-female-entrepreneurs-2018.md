@@ -1,7 +1,7 @@
 ---
 date: '2018-10-24'
 featureImage: src/posts/2018-10-24/festival-female-entrepreneurs-brochure-cover-2018.jpg
-featureImageAlt: "Festival of Female Entrepreneurs by Enterprise Nation."
+featureImageAlt: Festival of Female Entrepreneurs by Enterprise Nation.
 metaDesc: >
   My biggest prize claim to date was a set of tea plates in a harvest festival village raffle. But that was about to change, and great news for the startup.
 metaTitle: Festival of Female Entrepreneurs 2018

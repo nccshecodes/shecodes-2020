@@ -1,7 +1,7 @@
 ---
 date: '2020-06-29'
 featureImage: src/posts/2020-06-29/brain.jpg
-featureImageAlt: '3d fabric sculpture of brain. Left side is black and white with printed numbers. Right side is a bright mix of colors.'
+featureImageAlt: 3d fabric sculpture of brain. Left side is black and white with printed numbers. Right side is a bright mix of colours.
 metaDesc: Semantic meaning, HTML structure, working mobile-first and building responsive layouts pays dividends in terms of the Perceivable accessibility principle.
 metaTitle: Perceivable Accessibility Principle
 socialImage: brain
