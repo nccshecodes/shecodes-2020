@@ -1,13 +1,12 @@
 ---
 date: '2019-12-28'
-excerpt: >
-  I’m trying to solve a big problem through tech, pushing for full menu transparency. I’ve been told the problem is too big. I’ve been told I’ll fail. But surely, it’s just data?
-featureImage: src/posts/2019-12-28/46960600294_d9161af20b_k.jpg
-featureImageAlt: ""
-metaDesc: I’m trying to solve a big problem through tech, pushing for full menu transparency. I’ve been told the problem is too big. I’ve been told I’ll fail. But surely, it’s just data?
-metaTitle: Just Data - BeyondTech Conf
-permalink: /blog/beyondtech-conference-its-just-data/index.html
+featureImage: src/posts/2019-12-28/beyond-tech-conference-banner.jpg
+featureImageAlt: "Beyond Tech conference banner hashtag beyondtech"
+metaDesc: I’m trying to solve a big problem through tech, pushing for full menu transparency. I’ve been told it's too big. I’ll fail. But surely, it’s just data?
+metaTitle: Its Just Data - BeyondTech Conference
+socialImage: beyond-tech-conference-banner
 tags:
+  - events
   - startup
   - public speaking
 title: BeyondTech Conference - It's just data?
@@ -134,3 +133,4 @@ We need to forge partnerships and make sure that someone is taking ownership of 
 
 There are no shortcuts here. No simplification. **Just responsible data.**
 
+You can watch the talk [It's Just Data](https://skillsmatter.com/skillscasts/13059-it-s-just-data).

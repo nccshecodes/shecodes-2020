@@ -1,18 +1,18 @@
 ---
 date: '2018-01-01'
 featureImage: src/posts/2018-01-01/tech-job-hunting-woman-gratisography.jpg
-featureImageAlt: A woman with scruffy hair, smeared makeup and a blank stare sitting in front of a typewriter on the floor. Sipping from a whiskey glass, surrounded by screwed up sheets of paper.
+featureImageAlt: Woman with scruffy hair and makeup. On floor with typewriter in sea of screwed up paper. Blank stare, sipping whiskey glass.
 metaDesc: >
   Having started job hunting back in May 2017, this has been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure. Here's why.
 metaTitle: Woman Returner Lessons Learnt Looking for Tech Job
+socialImage: tech-job-hunting-woman-gratisography
 tags:
  - soapbox
  - diversity
-socialImage: tech-job-hunting-woman-gratisography
-title: Lessons I learnt as a woman returner hunting for a tech job
+title: What hunting for a tech job has taught me
 ---
 
-## The Survivor's Tale
+## The Woman Returner Survivor's Tale
 
 I was really pleased to kiss goodbye to 2017. Having started job hunting back in May, it’s been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure.
 

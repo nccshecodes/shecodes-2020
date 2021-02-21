@@ -1,15 +1,15 @@
 ---
-title: Tinker, Tailor, First Time Conference Speaker
 date: '2018-07-23'
-excerpt: >
-  I've broken my fear of being a first time conference speaker delivering a tech talk at FullStack London. Although I didn’t want to do this, I knew that at some point I would have to. Back when I was tinkering with code, learning from home, I wanted to find role models of people doing the same. Did older women successfully retrain and move across into tech?
 featureImage: src/posts/2018-07-23/designer-to-developer-tech-talk-FullStack18-London.jpg
-featureImageAlt: ""
-metaDesc: I've broken my fear of being a first time conference speaker delivering a tech talk at FullStack London. Although I didn’t want to do this, I knew that at some point I would have to. Back when I was tinkering with code, learning from home, I wanted to find role models of people doing the same. Did older women successfully retrain and move across into tech?
+featureImageAlt: "Me standing in front of a podium giving a talk at Fullstack London."
+metaDesc: I've broken my fear of conference speaking delivering a tech talk at FullStack London. Although I didn’t want to do this, I knew at some point I'd have to.
 metaTitle: Tinker, Tailor, Conference Speaker
+socialImage: designer-to-developer-tech-talk-FullStack18-London
 tags:
+  - events
   - level up
   - public speaking
+title: Tinker, Tailor, first time Conference Speaker
 ---
 
 ## Who thought this was a good idea?
@@ -85,12 +85,12 @@ One week on and looking back I realise that the prep and the lead up was definit
 
 I'd be lying if I didn't say that the thought of speaking terrified me but I always remember a book that my dad had on his shelf, 'Feel the Fear and Do It Anyway'. I never actually read it, but the title stuck with me and has been my motto ever since school.  If you're wondering about submitting your first proposal, or tempted to give a talk at a meetup then go for it. Your voice might just be the one that makes all the difference for someone else.
 
-You can watch my talk 'From Pantomime Donkey to Unicorn Designer' in full [here][1].
+You can watch my talk [From Pantomime Donkey to Unicorn Designer][1].
 
  [1]: https://skillsmatter.com/skillscasts/12009-from-pantomime-donkey-to-unicorn-designer
  [3]: https://skillsmatter.com/conferences/9815-fullstack-2018-the-conference-on-javascript-node-and-internet-of-things#skillscasts
  [4]: https://www.theguardian.com/science/2018/jul/12/the-real-reason-the-sound-of-your-own-voice-makes-you-cringe
- [5]: /blog/me-myself-and-imposter-syndrome/
+ [5]: /me-myself-and-imposter-syndrome/
  [6]: https://unsplash.com/
  [7]: https://gratisography.com/
  [8]: https://www.shutterstock.com/

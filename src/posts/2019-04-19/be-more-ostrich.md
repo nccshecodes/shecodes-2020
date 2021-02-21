@@ -1,10 +1,8 @@
 ---
 date: '2019-04-19'
-excerpt: >
-  Given the choice of being a duck, eagle or ostrich, I know which we would all want to be.
 featureImage: src/posts/2019-04-19/ostrich.jpg
-featureImageAlt: "closeup headshot of an ostrich looking straight at you"
-metaDesc: Given the choice of being a duck, eagle or ostrich, I know which I want to be.
+featureImageAlt: "closeup head shot of an ostrich looking straight into the camera"
+metaDesc: Given the choice of being a duck, eagle or ostrich, I know which I'd rather be. Do you?
 tags:
   - startup
   - grit

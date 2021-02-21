@@ -1,12 +1,9 @@
 ---
 date: '2020-05-23'
-excerpt: >
-  There's a lot of tools out there to test accessibility - browser extensions, bookmarklets and apps all designed to make testing accessibility easier. Here's a short list of the tools that I've found most useful.
 featureImage: src/posts/2020-05-23/tools.jpg
-featureImageAlt: ''
-metaDesc: There's many tools available to test accessibility - browser extensions, bookmarklets and apps all designed to make it easier. Here's a short list of my favourites.
+featureImageAlt: "Person's dungarees chest pockets filled with strange mix of items - a play figure, pens, ruler, scissors, glasses and tickets"
+metaDesc: There's lots of tools available to test accessibility, all designed to make it easier. Here's a short list of my favourites.
 metaTitle: Accessibility Testing Tool Bag
-permalink: /blog/accessibility-testing-tools/index.html
 tags:
   - level up
   - accessibility
@@ -173,4 +170,4 @@ All tooled up and ready to test? Move on to [Testing for Accessibility Part 1 - 
  [9]: https://chrispederick.com/work/web-developer/
  [10]: https://chrome.google.com/webstore/detail/zoom-text-only/jamhfhbppcmkgghlkeieococonlbppjg
  [11]: https://webaim.org/resources/contrastchecker/
- [14]: /blog/testing-accessibility-perceivable-principle/
+ [14]: /testing-perceivable-accessibility/

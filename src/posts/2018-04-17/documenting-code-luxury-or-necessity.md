@@ -1,13 +1,13 @@
 ---
 date: '2018-04-17'
-excerpt: >
-  Documenting your code is a marmite topic, a quick google search spews forth articles either dead against the idea or all for it, there's no room for sitting on the fence.
 featureImage: src/posts/2018-04-17/documenting-your-code-gratisography.png
-featureImageAlt: ""
-metaDesc: Documenting your code is a marmite topic, a quick google search spews forth articles either dead against the idea or all for it, there's no room for sitting on the fence.
+featureImageAlt: "Looking up through a sculpture of metal letters spiralling up towards a blue sky."
+metaDesc: >
+  Documenting your code is a marmite topic. Google spews forth articles either dead against the idea or all for it. There's no room for sitting on the fence.
 metaTitle: Documenting code - luxury or necessity?
-permalink: /blog/documenting-code-luxury-necessity/index.html
+socialImage: documenting-your-code-gratisography
 tags:
+  - best practice
   - level up
 title: Documenting your code – a luxury or a necessity?
 ---
@@ -38,7 +38,7 @@ The same principles as for self-documented code can be applied here too. It's re
 
 Here at [Skills Matter][1] we have a set format which I've found really useful to follow. I'm already reaping the benefits as the newcomer to the platform team. I appreciate the effort that's been taken when I'm looking through the commit history to get familiar with the code base.
 
-{% imageShortcode "src/posts/2018-04-17/what-direction-unsplash.png", "", "break-left" %}
+{% imageShortcode "src/posts/2018-04-17/what-direction-unsplash.png", "Looking down the end of a red lit hallway. A metal wall sculpture of red light bulbs inside an arrow pointing right.", "break-left" %}
 
 Each commit message has a short, concise title outlining the purpose of the commit. The first part of the description describes the problem giving context to the changes being made. The rest describes how the code is structured. This is the part I really love, it's where I can discover why a previous developer chose to write the code in a particular way. It often gives background information on alternatives that were considered but rejected. I can find reference links to external resources that influenced the choices made. I learn.
 

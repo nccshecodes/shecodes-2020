@@ -4,11 +4,13 @@ excerpt: >
   My MVP which started life at bootcamp is outdated and broken. I've tried breathe some life back into it but failed to find a pulse. With no test base to reference, no documentation to speak of and a long time passing since actively working on it, I've come to appreciate the benefits of testing.
 featureImage: src/posts/2018-12-18/tdd-red-green.jpg
 featureImageAlt: ""
-metaDesc: Test Driven Development (TDD) has always been an enigma. I knew it was important, everyone who is anyone said so. But I couldn't make sense of it and inevitably chose it put off 'til another day. The day when everything broke.
+metaDesc: TDD has always been an enigma. I knew it was important but didn't understand it, choosing to put off 'til another day. Until the day when everything broke.
+socialImage: tdd-red-green
 tags:
+  - best practice
   - level up
   - testing
-title: Testing, Testing TDD
+title: Testing, testing TDD
 ---
 
 ## The importance of testing

@@ -1,17 +1,15 @@
 ---
 date: '2018-10-18'
-excerpt: >
-  I took part in a panel discussion this week, organised by the HSBC Digital team at CodeNode London, exploring the issues around diversity in tech. I've only sat on a few of these events and always come away wishing I'd said more. So here are my afterthoughts...
 featureImage: src/posts/2018-10-18/unconventional-paths-talk.jpg
-featureImageAlt: ""
-metaDesc: When taking part in panel discussions exploring diversity in tech I always come away wishing I'd said more. So here are a few of my afterthoughts.
+featureImageAlt: "View of empty stage from back of room. People are starting to arrive to take their seat which are all draped with swag bags."
+metaDesc: When taking part in panel discussions exploring diversity in tech I always come away wishing I'd said more. So here's what else I could have said.
 metaTitle: Unconventional Path into Tech
-permalink: /blog/unconventional-path-into-tech/index.html
+socialImage: unconventional-paths-talk
 tags:
   - soapbox
   - public speaking
   - diversity
-title: An Unconventional Path into Tech
+title: An unconventional path into Tech
 ---
 
 ## When one door closes
