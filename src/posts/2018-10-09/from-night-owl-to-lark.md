@@ -1,17 +1,15 @@
 ---
-title: From Night Owl to Lark
 date: '2018-10-09'
-excerpt: >
-  It's Ada Lovelace Day. A time to celebrate the achievements of women in STEM. I've spent my morning commute into London pondering on this. As a mother, a wife, a returner holding down a full time position and a tech startup founder, being a women in STEM is damn hard. But I love it.
 featureImage: src/posts/2018-10-09/ada-lovelace-mom.jpg
-featureImageAlt: Small boy grafitti spraying 'mom' onto a white brick wall
-metaDesc: It's Ada Lovelace Day. A time to celebrate the achievements of women in STEM. I've spent my morning commute into London pondering on this. As a mother, a wife, a returner holding down a full time position and a tech startup founder, being a women in STEM is damn hard. But I love it.
+featureImageAlt: Small boy graffiti spraying 'mom' onto a white brick wall.
+metaDesc: >
+  It's Ada Lovelace Day and it's my morning commute to a job in STEM. I'm wondering. Can I switch from night time lingerer to early riser?
 metaTitle: Night Owl to Lark
-permalink: /blog/night-owl-to-lark/index.html
+socialImage: ada-lovelace-mom
 tags:
   - startup
   - self development
-
+title: From night owl to lark
 ---
 
 ## Ada Lovelace Day

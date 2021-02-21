@@ -1,17 +1,14 @@
 ---
 date: '2020-06-29'
-excerpt: >
-  Thinking about the semantic meaning and HTML structure up front, working mobile-first and building responsive layouts as part of the prototyping process pays dividends in terms of the Perceivable accessibility principle.
 featureImage: src/posts/2020-06-29/brain.jpg
-featureImageAlt: ''
+featureImageAlt: 3d fabric sculpture of brain. Left side is black and white with printed numbers. Right side is a bright mix of colours.
 metaDesc: Semantic meaning, HTML structure, working mobile-first and building responsive layouts pays dividends in terms of the Perceivable accessibility principle.
 metaTitle: Perceivable Accessibility Principle
-permalink: /blog/testing-accessibility-perceivable-principle/index.html
 socialImage: brain
 tags:
   - level up
   - accessibility
-title: Testing for Accessibility Part 1 – Perceivable
+title: Testing for accessibility part 1 – Perceivable
 ---
 
 ## Making Sense of it
@@ -139,9 +136,9 @@ These are based on my notes taken from the free course [An Introduction to Web A
  [2]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
  [3]: https://a11yproject.com/posts/how-to-hide-content/
  [4]: https://www.w3.org/WAI/wcag-curric/sam110-0.htm
- [5]: /blog/accessibility-testing-tools/#web-developer
+ [5]: /accessibility-testing-tools/#web-developer
  [6]: https://developer.paciellogroup.com/blog/2012/05/whats-large-text-in-wcag-2-0-parlance/
- [7]: /blog/accessibility-testing-tools/#text-spacing
+ [7]: /accessibility-testing-tools/#text-spacing
  [8]: https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one
  [9]: https://www.edx.org/course/web-accessibility-introduction
  [10]: https://smashingconf.com/online-workshops/workshops/marcy-sutton

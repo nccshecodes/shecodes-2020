@@ -1,15 +1,16 @@
 ---
 date: '2018-02-26'
-excerpt: >
-  I'm a co-founder of an early stage startup. But I’ve made the decision to get myself a full time job. Am I mad? No. Have I failed? Emphatically not. So what's the deal?
-featureImage: src/posts/2018-02-26/gratisography-day-job-startup-founders.jpg
-featureImageAlt: "Homeless man holding hand written cardboard sign. Advice 50 cents. Good advice 2 dollars. Bad jokes for free."
-metaDesc: VCs tend not to back startup founders who still have a day job. Yet here I am and I’ve made the decision to get myself a full time job. Am I mad? No. Have I failed? Emphatically not.
-metaTitle: Taking Day Job Doesn’t Mean I’ve Failed as Startup Founder
-permalink: /blog/taking-day-job-doesnt-mean-failed-startup-founder/index.html
+featureImage: src/posts/2018-02-26/day-job-startup-founders-gratisography.jpg
+featureImageAlt: Homeless man holding hand written cardboard sign. Advice 50 cents. Good advice 2 dollars. Bad jokes for free.
+metaDesc: >
+ VCs tend not to back startup founders with a day job. Yet here I am with a new full time job. Am I mad? No. Have I failed? Emphatically not.
+metaTitle: Taking Day Job Doesn’t Mean Failed Startup Founder
+socialImage: day-job-startup-founders-gratisography
 tags:
+  - grit
+  - self development
   - startup
-title: Why Taking a Day Job Doesn’t Mean I’ve Failed as a Startup Founder
+title: Why taking a day job doesn’t mean I’ve failed as a Startup Founder
 ---
 
 ## A founder with a day job

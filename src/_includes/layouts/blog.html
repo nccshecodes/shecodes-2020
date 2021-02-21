@@ -19,7 +19,13 @@
         </header>
         <h3 class="latest__heading"><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
         <time datetime="{{ latest.data.date }}">{{ latest.data.date | dateFilter("full") }}</time>
-        <p class="latest__excerpt">{{ latest.data.excerpt }}</p>
+        <p class="latest__excerpt">
+          {% if latest.data.excerpt %}
+            {{ latest.data.excerpt }}
+          {% else %}
+            {{ latest.data.metaDesc }}
+          {% endif %}
+        </p>
         {% set tags = latest.data.tags %}
         {% include "partials/tags.html" %}
       </section>

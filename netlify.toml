@@ -1,3 +1,69 @@
 [build]
   command = "yarn run production"
   publish = "dist"
+
+[[redirects]]
+  from = "/ive-learnt-tech-job-hunting-women-returner-2017"
+  to = "/lessons-learnt-tech-job-hunting-woman-returner"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/i-landed-first-tech-job-age-48"
+  to = "/first-tech-job-over-40"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/why-taking-day-job-doesnt-mean-ive-failed-as-a-startup-founder"
+  to = "/day-job-doesnt-mean-failed-startup-founder"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/documenting-your-code-luxury-or-necessity"
+  to = "/documenting-code-luxury-or-necessity"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/an-unconventional-path-into-tech"
+  to = "/unconventional-path-into-tech"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/the-festival-of-female-entrepreneurs-2018"
+  to = "/festival-female-entrepreneurs-2018"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/emerging-from-the-trough-of-sorrow"
+  to = "/emerging-from-startup-trough-sorrow"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/the-essence-of-accessibility"
+  to = "/essence-of-accessibility"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/understanding-the-pour-principles-of-accessibility"
+  to = "/pour-principles-accessibility"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/the-accessibility-testing-tool-bag"
+  to = "/accessibility-testing-tools"
+  status = 301
+  false = false
+
+[[redirects]]
+  from = "/testing-for-accessibility-perceivable"
+  to = "/testing-perceivable-accessibility"
+  status = 301
+  false = false

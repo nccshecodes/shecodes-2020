@@ -1,14 +1,15 @@
 ---
 date: '2018-10-29'
-excerpt: >
-  I'm in the middle of wallpapering my garden office. I've been 'wallpapering' since the end of August. "Big deal" I hear you say, "what makes that a blogpost?" It's a blogpost because this is no ordinary wall. And this is no ordinary wallpaper. Let me explain.
 featureImage: src/posts/2018-10-29/office-wall.jpg
-featureImageAlt: ''
-metaDesc: I'm in the middle of wallpapering my garden office. I've been 'wallpapering' since the end of August. "Big deal" I hear you say, "what makes that a blogpost?" It's a blogpost because this is no ordinary wall. And this is no ordinary wallpaper.
+featureImageAlt: My desk and chair set up next to my newly wallpaper wall.
+metaDesc: >
+  I've been 'wallpapering' my garden office since the end of August. What makes that a blogpost? This is no ordinary wall. And this is no ordinary wallpaper.
+metaTitle: The Entrepreneur Crazy
+socialImage: office-wall
 tags:
   - soapbox
   - startup
-title: The Entrepreneur Crazy
+title: The entrepreneur 'crazy'
 ---
 
 ## No ordinary wallpaper
@@ -30,7 +31,7 @@ So how to go about this? I printed out the floral pattern I use on my website an
 
 ## Painting by podcast
 
-As you can imagine despite the workload saving, this is still going to take some time, after all I only have weekends free to work on this project. I'm making the most of that time binge listening to podcasts while I work. My current listening material is the Gimlet Media '[StartUp][1]{.text-link}' series. There I was, drawing and listening when it hit me. One discussion was delving into what a VC looks for in a founder, what common quality is there amongst those founders who've succeeded? The reply was 'it takes a certain kind of crazy'.
+As you can imagine despite the workload saving, this is still going to take some time, after all I only have weekends free to work on this project. I'm making the most of that time binge listening to podcasts while I work. My current listening material is the Gimlet Media '[StartUp][1]' series. There I was, drawing and listening when it hit me. One discussion was delving into what a VC looks for in a founder, what common quality is there amongst those founders who've succeeded? The reply was 'it takes a certain kind of crazy'.
 
 I've tried to scan back through the podcasts to find the full quote but I listened to so many over the weekend, I can't! But I did however manage to backtrack to this, a quote from Chris Sacca talking about the "ambition and drive and hustle and single mindedness and obsession". Of all the founders he had in his portfolio, not one was what he'd consider normal in any way, there was something very different about all of them. So different how?
 

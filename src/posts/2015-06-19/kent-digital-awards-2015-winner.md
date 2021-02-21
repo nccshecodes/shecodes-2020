@@ -1,15 +1,16 @@
 ---
 date: '2015-06-19'
 excerpt: >
-  Complete girl geek heaven with the Kent Digital Awards 2015 and a Responsive
-  Day Out in Brighton.
+  Complete girl geek heaven with the Kent Digital Awards 2015 and a Responsive Day Out in Brighton.
 featureImage: src/posts/2015-06-19/kent-digital-awards-2015-she-codes.jpg
-featureImageAlt: Beaming smile while posing for photo holding the gold award
-metaDesc: SheCodes Responsive Website for client Darenth Valley Golf Course, Sevenoaks wins Gold and Silver at this year's Kent Digital Awards 2015.
+featureImageAlt: Me holding the gold award with beaming smile
+metaDesc: >
+  SheCodes Responsive Website for client Darenth Valley Golf Course, Sevenoaks wins Gold and Silver at this year's Kent Digital Awards 2015.
+socialImage: kent-digital-awards-2015-she-codes
 tags:
   - startup
   - awards
-title: Kent Digital Awards 2015 Winner
+title: Kent Digital Awards 2015 winner
 ---
 
 ## A Golden Night Out

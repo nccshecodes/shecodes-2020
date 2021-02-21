@@ -1,13 +1,15 @@
 ---
 date: '2018-02-17'
-excerpt: >
-  It's never a good time ahead when Little Miss Imposter Syndrome pays a visit. But I’ve sent her packing back to where she came from.
 featureImage: src/posts/2018-02-17/imposter-syndrome-gratisography.png
-featureImageAlt: ""
-metaDesc: It's never a good time ahead when Little Miss Imposter Syndrome pays a visit. But today I sent her packing.
+featureImageAlt: Woman's face with snorkelling goggles submerged in bath. Hair floats around her face. Tiny air bubbles escape her open mouth.
+metaDesc: >
+  It's never a good time ahead when Little Miss Imposter Syndrome pays a visit. But today I sent her packing.
+socialImage: imposter-syndrome-gratisography
 tags:
+  - grit
   - level up
-title: Me, Myself and Imposter Syndrome
+  - self development
+title: Me, myself and Imposter Syndrome
 ---
 
 ## An ongoing battle
