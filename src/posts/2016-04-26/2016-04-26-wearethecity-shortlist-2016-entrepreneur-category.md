@@ -1,11 +1,9 @@
 ---
 date: '2016-04-26'
-excerpt: >
-  I’ve been shortlisted for the WeAretheCity Top 100 Rising Star Awards 2016 Entrepreneur Category and I need your vote!
 featureImage: src/posts/2016-04-26/nathalie-christmann-cooper-rising-stars-2016-shortlisted.jpg
-featureImageAlt: ""
+featureImageAlt: "Nathalie head shot"
 metaDesc: I've been shortlisted for the WeAretheCity Top 100 Rising Star Awards 2016 Entrepreneur Category and I need your vote!
-permalink: /blog/wearethecity-shortlist-2016-entrepreneur-category/index.html
+socialImage: nathalie-christmann-cooper-rising-stars-2016-shortlisted
 tags:
  - startup
  - awards
