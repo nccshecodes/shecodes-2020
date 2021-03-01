@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1d25df11-0cd2-46a1-a5c1-ed59e202b3a6/deploy-status)](https://app.netlify.com/sites/lucid-kepler-c8b25c/deploys)
 
-[Project link](https://she-codes.netlify.app/)
+[Project link](https://www.shecodes.co.uk)
 
 ## SheCodes 2020
 
