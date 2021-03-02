@@ -8,6 +8,7 @@ module.exports = (config) => {
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/fonts/');
   config.addPassthroughCopy('./src/images/static/');
+  config.addPassthroughCopy('./src/sitemap.xml');
   // add filters
   config.addFilter('dateFilter', dateFilter);
 
