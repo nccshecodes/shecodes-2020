@@ -3,67 +3,57 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/ive-learnt-tech-job-hunting-women-returner-2017"
-  to = "/lessons-learnt-tech-job-hunting-woman-returner"
+  from = "https://shecodes.co.uk/ive-learnt-tech-job-hunting-women-returner-2017"
+  to = "https://shecodes.dev/lessons-learnt-tech-job-hunting-woman-returner"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/i-landed-first-tech-job-age-48"
-  to = "/first-tech-job-over-40"
+  from = "https://shecodes.co.uk/i-landed-first-tech-job-age-48"
+  to = "https://shecodes.dev/first-tech-job-over-40"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/why-taking-day-job-doesnt-mean-ive-failed-as-a-startup-founder"
-  to = "/day-job-doesnt-mean-failed-startup-founder"
+  from = "https://shecodes.co.uk/why-taking-day-job-doesnt-mean-ive-failed-as-a-startup-founder"
+  to = "https://shecodes.dev/day-job-doesnt-mean-failed-startup-founder"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/documenting-your-code-luxury-or-necessity"
-  to = "/documenting-code-luxury-or-necessity"
+  from = "https://shecodes.co.uk/documenting-your-code-luxury-or-necessity"
+  to = "https://shecodes.dev/documenting-code-luxury-or-necessity"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/an-unconventional-path-into-tech"
-  to = "/unconventional-path-into-tech"
+  from = "https://shecodes.co.uk/an-unconventional-path-into-tech"
+  to = "https://shecodes.dev/unconventional-path-into-tech"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/the-festival-of-female-entrepreneurs-2018"
-  to = "/festival-female-entrepreneurs-2018"
+  from = "https://shecodes.co.uk/the-festival-of-female-entrepreneurs-2018"
+  to = "https://shecodes.dev/festival-female-entrepreneurs-2018"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/emerging-from-the-trough-of-sorrow"
-  to = "/emerging-from-startup-trough-sorrow"
+  from = "https://shecodes.co.uk/emerging-from-the-trough-of-sorrow"
+  to = "https://shecodes.dev/emerging-from-startup-trough-sorrow"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/the-essence-of-accessibility"
-  to = "/essence-of-accessibility"
+  from = "https://shecodes.co.uk/the-essence-of-accessibility"
+  to = "https://shecodes.dev/essence-of-accessibility"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/understanding-the-pour-principles-of-accessibility"
-  to = "/pour-principles-accessibility"
+  from = "https://shecodes.co.uk/understanding-the-pour-principles-of-accessibility"
+  to = "https://shecodes.dev/pour-principles-accessibility"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/the-accessibility-testing-tool-bag"
-  to = "/accessibility-testing-tools"
+  from = "https://shecodes.co.uk/the-accessibility-testing-tool-bag"
+  to = "https://shecodes.dev/accessibility-testing-tools"
   status = 301
-  false = false
 
 [[redirects]]
-  from = "/testing-for-accessibility-perceivable"
-  to = "/testing-perceivable-accessibility"
+  from = "https://shecodes.co.uk/testing-for-accessibility-perceivable"
+  to = "https://shecodes.dev/testing-perceivable-accessibility"
   status = 301
-  false = false
+
