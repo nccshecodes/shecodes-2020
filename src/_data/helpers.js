@@ -21,7 +21,7 @@ module.exports = {
     return response;
   },
 
-   /**
+  /**
    * Filters out item (usually latest post) from the passed collection
    * and limits number of items returned based on flag
    *
