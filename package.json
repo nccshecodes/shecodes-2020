@@ -24,9 +24,10 @@
   "scripts": {
     "format:check": "prettier --check '**/*.{html,js,json,md}'",
     "format:write": "prettier --write '**/*.{html,js,json,md}'",
-    "lint": "concurrently 'lint:code' 'lint:style'",
     "lint:code": "eslint '**/*.js'",
     "lint:style": "stylelint '**/*.scss'",
+    "precommit": "concurrently 'yarn lint:code' 'yarn lint:style' 'yarn format:check'",
+    "prepare": "husky install",
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy",
     "start": "npx gulp && concurrently 'npx gulp watch' 'npx eleventy --serve'"
   },
