@@ -1,7 +1,6 @@
 # Generated folders
 node_modules/
-dist
+dist/
 
 # Configs
 .vscode/
-.cache/
