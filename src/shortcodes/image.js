@@ -8,7 +8,7 @@ module.exports = async (src, alt, classes = '', sizes = '100vw') => {
     throw new Error(`Missing \`alt\` on responsive image from: ${src}`);
   }
 
-  let metadata = await image(src, {
+  const metadata = await image(src, {
     formats: ['jpeg'],
     outputDir: './dist/images/',
     urlPath: '/images/',
@@ -21,7 +21,7 @@ module.exports = async (src, alt, classes = '', sizes = '100vw') => {
     }
   });
 
-  let lowsrc = metadata.jpeg[0];
+  const lowsrc = metadata.jpeg[0];
 
   // <picture> easiest way to provide WebP fallbacks https://css-tricks.com/using-webp-images/#using-webp-in-html
   return `<picture class="${classes}">
