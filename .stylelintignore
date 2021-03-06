@@ -1,6 +1,7 @@
 # Generated folders
 node_modules/
 dist/
+src/_includes/css/
 
 # Configs
 .vscode/
