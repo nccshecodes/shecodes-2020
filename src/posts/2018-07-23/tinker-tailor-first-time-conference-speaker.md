@@ -45,6 +45,7 @@ Confession time, I did actually have that happen once before. A couple of years 
 ### _What if no-one cares about what I've got to say?_
 
 I thought I'd stand up to Little Miss and put that theory to the test. Feeling impulsive for #IWD18, I thought I'd be brave and share the result of my training on twitter and look what happened:
+
 <div class="break-right">
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Know someone that thinks they are too old to learn to code?<br><br>My mom started xBase at about 55 and got a C++ job at 59.<br><br>Check it out and see if you absolutely love it. Your life skills will bring lots of value. <a href="https://t.co/aQ89e0KPmX">https://t.co/aQ89e0KPmX</a></p>&mdash; Kathleen Dollard (@KathleenDollard) <a href="https://twitter.com/KathleenDollard/status/1010514893823356928?ref_src=twsrc%5Etfw">June 23, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
@@ -87,11 +88,11 @@ I'd be lying if I didn't say that the thought of speaking terrified me but I alw
 
 You can watch my talk [From Pantomime Donkey to Unicorn Designer][1].
 
- [1]: https://skillsmatter.com/skillscasts/12009-from-pantomime-donkey-to-unicorn-designer
- [3]: https://skillsmatter.com/conferences/9815-fullstack-2018-the-conference-on-javascript-node-and-internet-of-things#skillscasts
- [4]: https://www.theguardian.com/science/2018/jul/12/the-real-reason-the-sound-of-your-own-voice-makes-you-cringe
- [5]: /me-myself-and-imposter-syndrome/
- [6]: https://unsplash.com/
- [7]: https://gratisography.com/
- [8]: https://www.shutterstock.com/
- [9]: https://medium.com/@sophie.koonin/things-i-wish-id-known-tips-for-first-time-conference-speakers-ffa4ca438ea
+[1]: https://skillsmatter.com/skillscasts/12009-from-pantomime-donkey-to-unicorn-designer
+[3]: https://skillsmatter.com/conferences/9815-fullstack-2018-the-conference-on-javascript-node-and-internet-of-things#skillscasts
+[4]: https://www.theguardian.com/science/2018/jul/12/the-real-reason-the-sound-of-your-own-voice-makes-you-cringe
+[5]: /me-myself-and-imposter-syndrome/
+[6]: https://unsplash.com/
+[7]: https://gratisography.com/
+[8]: https://www.shutterstock.com/
+[9]: https://medium.com/@sophie.koonin/things-i-wish-id-known-tips-for-first-time-conference-speakers-ffa4ca438ea

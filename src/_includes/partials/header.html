@@ -1,9 +1,9 @@
-{% if not pattern %}
-  {% set pattern = "light" %}
-{% endif %}
+{% if not pattern %} {% set pattern = "light" %} {% endif %}
 
 <a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
-<header class="[ site-header ] [ panel patterned-{{ pattern }} a11y-bg-{{ headerCol }} ]">
+<header
+  class="[ site-header ] [ panel patterned-{{ pattern }} a11y-bg-{{ headerCol }} ]"
+>
   <div class="wrapper">
     <nav class="nav" aria-label="Primary">
       <ul class="nav__list">
@@ -24,9 +24,8 @@
       </ul>
     </nav>
 
-    {% if headerType === "home" %}
-      {% include "../../images/logo/shecodes-logo-stacked.svg" %}
-      {% include "../../images/logo/shecodes-logo.svg" %}
-    {% endif %}
+    {% if headerType === "home" %} {% include
+    "../../images/logo/shecodes-logo-stacked.svg" %} {% include
+    "../../images/logo/shecodes-logo.svg" %} {% endif %}
   </div>
 </header>

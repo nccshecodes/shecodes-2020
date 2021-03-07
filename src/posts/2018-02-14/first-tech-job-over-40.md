@@ -6,8 +6,8 @@ metaDesc: Here's 7 tips on how I landed my first tech job as a woman returner af
 metaTitle: How To Get First Tech Job Over 40
 socialImage: girl-smiley-face-gratisography
 tags:
- - level up
- - diversity
+  - level up
+  - diversity
 title: How I landed my first tech job at age 48
 ---
 
@@ -17,7 +17,7 @@ I've landed my first tech job at 48 with no previous 'commercial experience'. I 
 
 ## 1> Set your own expectations
 
-It must be close to 22 years since a company has _technically_ employed me, back when I used to work as a graphic designer. My background is a little unusual, but that said, I am an experienced and passionate designer. I've learnt to code from the kitchen table and put new skills to practice as a remote web designer. I put myself through coding bootcamp to build an MVP for my food tech company TreatOut.
+It must be close to 22 years since a company has *technically* employed me, back when I used to work as a graphic designer. My background is a little unusual, but that said, I am an experienced and passionate designer. I've learnt to code from the kitchen table and put new skills to practice as a remote web designer. I put myself through coding bootcamp to build an MVP for my food tech company TreatOut.
 
 I foolishly thought it wouldn't take long. I'd won awards and industry recognition validating my efforts as a remote worker. I’ve kept up to date learning about new technologies with online resources and on-the-job experience. After bootcamp I built the MVP for my food tech startup stepping up to the role of technical co-founder. I could easily get a job, couldn't I?
 

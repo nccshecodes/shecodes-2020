@@ -24,7 +24,6 @@ I have a busy six months ahead with my tech startup. I am in its third year and 
 
 I had this notion that I wanted a huge floral black and white print on the main back wall, mainly inspired by the floral pattern that's become part of my personal brand here on this website. I searched in vain for this wallpaper. I couldn't find anything that anywhere near this vision I had in my head. So I decided to make it myself. Or rather draw it to be precise. I had a rough idea of how I could do this. It was during one of our retro meetings at work (where we review the past week's workload, what went well, what didn't...) holding a sharpie pen and post-it note in my hand that I had my a-ha! moment. I could draw this with a sharpie! It turns out this is actually a 'thing', the internet is littered with images of sharpie wall art. Great. That was my idea validated.
 
-
 {% imageShortcode 'src/posts/2018-10-29/floral-pattern-template.jpg', 'the pattern taped to the wall over thetop of carbon paper', 'break-right' %}
 
 So how to go about this? I printed out the floral pattern I use on my website and stuck it up on the wall. It was too small, this would simply take forever. I tried again, this time tiling it across 12 sheets of A4 instead of 4. That worked. How to transfer the pattern onto the wall? I remembered tracing at school and scribbling with pencil on the reverse. I started that way but soon realised this was going to be messy and meant me drawing over the same pattern three times just to cover one area. That was neither efficient nor scaleable. Version three involved two pack of self carbonating paper. Perfect. I could transfer the pattern onto the wall and then make it permanent with a sharpie. I'd cut my workload by a third. It's not perfect, there's some tweaking involved to line up the repeat of each section but it's good enough.
@@ -39,7 +38,6 @@ All of them have seen a problem that most people probably didn't notice or took 
 
 Statistics say that as a startup you'll fail. He considered that it took a different kind of person to be willing to walk away from a salary, without any real savings, to undertake a journey that will probably land them on their arse (his words, not mine). I can't take such a risk because as an older founder I have responsibilities to my kids, I can't take that gamble. But that said, I'm prepared to work double time to get started.
 
-
 ## Hard labour
 
 This wall is hard work. There are times when my wrist is screaming at me, when I make a mistake, or the office is just too cold, times when it would be much easier to give up and go grab a paint tin and brush. My family think I'm mad. My friends think I'm mad. But I'm not giving up. I am wilful enough to see this through. As I look at my wall I realise that this wall is my startup journey in black and white. I smile as I realise I am that kind of weird crazy. And I like it.
@@ -51,4 +49,4 @@ This wall is hard work. There are times when my wrist is screaming at me, when I
   </video>
 </div>
 
- [1]: https://www.gimletmedia.com/startup
+[1]: https://www.gimletmedia.com/startup

@@ -1,5 +1,5 @@
 ---
-date: "2019-01-02"
+date: '2019-01-02'
 featureImage: src/posts/2019-01-02/emerging-from-the-startup-trough-of-sorrow.jpg
 featureImageAlt: Looking down a long empty road in the middle of nowhere with double yellow lines. Leading to distant snow capped mountains.
 metaDesc: It's been 12 long months burrowed deep inside the fabled startup trough of sorrow. How on earth do I dig myself out?
@@ -46,7 +46,7 @@ But this isn't just work, TreatOut is my passion and a personal challenge. It's 
 
 There's a growing fear of ingredients emanating from both the restaurant customers and the chefs themselves. That fear has heightened awareness and started to open doors. I am acutely aware that the timing is now, and I'm fully equipped with all the experience and learning the past twelve months has brought. 2018 has given me all the fuel I need to wheel spin right on out of that trough of sorrow. So hello 2019, I'm ready for you. Let's do this.
 
- [1]: https://andrewchen.co/after-the-techcrunch-bump-life-in-the-trough-of-sorrow/
- [2]: https://twitter.com/FMuntenescu
- [3]: https://www.cnbc.com/2017/07/06/these-billionaires-started-their-empires-while-working-day-jobs.html
- [4]: https://treatout.com/
+[1]: https://andrewchen.co/after-the-techcrunch-bump-life-in-the-trough-of-sorrow/
+[2]: https://twitter.com/FMuntenescu
+[3]: https://www.cnbc.com/2017/07/06/these-billionaires-started-their-empires-while-working-day-jobs.html
+[4]: https://treatout.com/

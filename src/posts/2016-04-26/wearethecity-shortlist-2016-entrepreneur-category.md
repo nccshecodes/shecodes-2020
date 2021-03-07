@@ -5,8 +5,8 @@ featureImageAlt: Nathalie head shot.
 metaDesc: I've been shortlisted for the WeAretheCity Top 100 Rising Star Awards 2016 Entrepreneur Category and I need your vote!
 socialImage: nathalie-christmann-cooper-rising-stars-2016-shortlisted
 tags:
- - startup
- - awards
+  - startup
+  - awards
 title: Shortlisted for the WeAreTheCity Rising Star Awards 2016
 ---
 

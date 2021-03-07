@@ -30,4 +30,4 @@ Most recruiters are looking for round pegs to fill round holes. It doesn't matte
 
 So my advice? Steer clear from agencies and try to speak to companies direct. Look for organisations like HSBC who have signed up to the [Tech Talent Charter][1] pledging their commitment to delivering greater gender diversity in the tech workforce. Get yourself along to job fairs, start conversations and network in person. It gets you past that first barrier of CV rejections. It gives you the opportunity to show your passion, commitment and determination first hand. Keep an eye out for events just like this one organised by HSBC. There's always valuable networking to be had, a maybe conversation waiting that could lead to you opening your first doorway. And to HSBC, yes please, let's have more events like these. It's so refreshing to see a company taking real action to push that diversity needle in the right direction.
 
- [1]: https://techtalentcharter.co.uk/
+[1]: https://techtalentcharter.co.uk/

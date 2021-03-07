@@ -1,4 +1,4 @@
-const {dest, src} = require('gulp');
+const { dest, src } = require('gulp');
 const cleanCSS = require('gulp-clean-css');
 const sassProcessor = require('gulp-sass');
 
@@ -9,10 +9,17 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // An array of outputs that should be sent over to includes
 // eg. const criticalStyles = ['critical.scss', 'home.scss', 'page.scss', 'work-item.scss'];
-const criticalStyles = ['blog.scss', 'critical.scss', 'cv.scss', 'home.scss', 'post.scss', 'tag.scss'];
+const criticalStyles = [
+  'blog.scss',
+  'critical.scss',
+  'cv.scss',
+  'home.scss',
+  'post.scss',
+  'tag.scss',
+];
 
 // Takes the arguments passed by `dest` and determines where the output file goes
-const calculateOutput = ({history}) => {
+const calculateOutput = ({ history }) => {
   // By default, we want a CSS file in our dist directory, so the
   // HTML can grab it with a <link />
   let response = './dist/css';
@@ -39,12 +46,12 @@ const sass = () => {
       cleanCSS(
         isProduction
           ? {
-            level: 2
-          }
+              level: 2,
+            }
           : {}
       )
     )
-    .pipe(dest(calculateOutput, {sourceMaps: !isProduction}));
+    .pipe(dest(calculateOutput, { sourceMaps: !isProduction }));
 };
 
 module.exports = sass;

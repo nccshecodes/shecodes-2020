@@ -34,4 +34,3 @@ I don’t want to be a duck. Or an eagle. I am going to be Ostrich.
 </div>
 
 [1]: http://www.storlietelling.com/2013/08/26/are-you-a-duck-or-an-eagle/
-

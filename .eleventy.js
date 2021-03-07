@@ -25,7 +25,7 @@ module.exports = (config) => {
   }
 
   config.addCollection('cv_awards', (collection) => {
-    return (collection.getFilteredByGlob('./src/awards/*.md')).reverse();
+    return collection.getFilteredByGlob('./src/awards/*.md').reverse();
   });
 
   config.addCollection('blog', (collection) => {
@@ -33,24 +33,24 @@ module.exports = (config) => {
   });
 
   config.addCollection('cv_education', (collection) => {
-    return (collection.getFilteredByGlob('./src/education/*.md')).reverse();
+    return collection.getFilteredByGlob('./src/education/*.md').reverse();
   });
 
   config.addCollection('cv_jobs', (collection) => {
-    return (collection.getFilteredByGlob('./src/jobs/*.md')).reverse();
+    return collection.getFilteredByGlob('./src/jobs/*.md').reverse();
   });
 
   config.addCollection('cv_talks', (collection) => {
-    return (collection.getFilteredByGlob('./src/talks/*.md')).reverse();
+    return collection.getFilteredByGlob('./src/talks/*.md').reverse();
   });
 
   config.addCollection('tagList', (collection) => {
     const tagsSet = new Set();
-    collection.getAll().forEach(item => {
+    collection.getAll().forEach((item) => {
       if (!item.data.tags) return;
       item.data.tags
-        .filter(tag => !['all'].includes(tag))
-        .forEach(tag => tagsSet.add(tag));
+        .filter((tag) => !['all'].includes(tag))
+        .forEach((tag) => tagsSet.add(tag));
     });
     return Array.from(tagsSet).sort();
   });
@@ -61,12 +61,12 @@ module.exports = (config) => {
   // mdAttr - add ids and classes
   // mdDefList - create description lists
   const options = {
-    html: true
-  }
+    html: true,
+  };
 
   const markdownLib = mdIt(options)
     .use(mdAttrs, {
-      allowedAttributes: ['class', 'id', /^aria.*$/, ]
+      allowedAttributes: ['class', 'id', /^aria.*$/],
     })
     .use(mdDeflist);
 
