@@ -1,20 +1,24 @@
 @import 'fonts';
 @import 'config';
-@import '../../node_modules/gorko/gorko.scss';
+@import '../../node_modules/gorko/gorko';
 @import 'reset';
 
 // Global styles
 :root {
   --flow-space: #{get-size('700')};
   --layout-width: 92.8rem;
+
   font-size: 62.5%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
+  @include apply-utility('font', 'base');
+
   background-color: get-color('light');
   color: get-color('dark');
   display: flex;
@@ -22,7 +26,6 @@ body {
   font-size: get-size('400');
   letter-spacing: 0.1px;
   word-spacing: 0;
-  @include apply-utility('font', 'base');
 }
 
 :focus,
@@ -48,8 +51,9 @@ h3 {
 h2,
 h3,
 h4 {
+  @include apply-utility('font', 'base');
+
   font-weight: lighter;
-  @include apply-utility('font', 'base')
 }
 
 h1,
@@ -75,14 +79,13 @@ p > a:focus {
   flex: 1 0 auto;
 }
 
-
 .fonts-loading {
   body {
-    font-size: get-size('400');
-    line-height: 1.5;
-    letter-spacing: -1.6px;
-    word-spacing: -1.1px;
     font-family: Arial, sans-serif;
+    font-size: get-size('400');
+    letter-spacing: -1.6px;
+    line-height: 1.5;
+    word-spacing: -1.1px;
   }
 
   h1 {
@@ -92,7 +95,7 @@ p > a:focus {
   h2,
   h3,
   h4 {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
   }
 
   h1,
@@ -101,10 +104,7 @@ p > a:focus {
     letter-spacing: -0.5px;
     word-spacing: 0.15px;
   }
-
-
 }
-
 
 // Import blocks using @import 'blocks/<file-name>';
 @import 'blocks/footer';

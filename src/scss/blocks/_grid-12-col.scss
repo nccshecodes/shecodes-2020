@@ -1,14 +1,17 @@
 @include media-query('md') {
   .grid-12-col {
     --inner-grid-gaps: calc(#{get-size('500')} * 11);
-    --inner-col-width: calc((var(--layout-width) - var(--inner-grid-gaps))/10);
+    --inner-col-width: calc((var(--layout-width) - var(--inner-grid-gaps)) / 10);
+
     display: grid;
     grid-gap: 0 get-size('500');
-    grid-template-columns: minmax(0, 1fr) repeat(10, minmax(0, var(--inner-col-width))) minmax(0, 1fr);
-    padding-left: 0;
-    padding-right: 0;
+    grid-template-columns:
+      minmax(0, 1fr) repeat(10, minmax(0, var(--inner-col-width)))
+      minmax(0, 1fr);
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

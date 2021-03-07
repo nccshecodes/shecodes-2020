@@ -15,13 +15,15 @@
     margin-top: get-size('minor');
     padding: get-size('minor') get-size('base');
     text-decoration: none;
-    transition: all .2s ease;
+    transition: all 0.2s ease;
+
     &:hover,
     &:focus {
       border-color: get-color('dark');
       border-style: dotted;
       outline: none;
     }
+
     &:hover {
       background-color: get-color('secondary');
     }

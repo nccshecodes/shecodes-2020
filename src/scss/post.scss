@@ -1,96 +1,13 @@
 @import 'config';
 // Set Gorko to output no CSS for this file
 $outputTokenCSS: false;
-@import '../../node_modules/gorko/gorko.scss';
+@import '../../node_modules/gorko/gorko';
 
 @import 'blocks/tags';
 @import 'blocks/grid-12-col';
 
 .post {
   padding-bottom: get-size('major');
-
-  dt {
-    border-bottom: 2px solid get-color('secondary');
-    font-size: get-size('500');
-    font-weight: bold;
-  }
-
-  h2 {
-    @include apply-utility('font', 'header');
-  }
-
-  h2:not(:first-of-type),
-  h3 {
-    border-bottom: 2px solid get-color('secondary');
-  }
-
-  em,
-  strong {
-    color: get-color('primary');
-    font-weight: bold;
-  }
-
-  time {
-    display: block;
-  }
-
-  .feature {
-    margin-top: 0;
-    margin-left: -#{get-size('500')};
-    max-width: 100vw;
-  }
-
-  .post__content ol {
-    list-style-position: inside;
-  }
-
-  .post__content ul {
-    list-style: none;
-    padding-left: get-size('800');
-    li {
-      margin-bottom: get-size('100');
-      position: relative;
-      &::before {
-        background-clip: content-box;
-        background-color: get-color('primary');
-        border: 1px solid get-color('secondary');
-        border-radius: 50%;
-        content: '';
-        height: get-size('500');
-        left: -#{get-size('800')};
-        margin-right: get-size('200');
-        padding: 3px;
-        position: absolute;
-        top: get-size('minor');
-        width: get-size('500');
-      }
-    }
-  }
-
-  blockquote,
-  .pullquote,
-  .quote {
-    display: block;
-    position: relative;
-    font-weight: bold;
-    &:before {
-      color: get-color('secondary');
-      content: '\2019\2019';
-      display: block;
-      font-family: monotype;
-      font-size: 60rem;
-      left: -110px;
-      letter-spacing: -6.25rem;
-      position: absolute;
-      top: -262px;
-      opacity: 0.2;
-      z-index: -1;
-    }
-
-    &.repeated {
-      display: none;
-    }
-  }
 
   @include media-query('md') {
     blockquote,
@@ -135,10 +52,96 @@ $outputTokenCSS: false;
       grid-column: 2 / span 3;
       grid-row: span 2;
       text-align: right;
+    }
 
-      &.repeated {
-        display: block;
-      }
+    .pullquote.repeated {
+      display: block;
+    }
+  }
+
+  dt {
+    border-bottom: 2px solid get-color('secondary');
+    font-size: get-size('500');
+    font-weight: bold;
+  }
+
+  h2 {
+    @include apply-utility('font', 'header');
+  }
+
+  h2:not(:first-of-type),
+  h3 {
+    border-bottom: 2px solid get-color('secondary');
+  }
+
+  em,
+  strong {
+    color: get-color('primary');
+    font-weight: bold;
+  }
+
+  time {
+    display: block;
+  }
+
+  .feature {
+    margin-left: -#{get-size('500')};
+    margin-top: 0;
+    max-width: 100vw;
+  }
+
+  .post__content ol {
+    list-style-position: inside;
+  }
+
+  .post__content ul {
+    list-style: none;
+    padding-left: get-size('800');
+  }
+
+  .post__content li {
+    margin-bottom: get-size('100');
+    position: relative;
+
+    &::before {
+      background-clip: content-box;
+      background-color: get-color('primary');
+      border: 1px solid get-color('secondary');
+      border-radius: 50%;
+      content: '';
+      height: get-size('500');
+      left: -#{get-size('800')};
+      margin-right: get-size('200');
+      padding: 3px;
+      position: absolute;
+      top: get-size('minor');
+      width: get-size('500');
+    }
+  }
+
+  blockquote,
+  .pullquote,
+  .quote {
+    display: block;
+    font-weight: bold;
+    position: relative;
+
+    &::before {
+      color: get-color('secondary');
+      content: '\2019\2019';
+      display: block;
+      font-family: serif;
+      font-size: 60rem;
+      left: -110px;
+      letter-spacing: -6.25rem;
+      opacity: 0.2;
+      position: absolute;
+      top: -262px;
+      z-index: -1;
+    }
+
+    &.repeated {
+      display: none;
     }
   }
 }

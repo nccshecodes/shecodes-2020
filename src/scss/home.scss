@@ -1,18 +1,19 @@
 @import 'config';
 // Set Gorko to output no CSS for this file
 $outputTokenCSS: false;
-@import '../../node_modules/gorko/gorko.scss';
+@import '../../node_modules/gorko/gorko';
 
 @import 'blocks/pullquote';
 
 img {
   --flow-space: #{get-size('major')};
+
   border-bottom: 10px solid get-color('secondary');
 }
 
 .article__content {
-  padding-top: get-size('major');
   padding-bottom: get-size('major');
+  padding-top: get-size('major');
 }
 
 @include media-query('lg') {

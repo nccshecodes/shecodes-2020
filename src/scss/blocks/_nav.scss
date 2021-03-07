@@ -5,10 +5,12 @@
 .nav__list {
   display: inline-flex;
   flex-wrap: wrap;
+
   > li {
     padding-bottom: get-size('300');
     padding-right: get-size('600');
   }
+
   a {
     text-decoration: none;
   }

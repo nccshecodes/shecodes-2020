@@ -1,16 +1,16 @@
 @import 'config';
 // Set Gorko to output no CSS for this file
 $outputTokenCSS: false;
-@import '../../node_modules/gorko/gorko.scss';
+@import '../../node_modules/gorko/gorko';
 
-
-dl, section {
+dl,
+section {
   padding-bottom: get-size('900');
   position: relative;
 
   &::before {
     border-left: 1px solid get-color(dark);
-    content: "";
+    content: '';
     height: 100%;
     left: 1rem;
     position: absolute;
@@ -18,20 +18,24 @@ dl, section {
   }
 }
 
-dt, dd, h2, li {
+dt,
+dd,
+h2,
+li {
   display: flex;
 
   > * {
-    flex: 1
+    flex: 1;
   }
 }
 
 dt {
   color: get-color('primary');
 
-  &.term--primary{
-    @include apply-utility('font', 'header');
+  &.term--primary {
     --flow-space: #{get-size('major')};
+    @include apply-utility('font', 'header');
+
     font-size: get-size('500');
     font-weight: bold;
 
@@ -60,8 +64,8 @@ dd {
   display: block;
   flex: 0 0 auto;
   height: 2rem;
-  margin-right: 1.2rem;
   margin-left: var(--left-space);
+  margin-right: 1.2rem;
   padding: 0.3rem;
   position: relative;
   width: 2rem;
@@ -79,22 +83,22 @@ dd {
     &::before {
       background-color: get-color(light);
       border-radius: 50%;
-      content: "";
+      content: '';
       display: block;
       height: 2rem;
       left: 0;
       position: absolute;
       top: 0;
       width: 2rem;
-      z-index:-1;
+      z-index: -1;
     }
   }
 
   &.solid {
     background-clip: border-box;
     display: inline-block;
-    margin-top: 0.3rem;
     margin-left: 0;
+    margin-top: 0.3rem;
     margin-top: 1.1rem;
     padding: 0;
   }
@@ -102,14 +106,18 @@ dd {
 
 .cv__timeline {
   --left-space: 3.2rem;
+
   position: relative;
-  ul, ol {
+
+  ul,
+  ol {
     padding-left: 0;
   }
 }
 
 h2 {
   @include apply-utility('font', 'heavy');
+
   font-size: get-size('600');
   padding-bottom: get-size('400');
   padding-top: get-size('900');
