@@ -1,4 +1,7 @@
-{% set pageTitle = title %} {% if metaTitle %} {% set pageTitle = metaTitle %}
+{% set pageTitle = title %}
+
+{% if metaTitle %}
+  {% set pageTitle = metaTitle %}
 {% endif %}
 
 <title>{{ pageTitle + ' | ' + site.name }}</title>
