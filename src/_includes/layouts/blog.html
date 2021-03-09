@@ -58,9 +58,8 @@
         {% for tag in collections.tagList %}
           <li class="[ divider-bottom ] [ panel ] [ panel-space-100 ]">
             <a href="/tag/{{ tag | slug }}/">
-              <span class="number--secondary"
-                >{{ collections[ tag ] | length }}</span
-              ><span class="tag">{{ tag }}</span>
+              <span class="number--secondary">{{ collections[ tag ] | length }}</span>
+              <span class="tag">{{ tag }}</span>
             </a>
           </li>
         {% endfor %}

@@ -68,8 +68,7 @@
               </div>
             </dt>
             <dd>
-              <span class="bullseye bullet"></span>{{ course.templateContent | safe
-              }}
+              <span class="bullseye bullet"></span>{{ course.templateContent | safe }}
             </dd>
           {% endfor %}
         </dl>
@@ -82,8 +81,10 @@
             <dt class="term--primary">
               <span class="bullseye outline"></span>
               {% if talk.data.link %}
-              <a href="{{ talk.data.link}}">{{ talk.data.title}}</a>
-              {% else %} {{ talk.data.title}} {% endif %}
+                <a href="{{ talk.data.link}}">{{ talk.data.title}}</a>
+              {% else %}
+                {{ talk.data.title}}
+              {% endif %}
             </dt>
             <dt class="term--meta">
               {{ talk.data.event }},

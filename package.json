@@ -22,8 +22,8 @@
     "sass": "^1.27.0"
   },
   "scripts": {
-    "format:check": "prettier --check '**/*.{html,js,json,md}'",
-    "format:write": "prettier --write '**/*.{html,js,json,md}'",
+    "format:check": "prettier --check '**/*.{js,json,md}'",
+    "format:write": "prettier --write '**/*.{js,json,md}'",
     "lint:code": "eslint '**/*.js'",
     "lint:style": "stylelint '**/*.scss'",
     "lint:style:fix": "stylelint '**/*.scss' --fix",
