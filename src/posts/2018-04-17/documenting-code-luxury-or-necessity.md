@@ -24,9 +24,9 @@ Speaking as someone with a lot to learn still (and let's face it when is there n
 
 ## Yes, code should document itself
 
-A popular train of thought in the _against camp_ is that you shouldn't document your code, but instead be _coding your documentation_. What exactly does that mean?
+A popular train of thought in the *against camp* is that you shouldn't document your code, but instead be _coding your documentation_. What exactly does that mean?
 
-If you use meaningful, semantic names for variables and methods, if you keep your code tight so that each block performs one specific task, then yes the code becomes easier to read and understand. But it doesn't tell someone else looking at your code _why_ you chose to write your code that way.
+If you use meaningful, semantic names for variables and methods, if you keep your code tight so that each block performs one specific task, then yes the code becomes easier to read and understand. But it doesn't tell someone else looking at your code *why* you chose to write your code that way.
 
 The argument here is that documentation will be out of date pretty soon so it's a waste of time to produce it. You've already written your code so that it speaks for itself. But are you not tracking your code with version control? Are you committing your code? I'd be very surprised if your answer is no. So why not produce and update the documentation at the same time?
 
@@ -58,8 +58,8 @@ This has proven to be quite a hot topic at work. It's also coincided with my col
 
 Think of the humble junior toiling hard to become a better developer. Give us a helping hand, make your code accessible, guide us in understanding how to use your code. Let us make the most of our time making, breaking and building wonderful things. Not forgetting, that appreciation of good documentation isn't just limited to juniors.
 
- [1]: https://skillsmatter.com/
- [2]: https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
- [3]: http://lrug.org/
- [4]: http://bit.ly/2vnPdbJ
- [5]: http://bit.ly/2H7Op0j
+[1]: https://skillsmatter.com/
+[2]: https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
+[3]: http://lrug.org/
+[4]: http://bit.ly/2vnPdbJ
+[5]: http://bit.ly/2H7Op0j

@@ -48,12 +48,12 @@ There are corporate responsibility arguments, legislation and human rights oblig
 
 We're all different with wide ranging accessibility needs -
 
-  * auditory
-  * cognitive
-  * neurological
-  * physical
-  * speech
-  * visual
+- auditory
+- cognitive
+- neurological
+- physical
+- speech
+- visual
 
 If we think in broader terms, accessibility overlaps into areas of inclusivity, such as _universal design_ or the _digital divide_. This wider scope encompasses geographical location, economic situation, education, language, age, gender... and of course not forgetting disabilities.
 
@@ -63,31 +63,30 @@ Accessibility requirements if met, benefit our older population, people using mo
 
 Think about users with cognitive or learning disabilities, anxiety or panic disorders. People with age-related issues such as impaired vision or a slight hand tremor. These symptoms can be subtle and slow to creep up on an individual. A person might not even be aware that 'normal' for them is not quite the same as for others. Disabilities can temporary - a broken arm, an eye infection. And disability can be invisible. I know this all too well as I have [Ehlers Danlos Syndrome][8]. I may look OK on the outside, but on some days when a migraine has exploded, my arthritis is flaring, I'm struggling to focus with my glasses and my head is filled with brain fog, I'm definitely not OK on the inside.
 
-
 ### The tech
 
 We have so many 'mobile' choices available to access digital content -
 
-  * smartphones and tablets
-  * digital TVs
-  * smartwatches and wearable devices
-  * devices in car dashboards and aeroplane seatbacks
+- smartphones and tablets
+- digital TVs
+- smartwatches and wearable devices
+- devices in car dashboards and aeroplane seatbacks
 
 IoT (Internet of Things) are on the rise -
 
-  * fridges with built-in online systems
-  * security systems
-  * vending machines
-  * "smart home" environment controllers
+- fridges with built-in online systems
+- security systems
+- vending machines
+- "smart home" environment controllers
 
 And by very nature, being mobile raises many issues to consider -
 
-  * different methods of input - speech and touchscreens
-  * situational limitations, for example, trying to read a screen in bright sunlight
-  * a user is unable to click small targets because pinch to zoom has been disabled
-  * A blind user attempting to complete a form, but the field labels have been replaced with placeholder text to save space on a small screen.
-  * a wheelchair user with a mobile device positioned to landscape in a holder, but the website only works in one single orientation - portrait
-  * a user whose only access to the web is through their mobile device
+- different methods of input - speech and touchscreens
+- situational limitations, for example, trying to read a screen in bright sunlight
+- a user is unable to click small targets because pinch to zoom has been disabled
+- A blind user attempting to complete a form, but the field labels have been replaced with placeholder text to save space on a small screen.
+- a wheelchair user with a mobile device positioned to landscape in a holder, but the website only works in one single orientation - portrait
+- a user whose only access to the web is through their mobile device
 
 ### The legislation
 
@@ -115,14 +114,14 @@ But now I am a software engineer and part of an accessibility steering group whi
 
 On a side note, you may have noticed that my website fails accessibility standards on too many counts and as a result, I hang my head in shame. I will be onto it, just as soon as I have finished turning my course notes into blog posts. Coming up next, a deeper look into WCAG and [the POUR principles of accessibility][6].
 
- [1]: https://alicebartlett.co.uk/
- [2]: https://www.youtube.com/watch?v=CUkMCQR4TpY
- [3]: https://rcni.com/hosted-content/rcn/first-steps/social-model-of-disability
- [4]: https://webaim.org/projects/million/
- [5]: https://www.w3.org/WAI/standards-guidelines/wcag/
- [6]: /pour-principles-accessibility/
- [7]: http://www.colourblindawareness.org/colour-blindness/
- [8]: https://www.ehlers-danlos.org/what-is-eds/
- [9]: https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html
- [10]: https://www.equalityhumanrights.com/en/equality-act-2010/what-equality-act
- [11]: https://courses.edx.org/courses/course-v1:W3Cx+WAI0.1x+3T2019/course/
+[1]: https://alicebartlett.co.uk/
+[2]: https://www.youtube.com/watch?v=CUkMCQR4TpY
+[3]: https://rcni.com/hosted-content/rcn/first-steps/social-model-of-disability
+[4]: https://webaim.org/projects/million/
+[5]: https://www.w3.org/WAI/standards-guidelines/wcag/
+[6]: /pour-principles-accessibility/
+[7]: http://www.colourblindawareness.org/colour-blindness/
+[8]: https://www.ehlers-danlos.org/what-is-eds/
+[9]: https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html
+[10]: https://www.equalityhumanrights.com/en/equality-act-2010/what-equality-act
+[11]: https://courses.edx.org/courses/course-v1:W3Cx+WAI0.1x+3T2019/course/

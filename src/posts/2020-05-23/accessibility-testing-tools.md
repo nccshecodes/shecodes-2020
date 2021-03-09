@@ -54,12 +54,12 @@ The [Web Developer][9] browser extension is available for Chrome, Firefox and Op
 
 To check the structure of a page -
 
-  * Turn off images to show text alts
-    images > replace image with alt attributes
-  * Turn off stylesheets
-    css > disable all styles
-  * Linearize the page
-    miscellaneous > linearize page.
+- Turn off images to show text alts
+  images > replace image with alt attributes
+- Turn off stylesheets
+  css > disable all styles
+- Linearize the page
+  miscellaneous > linearize page.
 
 ### Zoom Text Only
 
@@ -79,10 +79,10 @@ To install a javascript bookmarklet, first make sure you have your browser bookm
 
 To use this <a href="javascript:(function(){s%20=%20document.createElement(%22style%22)%3Bs.setAttribute(%22type%22%2C%22text%2Fcss%22)%3Bt%3Ddocument.createTextNode(%22*%20%7Bline-height%3A%201.5!important%3B%20letter-spacing%3A.12em!important%3B%20word-spacing%3A%20.16em%20!important%3B%7D%20p%7Bmargin-bottom%3A%202em!important%3B%20%7D%22)%3Bs.appendChild(t)%3Bh%20%3D%20document.getElementsByTagName(%22head%22)%5B0%5D%3Bh.appendChild(s)%3Bvoid(0)%3B})();">Text Spacing</a> bookmarklet, visit a site and then click the link in your bookmarks bar. It uses CSS to apply the following text transformations:
 
-  * Ensures the margin spacing between two paragraphs is 2 times the font size
-  * Adjusts the line height to 1.5 times the font size
-  * Adjusts the letter spacing to 0.12 times the font size
-  * Adjusts the word spacing to 0.16 times the font size.
+- Ensures the margin spacing between two paragraphs is 2 times the font size
+- Adjusts the line height to 1.5 times the font size
+- Adjusts the letter spacing to 0.12 times the font size
+- Adjusts the word spacing to 0.16 times the font size.
 
 The CSS will be temporarily applied to the page. You can clear the settings by refreshing the browser.
 
@@ -94,18 +94,17 @@ The CSS will be temporarily applied to the page. You can clear the settings by r
 
 Just a couple more notes. I mentioned manual testing at the start.
 
-
 <h3 id="keyboard-only"> Using a keyboard only</h3>
 
 First, enable keyboard navigation to all controls
 
-  * System prefs > keyboard > shortcuts > select “all controls”
+- System prefs > keyboard > shortcuts > select “all controls”
 
 Then click in the address bar and stop using the mouse.
 
-  * Tab – to move forward through elements
-  * Shift + tab – to move back through elements
-  * Arrow keys – to move within elements.
+- Tab – to move forward through elements
+- Shift + tab – to move back through elements
+- Arrow keys – to move within elements.
 
 ### Screen readers
 
@@ -115,23 +114,23 @@ For now, I'm using the native macOS VoiceOver. After having read an accessibilit
 
 #### iOS VoiceOver
 
-  * To activate VoiceOver
-    Settings > Accessibility > VoiceOver
-  * To activate the accessibility shortcut menu
-    Settings > Accessibility > General > Accessibility Shortcuts
-    Triple click the side button (home button on older devices) to toggle accessibility voice over and zoom.
+- To activate VoiceOver
+  Settings > Accessibility > VoiceOver
+- To activate the accessibility shortcut menu
+  Settings > Accessibility > General > Accessibility Shortcuts
+  Triple click the side button (home button on older devices) to toggle accessibility voice over and zoom.
 
 To navigate your mobile with VoiceOver turned on
 
-  * **Explore by touch:** tap around the screen with one finger to explore a page
-  * **Gesture navigation:** swipe left or right with a single finger to move from one element to the next in sequence
-  * **Focus on an element:** single tap selects and sets focus on an element so it is announced
-  * **Activate an element:** double-tap a single finger to open selected elements - links, press buttons.
+- **Explore by touch:** tap around the screen with one finger to explore a page
+- **Gesture navigation:** swipe left or right with a single finger to move from one element to the next in sequence
+- **Focus on an element:** single tap selects and sets focus on an element so it is announced
+- **Activate an element:** double-tap a single finger to open selected elements - links, press buttons.
 
 Using the rotor to navigate
 
-  * rotate two fingers clockwise or anticlockwise to select the Rotor settings.
-  * **Gesture navigation with rotor:** swipe up or down to jump between elements.
+- rotate two fingers clockwise or anticlockwise to select the Rotor settings.
+- **Gesture navigation with rotor:** swipe up or down to jump between elements.
 
 **Screen Curtain** turns off your display. Quickly triple tap with three fingers to turn on or off. If the Zoom feature is in use, tap four times.
 
@@ -139,19 +138,19 @@ Using the rotor to navigate
 
 **1. Switch Talkback on and off**
 
-  * To activate TalkBack
-    Settings > Accessibility > TalkBack
-    Make sure the device volume is turned up as TalkBack doesn’t automatically adjust the volume if muted.
-  * To activate the accessibility shortcut key
-    Settings > Accessibility > Accessibility shortcut
-    Press and hold the Power button until you hear a sound or feel a vibration or touch and hold two fingers on the screen until you hear spoken confirmation.
+- To activate TalkBack
+  Settings > Accessibility > TalkBack
+  Make sure the device volume is turned up as TalkBack doesn’t automatically adjust the volume if muted.
+- To activate the accessibility shortcut key
+  Settings > Accessibility > Accessibility shortcut
+  Press and hold the Power button until you hear a sound or feel a vibration or touch and hold two fingers on the screen until you hear spoken confirmation.
 
 To navigate your mobile with TalkBack turned on
 
-  * **Explore by touch:** drag your finger over the screen to have TalkBack describe the items under your finger.
-  * **Gesture navigation:** swipe left or right with a single finger to move from one element to the next in sequence.
-  * **Focus on an element:** single tap selects and sets focus on an element so it is announced.
-  * **Activate an element:** double-tap a single finger to open selected elements - links, press buttons.
+- **Explore by touch:** drag your finger over the screen to have TalkBack describe the items under your finger.
+- **Gesture navigation:** swipe left or right with a single finger to move from one element to the next in sequence.
+- **Focus on an element:** single tap selects and sets focus on an element so it is announced.
+- **Activate an element:** double-tap a single finger to open selected elements - links, press buttons.
 
 ## Next Steps
 
@@ -159,15 +158,15 @@ All tooled up and ready to test? Move on to [Testing for Accessibility Part 1 - 
 
 <small>Image by Ryan McGuire <a href="https://twitter.com/Gratisography">@gratisography</a></small>
 
- [1]: https://www.edx.org/course/web-accessibility-introduction
- [2]: https://www.w3.org/WAI/demos/bad/
- [3]: https://a11ysupport.io/
- [4]: https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd
- [5]: https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en
- [6]: https://developers.google.com/web/tools/lighthouse
- [7]: https://wave.webaim.org/
- [8]: https://www.youtube.com/watch?v=EJBdE0nZfko
- [9]: https://chrispederick.com/work/web-developer/
- [10]: https://chrome.google.com/webstore/detail/zoom-text-only/jamhfhbppcmkgghlkeieococonlbppjg
- [11]: https://webaim.org/resources/contrastchecker/
- [14]: /testing-perceivable-accessibility/
+[1]: https://www.edx.org/course/web-accessibility-introduction
+[2]: https://www.w3.org/WAI/demos/bad/
+[3]: https://a11ysupport.io/
+[4]: https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd
+[5]: https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en
+[6]: https://developers.google.com/web/tools/lighthouse
+[7]: https://wave.webaim.org/
+[8]: https://www.youtube.com/watch?v=EJBdE0nZfko
+[9]: https://chrispederick.com/work/web-developer/
+[10]: https://chrome.google.com/webstore/detail/zoom-text-only/jamhfhbppcmkgghlkeieococonlbppjg
+[11]: https://webaim.org/resources/contrastchecker/
+[14]: /testing-perceivable-accessibility/

@@ -32,9 +32,9 @@ html {
 }
 
 body {
+  line-height: 1.5;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -69,7 +69,7 @@ select {
   * {
     animation-duration: 0.01s !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01s !important;
     scroll-behavior: auto !important;
+    transition-duration: 0.01s !important;
   }
 }

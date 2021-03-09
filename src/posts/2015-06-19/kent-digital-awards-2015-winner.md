@@ -28,6 +28,7 @@ There’s no greater reward than seeing a client so delighted, not only with the
 {% imageShortcode "src/posts/2015-06-19/kent-digital-awards-2015-she-codes-gold.jpg", "Kent Digital Awards 2015 Gold for best Sports and Entertainment Website", "break-right" %}
 
 ## Getting Set For Next Year
+
 But the fun didn’t stop there, and today has been a full day geek fest at the Responsive Day Out 3 Conference. With a big grin still firmly in place, it’s been an inspiring day in Brighton swatting up on the latest web developments and what the future web may bring.
 
 Just a shame the shops had shut before I could grab a bigger handbag ready for next year’s awards.

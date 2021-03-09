@@ -4,14 +4,16 @@
 {% set headerType = "home" %}
 
 {% block content %}
-<article>
-  {% include "partials/page-title.html" %}
-  <div class="[ article__content ] [ panel ]">
-    <div class="[ intro ] [ flow panel wrapper ]">
-      {% include "partials/pullquote.html" %}
-      {% imageShortcode "src/images/nathalie_christmann_cooper.jpg", "me laughing" %}
+  <article>
+    {% include "partials/page-title.html" %}
+    <div class="[ article__content ] [ panel ]">
+      <div class="[ intro ] [ flow panel wrapper ]">
+        {% include "partials/pullquote.html" %}
+        {% imageShortcode "src/images/nathalie_christmann_cooper.jpg", "me laughing" %}
+      </div>
+      <div class="[ main-content ] [ flow panel wrapper ]">
+        {{ content | safe }}
+      </div>
     </div>
-    <div class="[ main-content ] [ flow panel wrapper ]">{{ content | safe }}</div>
-  </div>
-</article>
+  </article>
 {% endblock %}

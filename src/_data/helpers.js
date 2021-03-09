@@ -32,11 +32,10 @@ module.exports = {
    */
   getSiblingContent(collection, item, limit = 0) {
     if (!collection) return null;
-    let filteredItems = collection.filter(x => x.date !== item.date);
+    let filteredItems = collection.filter((x) => x.date !== item.date);
 
     if (limit > 0) {
       filteredItems = filteredItems.slice(-limit);
-
     }
 
     return filteredItems;
@@ -44,5 +43,5 @@ module.exports = {
 
   getYear() {
     return new Date().getFullYear();
-  }
+  },
 };

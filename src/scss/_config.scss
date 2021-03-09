@@ -24,12 +24,12 @@ $gorko-size-scale: (
 * COLORS
 */
 $gorko-colors: (
- 'dark': #241D20,
- 'dark-tint': #666163,
- 'light': #EAE7D9,
- 'primary': #910a55,
- 'secondary': #FE8B3C,
- 'secondary-tint': rgba(254,139,60, 0.2),
+  'dark': #241d20,
+  'dark-tint': #666163,
+  'light': #eae7d9,
+  'primary': #910a55,
+  'secondary': #fe8b3c,
+  'secondary-tint': rgba(254, 139, 60, 0.2),
 );
 
 /**
@@ -57,8 +57,8 @@ $gorko-config: (
       'header': '"roboto_monoregular", monospace',
       'heavy': '"robotomedium", Arial, sans-serif',
     ),
-   'output': 'standard',
-   'property': 'font-family',
+    'output': 'standard',
+    'property': 'font-family',
   ),
   'panel-space': (
     'items': $gorko-size-scale,

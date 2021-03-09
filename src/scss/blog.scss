@@ -1,7 +1,7 @@
 @import 'config';
 // Set Gorko to output no CSS for this file
 $outputTokenCSS: false;
-@import '../../node_modules/gorko/gorko.scss';
+@import '../../node_modules/gorko/gorko';
 
 @import 'blocks/grid-12-col';
 @import 'blocks/tags';
@@ -11,25 +11,12 @@ $outputTokenCSS: false;
     text-decoration: none;
   }
 
-  .latest__heading a,
-  .post-link {
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-      text-decoration-style: dotted;
-    }
-  }
-
   h2 {
     @include apply-utility('font', 'heavy');
   }
 
   h3 {
     @include apply-utility('font', 'header');
-  }
-
-  li:last-child {
-    border-bottom: none;
   }
 
   time {
@@ -42,30 +29,35 @@ $outputTokenCSS: false;
 
     > li {
       display: flex;
-      &::before {
-        align-items: center;
-        background-clip: content-box;
-        background-color: get-color('primary');
-        border: 2px solid get-color('secondary');
-        border-radius: 50%;
-        color: get-color('light');
-        content: counter(post-counter);
-        counter-increment: post-counter;
-        display: flex;
-        flex-shrink: 0;
-        font-size: get-size('600');
-        font-style: italic;
-        height: 6rem;
-        justify-content: center;
-        letter-spacing: 0.35rem;
-        margin-right: get-size('200');
-        padding: get-size('minor');
-        width: 6rem;
-      }
+    }
+
+    > li:last-child {
+      border-bottom-style: none;
+    }
+
+    > li::before {
+      align-items: center;
+      background-clip: content-box;
+      background-color: get-color('primary');
+      border: 2px solid get-color('secondary');
+      border-radius: 50%;
+      color: get-color('light');
+      content: counter(post-counter);
+      counter-increment: post-counter;
+      display: flex;
+      flex-shrink: 0;
+      font-size: get-size('600');
+      font-style: italic;
+      height: 6rem;
+      justify-content: center;
+      letter-spacing: 0.35rem;
+      margin-right: get-size('200');
+      padding: get-size('minor');
+      width: 6rem;
     }
   }
 
-  #arc {
+  .arc {
     grid-column: 2 / span 3;
     grid-row-start: 5;
   }
@@ -75,16 +67,18 @@ $outputTokenCSS: false;
     text-transform: capitalize;
   }
 
-  .divider { // applied to <hr>
+  .divider {
+    // applied to <hr>
     background-color: get-color('dark-tint');
-    border: none;
+    border-style: none;
     height: 1px;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 0;
   }
 
-  .divider-bottom { // applied to <li>
+  .divider-bottom {
+    // applied to <li>
     border-bottom: solid 1px get-color('dark-tint');
   }
 
@@ -114,11 +108,12 @@ $outputTokenCSS: false;
     grid-row: span 4;
 
     header {
-      display: flex;
       align-items: center;
-      span {
-        margin-right: get-size('200');
-      }
+      display: flex;
+    }
+
+    span {
+      margin-right: get-size('200');
     }
   }
 
@@ -129,6 +124,7 @@ $outputTokenCSS: false;
   .latest__image {
     grid-column: 5 / -2;
     margin-top: 0;
+
     img {
       object-fit: cover;
     }
@@ -140,14 +136,23 @@ $outputTokenCSS: false;
     text-transform: uppercase;
 
     a {
-      display: flex;
       align-items: center;
+      display: flex;
       justify-content: space-between;
     }
 
     .tag {
       flex: 1 0 auto;
       padding-left: get-size('200');
+    }
+  }
+
+  .latest__heading a,
+  .post-link {
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      text-decoration-style: dotted;
     }
   }
 

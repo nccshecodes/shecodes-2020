@@ -3,7 +3,7 @@ date: '2018-02-26'
 featureImage: src/posts/2018-02-26/day-job-startup-founders-gratisography.jpg
 featureImageAlt: Homeless man holding hand written cardboard sign. Advice 50 cents. Good advice 2 dollars. Bad jokes for free.
 metaDesc: >
- VCs tend not to back startup founders with a day job. Yet here I am with a new full time job. Am I mad? No. Have I failed? Emphatically not.
+  VCs tend not to back startup founders with a day job. Yet here I am with a new full time job. Am I mad? No. Have I failed? Emphatically not.
 metaTitle: Taking Day Job Doesn’t Mean Failed Startup Founder
 socialImage: day-job-startup-founders-gratisography
 tags:
@@ -45,6 +45,6 @@ I’ve not been ‘employed’ as such for a very long time, having worked solo 
 
 I don’t see my full time job as failure. I see it as a way of keeping that momentum, a means to keep on moving forward. I’m not just working towards de-risking my startup. I’m also de-risking myself as a founder.
 
- [1]: https://www.forbes.com/sites/martinzwilling/2013/02/18/10-ways-for-startups-to-survive-the-valley-of-death/#1346704269ef
- [2]: https://treatout.com/living-nightmare-diner/
- [3]: https://skillsmatter.com/
+[1]: https://www.forbes.com/sites/martinzwilling/2013/02/18/10-ways-for-startups-to-survive-the-valley-of-death/#1346704269ef
+[2]: https://treatout.com/living-nightmare-diner/
+[3]: https://skillsmatter.com/

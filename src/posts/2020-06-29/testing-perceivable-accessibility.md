@@ -35,8 +35,6 @@ These headings identify blocks of content and the heading hierarchy is meaningfu
 
 > You should only use one &lt;h1&gt; per page. Using more than one will not result in an error, but using only one is seen as a best practice. It makes logical sense — &lt;h1&gt; is the most important heading, and tells you what the purpose of the overall page is. You wouldn't have a book with more than one title, or a movie with more than one name! Having a single top-level title is also arguably better for screenreader users, and SEO.{.break-full}
 
-
-
 If it's good enough for the team at Mozilla, then it's good enough for me.
 
 Don't forget to add a heading to menu and navigational sections too, which are usually H2. It might not always make sense for these headings to be visible, in which case use CSS so that these headings are [only visible to screen readers.][3]
@@ -81,49 +79,49 @@ An added SEO bonus is that transcripts are crawled by search bots.
 
 Manual and audio checks with a screen reader.
 
-  * The page title is an adequate and brief description of the page content
-  * The page title is unique to the application and distinguishable from other pages
-  * The page title is [front-loaded][4]
-  * The page title is read out correctly by a screen reader
-  * The page title informs the user of their current position within a set of related pages.
+- The page title is an adequate and brief description of the page content
+- The page title is unique to the application and distinguishable from other pages
+- The page title is [front-loaded][4]
+- The page title is read out correctly by a screen reader
+- The page title informs the user of their current position within a set of related pages.
 
 #### Basic Structure
 
 Using the [Web Developer][5] toolbar
 
-  * turn off images to show text alts
-    images > replace image with alt attributes
-  * turn off stylesheets
-    css > disable all styles
-  * linearize the page
-    miscellaneous > linearize page
+- turn off images to show text alts
+  images > replace image with alt attributes
+- turn off stylesheets
+  css > disable all styles
+- linearize the page
+  miscellaneous > linearize page
 
-  * Check that the information makes sense in the order that it's shown.
-  * Check each block of information has clear headings directly above the information they apply to.
-  * Check alt text provides adequate information for images.
+- Check that the information makes sense in the order that it's shown.
+- Check each block of information has clear headings directly above the information they apply to.
+- Check alt text provides adequate information for images.
 
 #### Distinguishable Content
 
 Invert display colours:
 
-  * Don't rely on colour alone to convey meaning.
+- Don't rely on colour alone to convey meaning.
 
 Using a contrast checker:
 
-  * Ensure sufficient contrast between foreground and background colours. Ideal is 7:1 for text. For graphics and [larger text][6] 3:1 is ok.
+- Ensure sufficient contrast between foreground and background colours. Ideal is 7:1 for text. For graphics and [larger text][6] 3:1 is ok.
 
 Check support for content resizing:
 
-  * If text size is increased to 200%, no information should be lost. Text should reflow on smaller devices.
-  * If text spacing changes (check with the [text spacing bookmarklet][7], no information should be lost. Text should reflow on smaller devices.
+- If text size is increased to 200%, no information should be lost. Text should reflow on smaller devices.
+- If text spacing changes (check with the [text spacing bookmarklet][7], no information should be lost. Text should reflow on smaller devices.
 
 #### Multimedia
 
-  * Does multimedia have alternative delivery methods - video, audio, transcripts?
-  * Links to captions and transcripts should be easy to find and close to the video / audio content
-  * Check that captions are shown in sync with spoken content
-  * Check that people who are speaking are identified when they speak
-  * Check that important sounds other than dialogue are included.
+- Does multimedia have alternative delivery methods - video, audio, transcripts?
+- Links to captions and transcripts should be easy to find and close to the video / audio content
+- Check that captions are shown in sync with spoken content
+- Check that people who are speaking are identified when they speak
+- Check that important sounds other than dialogue are included.
 
 ## Next Steps
 
@@ -133,13 +131,12 @@ I'm busy writing up Testing for Accessibility Part 2 - Operable. For those of yo
 
 These are based on my notes taken from the free course [An Introduction to Web Accessibility][9] and Smashing Magazine's [Front-end Accessibility Masterclass with Marcy Sutton][10].
 
- [2]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
- [3]: https://a11yproject.com/posts/how-to-hide-content/
- [4]: https://www.w3.org/WAI/wcag-curric/sam110-0.htm
- [5]: /accessibility-testing-tools/#web-developer
- [6]: https://developer.paciellogroup.com/blog/2012/05/whats-large-text-in-wcag-2-0-parlance/
- [7]: /accessibility-testing-tools/#text-spacing
- [8]: https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one
- [9]: https://www.edx.org/course/web-accessibility-introduction
- [10]: https://smashingconf.com/online-workshops/workshops/marcy-sutton
-
+[2]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+[3]: https://a11yproject.com/posts/how-to-hide-content/
+[4]: https://www.w3.org/WAI/wcag-curric/sam110-0.htm
+[5]: /accessibility-testing-tools/#web-developer
+[6]: https://developer.paciellogroup.com/blog/2012/05/whats-large-text-in-wcag-2-0-parlance/
+[7]: /accessibility-testing-tools/#text-spacing
+[8]: https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one
+[9]: https://www.edx.org/course/web-accessibility-introduction
+[10]: https://smashingconf.com/online-workshops/workshops/marcy-sutton

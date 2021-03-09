@@ -7,8 +7,8 @@ metaDesc: >
 metaTitle: Woman Returner Lessons Learnt Looking for Tech Job
 socialImage: tech-job-hunting-woman-gratisography
 tags:
- - soapbox
- - diversity
+  - soapbox
+  - diversity
 title: What hunting for a tech job has taught me
 ---
 

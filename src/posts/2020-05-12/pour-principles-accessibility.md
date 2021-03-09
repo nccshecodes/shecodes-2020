@@ -69,12 +69,12 @@ Keep focus on the user and context, and the accessibility checklist should start
 
 <small>Photo credit: [Jon Tyson][1] [Unsplash][2]</small>
 
- [1]: https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
- [2]: https://unsplash.com/s/photos/confusion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
- [3]: https://courses.edx.org/courses/course-v1:W3Cx+WAI0.1x+3T2019/course/
- [4]: /essence-of-accessibility/
- [5]: https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/
- [6]: https://www.w3.org/WAI/standards-guidelines/wcag/20/glance/
- [7]: https://www.w3.org/WAI/standards-guidelines/wcag/glance/
- [8]: https://webaim.org/articles/pour/#beyond
- [9]: /accessibility-testing-tools/
+[1]: https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+[2]: https://unsplash.com/s/photos/confusion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+[3]: https://courses.edx.org/courses/course-v1:W3Cx+WAI0.1x+3T2019/course/
+[4]: /essence-of-accessibility/
+[5]: https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/
+[6]: https://www.w3.org/WAI/standards-guidelines/wcag/20/glance/
+[7]: https://www.w3.org/WAI/standards-guidelines/wcag/glance/
+[8]: https://webaim.org/articles/pour/#beyond
+[9]: /accessibility-testing-tools/

@@ -1,5 +1,5 @@
 ---
-title: {{ tag }}
+title: { { tag } }
 layout: 'layouts/tag.html'
 pagination:
   data: collections.tagList

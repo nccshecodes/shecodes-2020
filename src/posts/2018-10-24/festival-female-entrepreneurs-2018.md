@@ -70,7 +70,6 @@ Angela warned of the dangers of being on too many social media platforms. "You c
 
 Whilst social media allows you to reach out to large numbers of people very quickly, it's **not** about the numbers.
 
-
 "Organic is not about trying to sell your product. That's not what people look out for in their news feed, they want to be engaged, entertained and informed."{.quote .break-full}
 
 Vanity metrics are not what's important, it's the **engagement** that counts and this does take time to nuture. One example is a paid ad they have running which has seven million views and six thousand comments. Every single comment has been answered because Angela knows that it's conversation and keeping it social that matters.
@@ -81,10 +80,10 @@ One thing I've learnt to tap into as a founder is the wealth of knowledge held b
 
 {% imageShortcode 'src/posts/2018-10-24/Nathalie-Tracey-FFE18.jpg', 'Tracey and I laughing as we chat to an exhibitor', 'break-right' %}
 
- [1]: https://treatout.com/
- [2]: https://www.nameless.co.uk/studio/jaya-chakrabarti/
- [3]: https://tiscreport.org/
- [4]: https://letsmush.com/
- [5]: http://bevjames.com
- [6]: https://www.linkedin.com/in/ravbumbra
- [7]: https://www.trustedhousesitters.com/blog/news/the-trustedhousesitters-story-angela/
+[1]: https://treatout.com/
+[2]: https://www.nameless.co.uk/studio/jaya-chakrabarti/
+[3]: https://tiscreport.org/
+[4]: https://letsmush.com/
+[5]: http://bevjames.com
+[6]: https://www.linkedin.com/in/ravbumbra
+[7]: https://www.trustedhousesitters.com/blog/news/the-trustedhousesitters-story-angela/

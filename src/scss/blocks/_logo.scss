@@ -1,7 +1,8 @@
 .logo {
   fill: get-color('light');
-  padding-top: get-size('700');
   padding-bottom: get-size('700');
+  padding-top: get-size('700');
+
   .o {
     fill: get-color('secondary');
   }
@@ -15,6 +16,7 @@
   .shecodes-stacked {
     display: none;
   }
+
   .shecodes {
     display: block;
     max-width: 70rem;
