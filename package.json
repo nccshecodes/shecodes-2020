@@ -42,9 +42,5 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^20.0.0"
-  },
-  "lint-staged": {
-    "**/*.js": "eslint",
-    "**/*.scss": "stylelint --allow-empty-input"
   }
 }
