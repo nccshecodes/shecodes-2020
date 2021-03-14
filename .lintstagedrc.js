@@ -1,4 +1,4 @@
 module.exports = {
-  '**/*.js': 'eslint',
-  '**/*.scss': 'stylelint --allow-empty-input',
+	'**/*.js': 'eslint',
+	'**/*.scss': 'stylelint --allow-empty-input',
 };

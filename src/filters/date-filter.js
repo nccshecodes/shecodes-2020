@@ -5,9 +5,9 @@ const parseISO = require('date-fns/parseISO');
 // @variant "short" | "full"
 
 module.exports = (date, variant = 'short') => {
-  if (date === 'current') return date;
+	if (date === 'current') return date;
 
-  const dateObject = parseISO(date);
-  if (variant === 'full') return format(dateObject, 'd MMM yyyy');
-  return format(dateObject, 'MMM yyyy');
+	const dateObject = parseISO(date);
+	if (variant === 'full') return format(dateObject, 'd MMM yyyy');
+	return format(dateObject, 'MMM yyyy');
 };
