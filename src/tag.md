@@ -1,6 +1,6 @@
 ---
 title: { { tag } }
-layout: 'layouts/tag.html'
+layout: 'layouts/tag.njk'
 pagination:
   data: collections.tagList
   size: 1

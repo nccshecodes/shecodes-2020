@@ -12,7 +12,7 @@ languages:
   - CSS, Sass, Emotion
   - Javascript, Typescript
   - Ruby
-layout: layouts/cv.html
+layout: layouts/cv.njk
 metaDesc: My CV in digital format - work experience and skillset, training, talks, honours and awards.
 metaTitle: Curriculum Vitae
 permalink: /nathalie-christmann-cooper-curriculum-vitae/index.html

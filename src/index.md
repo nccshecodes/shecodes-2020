@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.html
+layout: layouts/home.njk
 metaDesc: >
   I'm Nathalie, a graphic designer turned Frontend developer who make a career
   switch to work in tech.
