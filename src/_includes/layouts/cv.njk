@@ -35,7 +35,7 @@
 			<section class="flow flow-space-400">
 				<h2 id="work-ex"><span class="bullseye solid"></span>Work Experience</h2>
 				<dl aria-labelledby="work-ex" class="flow">
-					{% for job in collections.cv_jobs %}
+					{% for job in collections.cv_jobs | reverse %}
 						<dt class="term--primary">
 							<span class="bullseye outline"></span>{{ job.data.name}}
 						</dt>
@@ -57,7 +57,7 @@
 			<section class="flow flow-space-400">
 				<h2 id="education"><span class="bullseye solid"></span>Education</h2>
 				<dl aria-labelledby="education" class="flow">
-					{% for course in collections.cv_education %}
+					{% for course in collections.cv_education | reverse %}
 						<dt class="term--primary">
 							<span class="bullseye outline"></span>{{ course.data.course}}
 						</dt>
@@ -77,7 +77,7 @@
 			<section class="flow flow-space-400">
 				<h2 id="talks"><span class="bullseye solid"></span>Talks</h2>
 				<dl aria-labelledby="talks" class="flow">
-					{% for talk in collections.cv_talks %}
+					{% for talk in collections.cv_talks | reverse %}
 						<dt class="term--primary">
 							<span class="bullseye outline"></span>
 							{% if talk.data.link %}
@@ -106,7 +106,7 @@
 					<span class="bullseye solid"></span>Honours and Awards
 				</h2>
 				<dl aria-labelledby="awards" class="flow">
-					{% for award in collections.cv_awards %}
+					{% for award in collections.cv_awards | reverse %}
 						<dt class="term--primary">
 							<span class="bullseye outline"></span>{{ award.data.award}}
 						</dt>
