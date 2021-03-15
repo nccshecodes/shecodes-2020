@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %}
+{% set pageHeaderTitle = title %}
+{% set headerCol = "dark" %}
+{% set pageHeaderColor = "primary" %}
+
+{% block content %}
+	<article>
+		{% include "partials/page-title.njk" %}
+		<div class="[ article__content ] [ flow panel wrapper ] [ panel-space-major ]">
+			{{ content | safe }}
+		</div>
+	</article>
+{%endblock %}

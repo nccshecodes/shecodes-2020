@@ -1,0 +1,14 @@
+{% set idHash = global.random() %}
+
+{% if tags %}
+	<p class="visually-hidden" id="tag-{{ idHash }}">
+		Topics covered by this post.
+	</p>
+	<ul class="list--tags" aria-describedby="tag-{{ idHash }}">
+		{% for tag in tags %}
+			<li class="rounded">
+				<a class="rounded" href="/tag/{{ tag | slug }}/">{{ tag }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+{% endif %}

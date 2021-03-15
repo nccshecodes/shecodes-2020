@@ -2,22 +2,22 @@
 
 {# We don't want any duplication. This is likely for the home page. #}
 {% if site.name === title %}
-  {% set pageTitle = title %}
+	{% set pageTitle = title %}
 {% endif %}
 
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
 {% if socialImage %}
-  {% set socialImageLink = site.url + '/images/' + socialImage + '-1280.jpg' %}
+	{% set socialImageLink = site.url + '/images/' + socialImage + '-1280.jpg' %}
 {% endif %}
 
 {% if metaTitle %}
-  {% set pageTitle = metaTitle %}
+	{% set pageTitle = metaTitle %}
 {% endif %}
 
 {% if not metaDesc %}
-  {% set metaDesc = summary %}
+	{% set metaDesc = summary %}
 {% endif %}
 
 <link rel="canonical" href="{{ currentUrl }}" />
@@ -28,11 +28,11 @@
 <meta property="og:url" content="{{ currentUrl }}" />
 
 {% if socialImageLink %}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="{{ socialImageLink }}" />
-  <meta name="twitter:image" content="{{ socialImageLink }}" />
-  <meta property="og:image:alt" content="Page image for {{ site.name }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:image" content="{{ socialImageLink }}" />
+	<meta name="twitter:image" content="{{ socialImageLink }}" />
+	<meta property="og:image:alt" content="Page image for {{ site.name }}" />
+	<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}
 
 
@@ -42,27 +42,27 @@
 
 
 <link
-  rel="apple-touch-icon"
-  sizes="180x180"
-  href="/images/static/meta/apple-touch-icon.png"
+	rel="apple-touch-icon"
+	sizes="180x180"
+	href="/images/static/meta/apple-touch-icon.png"
 />
 <link
-  rel="icon"
-  type="image/png"
-  sizes="32x32"
-  href="/images/static/meta/favicon-32x32.png"
+	rel="icon"
+	type="image/png"
+	sizes="32x32"
+	href="/images/static/meta/favicon-32x32.png"
 />
 <link
-  rel="icon"
-  type="image/png"
-  sizes="16x16"
-  href="/images/static/meta/favicon-16x16.png"
+	rel="icon"
+	type="image/png"
+	sizes="16x16"
+	href="/images/static/meta/favicon-16x16.png"
 />
 <link rel="manifest" href="/images/static/meta/site.webmanifest" />
 <link
-  rel="mask-icon"
-  href="/images/static/meta/safari-pinned-tab.svg"
-  color="#910a55"
+	rel="mask-icon"
+	href="/images/static/meta/safari-pinned-tab.svg"
+	color="#910a55"
 />
 <meta name="msapplication-TileColor" content="#910a55" />
 <meta name="theme-color" content="#eae7d9" />

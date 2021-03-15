@@ -1,0 +1,34 @@
+{% extends "layouts/base.njk" %}
+{% set pattern = "dark" %}
+{% set headerCol = "light" %}
+{% set title = 'Tag: ' + tag | slug %}
+{% set metaDesc = "Browsevposts filed under the '" + tag | slug + "' tag from the SheCodes blog." %}
+{% set pageCriticalStyles = ['css/blog.css', 'css/tag.css'] %}
+
+{% block content %}
+	<article class="blog">
+		{% include "partials/page-title.njk" %}
+		<div class="[ grid-12-col ] [ panel wrapper ] [ panel-space-major ]">
+
+			{% set posts = collections[ tag ] %}
+			<div class="[ tag-posts ] [ flow ]">
+				{% include "partials/collections.njk" %}
+			</div>
+
+			<div class="tag-archives">
+				<h2 id="arc">Archives</h2>
+				<hr class="divider divider--left-col" />
+				<ul class="list-archives" aria-labelledby="arc">
+					{% for tag in collections.tagList %}
+						<li class="[ divider-bottom ] [ panel ] [ panel-space-100 ]">
+							<a href="/tag/{{ tag | slug }}/">
+								<span class="number--secondary">{{ collections[ tag ] | length }}</span>
+								<span class="tag">{{ tag }}</span>
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</article>
+{% endblock %}

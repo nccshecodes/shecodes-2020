@@ -1,0 +1,19 @@
+{% extends "layouts/base.njk" %}
+{% set pageCriticalStyles = ['css/home.css'] %}
+{% set headerCol = "primary" %}
+{% set headerType = "home" %}
+
+{% block content %}
+	<article>
+		{% include "partials/page-title.njk" %}
+		<div class="[ article__content ] [ panel ]">
+			<div class="[ intro ] [ flow panel wrapper ]">
+				{% include "partials/pullquote.njk" %}
+				{% imageShortcode "src/images/nathalie_christmann_cooper.jpg", "me laughing" %}
+			</div>
+			<div class="[ main-content ] [ flow panel wrapper ]">
+				{{ content | safe }}
+			</div>
+		</div>
+	</article>
+{% endblock %}

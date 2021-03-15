@@ -1,5 +1,5 @@
 ---
-layout: layouts/contact.html
+layout: layouts/contact.njk
 metaDesc: Best ways to get in touch and say hi.
 metaTitle: Contact Details
 title: Let's talk
