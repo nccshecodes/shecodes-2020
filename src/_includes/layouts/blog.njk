@@ -8,62 +8,62 @@
 {% set pageCriticalStyles = ['css/blog.css'] %}
 
 {% block content %}
-  <article class="blog">
-    {% include "partials/page-title.html" %}
-    <div class="[ grid-12-col ] [ flow wrapper ] [ flow-space-400 ]">
+	<article class="blog">
+		{% include "partials/page-title.njk" %}
+		<div class="[ grid-12-col ] [ flow wrapper ] [ flow-space-400 ]">
 
-      {% set latest = collections.blog[0] %}
-      <section class="[ latest ] [ flow panel ]">
-        <header>
-          <span class="number--primary outline" aria-label="latest post number">
-            {{ collections.blog | length }}
-          </span>
-          <h2 class="section__heading">Latest</h2>
-        </header>
-        <h3 class="latest__heading">
-          <a href="{{ latest.url }}">{{ latest.data.title }}</a>
-        </h3>
-        <time datetime="{{ latest.data.date }}" >{{ latest.data.date | dateFilter("full") }}</time>
-        <p class="latest__excerpt">
-          {% if latest.data.excerpt %}
-            {{ latest.data.excerpt }}
-          {% else %}
-            {{ latest.data.metaDesc }}
-          {% endif %}
-        </p>
+			{% set latest = collections.blog[0] %}
+			<section class="[ latest ] [ flow panel ]">
+				<header>
+					<span class="number--primary outline" aria-label="latest post number">
+						{{ collections.blog | length }}
+					</span>
+					<h2 class="section__heading">Latest</h2>
+				</header>
+				<h3 class="latest__heading">
+					<a href="{{ latest.url }}">{{ latest.data.title }}</a>
+				</h3>
+				<time datetime="{{ latest.data.date }}" >{{ latest.data.date | dateFilter("full") }}</time>
+				<p class="latest__excerpt">
+					{% if latest.data.excerpt %}
+						{{ latest.data.excerpt }}
+					{% else %}
+						{{ latest.data.metaDesc }}
+					{% endif %}
+				</p>
 
-        {% set tags = latest.data.tags %}
-        {% include "partials/tags.html" %}
-      </section>
+				{% set tags = latest.data.tags %}
+				{% include "partials/tags.njk" %}
+			</section>
 
-      {% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
+			{% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
 
-      <hr class="divider divider--vertical" />
+			<hr class="divider divider--vertical" />
 
-      {% set tag = 'level up' %}
-      {% set posts = helpers.getSiblingContent(collections[tag], latest, 5) %}
-      {% include "partials/collections.html" %}
+			{% set tag = 'level up' %}
+			{% set posts = helpers.getSiblingContent(collections[tag], latest, 5) %}
+			{% include "partials/collections.njk" %}
 
-      {% set tag = 'startup' %}
-      {% set posts = helpers.getSiblingContent(collections[tag], latest, 5) %}
-      {% include "partials/collections.html" %}
+			{% set tag = 'startup' %}
+			{% set posts = helpers.getSiblingContent(collections[tag], latest, 5) %}
+			{% include "partials/collections.njk" %}
 
-      {% set tag = 'soapbox' %}
-      {% set posts = helpers.getSiblingContent(collections[tag], latest, 5) %}
-      {% include "partials/collections.html" %}
+			{% set tag = 'soapbox' %}
+			{% set posts = helpers.getSiblingContent(collections[tag], latest, 5) %}
+			{% include "partials/collections.njk" %}
 
-      <h2 id="arc" class="arc">Archives</h2>
-      <hr class="divider divider--left-col" />
-      <ul class="list-archives" aria-labelledby="arc">
-        {% for tag in collections.tagList %}
-          <li class="[ divider-bottom ] [ panel ] [ panel-space-100 ]">
-            <a href="/tag/{{ tag | slug }}/">
-              <span class="number--secondary">{{ collections[ tag ] | length }}</span>
-              <span class="tag">{{ tag }}</span>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </article>
+			<h2 id="arc" class="arc">Archives</h2>
+			<hr class="divider divider--left-col" />
+			<ul class="list-archives" aria-labelledby="arc">
+				{% for tag in collections.tagList %}
+					<li class="[ divider-bottom ] [ panel ] [ panel-space-100 ]">
+						<a href="/tag/{{ tag | slug }}/">
+							<span class="number--secondary">{{ collections[ tag ] | length }}</span>
+							<span class="tag">{{ tag }}</span>
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</article>
 {% endblock %}

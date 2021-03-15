@@ -4,10 +4,10 @@
 {% set pageHeaderColor = "primary" %}
 
 {% block content %}
-  <article>
-    {% include "partials/page-title.html" %}
-    <div class="[ article__content ] [ flow panel wrapper ] [ panel-space-major ]">
-      {{ content | safe }}
-    </div>
-  </article>
+	<article>
+		{% include "partials/page-title.njk" %}
+		<div class="[ article__content ] [ flow panel wrapper ] [ panel-space-major ]">
+			{{ content | safe }}
+		</div>
+	</article>
 {%endblock %}
