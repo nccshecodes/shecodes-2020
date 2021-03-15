@@ -12,7 +12,7 @@
 		{% include "partials/page-title.njk" %}
 		<div class="[ grid-12-col ] [ flow wrapper ] [ flow-space-400 ]">
 
-			{% set latest = collections.blog[0] %}
+			{% set latest = collections.blog.slice(-1).pop() %}
 			<section class="[ latest ] [ flow panel ]">
 				<header>
 					<span class="number--primary outline" aria-label="latest post number">

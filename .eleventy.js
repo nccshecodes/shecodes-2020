@@ -25,23 +25,23 @@ module.exports = (config) => {
 	}
 
 	config.addCollection('cv_awards', (collection) => {
-		return collection.getFilteredByGlob('./src/awards/*.md').reverse();
+		return collection.getFilteredByGlob('./src/awards/*.md');
 	});
 
 	config.addCollection('blog', (collection) => {
-		return [...collection.getFilteredByGlob('./src/posts/**/*.md')].reverse();
+		return [...collection.getFilteredByGlob('./src/posts/**/*.md')];
 	});
 
 	config.addCollection('cv_education', (collection) => {
-		return collection.getFilteredByGlob('./src/education/*.md').reverse();
+		return collection.getFilteredByGlob('./src/education/*.md');
 	});
 
 	config.addCollection('cv_jobs', (collection) => {
-		return collection.getFilteredByGlob('./src/jobs/*.md').reverse();
+		return collection.getFilteredByGlob('./src/jobs/*.md');
 	});
 
 	config.addCollection('cv_talks', (collection) => {
-		return collection.getFilteredByGlob('./src/talks/*.md').reverse();
+		return collection.getFilteredByGlob('./src/talks/*.md');
 	});
 
 	config.addCollection('tagList', (collection) => {
