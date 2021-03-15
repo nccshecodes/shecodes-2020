@@ -1,23 +1,23 @@
 {% if posts %}
-  {% set tagHash = global.random() %}
+	{% set tagHash = global.random() %}
 
-  <h2 id="posts-{{ tagHash }}" class="cat-header">{{ tag }}</h2>
-  <hr class="divider divider--right-col" />
-  <ol class="[ flow ] [ flow-space-400 ]" aria-labelledby="posts-{{ tagHash }}">
-    {% for post in posts | reverse %}
-      <li class="[ divider-bottom ] [ flow ]">
-        <div>
-          <a class="post-link" href="{{ post.url }}">
-            <h3>{{ post.data.title }}</h3>
-          </a>
-          <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
+	<h2 id="posts-{{ tagHash }}" class="cat-header">{{ tag }}</h2>
+	<hr class="divider divider--right-col" />
+	<ol class="[ flow ] [ flow-space-400 ]" aria-labelledby="posts-{{ tagHash }}">
+		{% for post in posts | reverse %}
+			<li class="[ divider-bottom ] [ flow ]">
+				<div>
+					<a class="post-link" href="{{ post.url }}">
+						<h3>{{ post.data.title }}</h3>
+					</a>
+					<time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
 
-          {% set tags = post.data.tags %}
-          <div class="[ tags-wrapper ] [ flow-space-100 ]">
-            {% include "partials/tags.njk" %}
-          </div>
-        </div>
-      </li>
-    {% endfor %}
-  </ol>
+					{% set tags = post.data.tags %}
+					<div class="[ tags-wrapper ] [ flow-space-100 ]">
+						{% include "partials/tags.njk" %}
+					</div>
+				</div>
+			</li>
+		{% endfor %}
+	</ol>
 {% endif %}
