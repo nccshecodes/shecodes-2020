@@ -1,5 +1,4 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1d25df11-0cd2-46a1-a5c1-ed59e202b3a6/deploy-status)](https://app.netlify.com/sites/lucid-kepler-c8b25c/deploys)
-![CI Status](https://github.com/nccshecodes/shecodes-2020/actions/workflows/main.yml/badge.svg)
 
 Project link: [shecodes.dev](https://www.shecodes.dev)
 
