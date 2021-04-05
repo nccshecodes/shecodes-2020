@@ -3,7 +3,7 @@
 
 	<section class="[ collection ] [ panel ]">
 		<h2 id="posts-{{ tagHash }}" class="cat-header">{{ tag }}</h2>
-		<hr class="divider divider--right-col" />
+		<hr class="divider" />
 		<ol class="[ flow ] [ flow-space-400 ]" aria-labelledby="posts-{{ tagHash }}">
 			{% for post in posts | reverse %}
 				<li class="[ divider-bottom ] [ flow ]">
