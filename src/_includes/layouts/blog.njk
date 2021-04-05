@@ -12,35 +12,36 @@
 	<div class="[ blog ] [ wrapper ]">
 
 		{% set latest = collections.blog.slice(-1).pop() %}
-		<section class="[ latest ] [ flow panel ]">
-			<header>
-				<span class="number--primary outline" aria-label="post number">
-					{{ collections.blog | length }}
-				</span>
-				<h2>Latest</h2>
-			</header>
+		<section class="[ flow panel ]" aria-labelledby="section-heading">
 			<article class="[ latest ] [ flow ]">
-				<h3 class="latest__heading">
-					<a href="{{ latest.url }}">{{ latest.data.title }}</a>
-				</h3>
-				<time datetime="{{ latest.data.date }}" >{{ latest.data.date | dateFilter("full") }}</time>
+				<div class="[ article__meta ] [ flow ]">
+					<div>
+						<span class="number--primary outline" aria-label="post number">
+							{{ collections.blog | length }}
+						</span>
+						<h2 id="section-heading">Latest</h2>
+					</div>
+					<h3 class="latest__heading">
+						<a href="{{ latest.url }}">{{ latest.data.title }}</a>
+					</h3>
+					<time datetime="{{ latest.data.date }}" >{{ latest.data.date | dateFilter("full") }}</time>
 
-				{% set tags = latest.data.tags %}
-				{% include "partials/tags.njk" %}
+					{% set tags = latest.data.tags %}
+					{% include "partials/tags.njk" %}
+				</div>
+				<div class="[ article__content ] [ flow ]">
+					{% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
 
-				{% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
-
-				<p class="latest__excerpt">
-					{% if latest.data.excerpt %}
-						{{ latest.data.excerpt }}
-					{% else %}
-						{{ latest.data.metaDesc }}
-					{% endif %}
-				</p>
+					<p class="latest__excerpt">
+						{% if latest.data.excerpt %}
+							{{ latest.data.excerpt }}
+						{% else %}
+							{{ latest.data.metaDesc }}
+						{% endif %}
+					</p>
+				</div>
 			</article>
 		</section>
-
-		<hr class="divider divider--vertical" />
 
 		{% set tag = 'level up' %}
 		{% set posts = helpers.getSiblingContent(collections[tag], latest, 5) %}
