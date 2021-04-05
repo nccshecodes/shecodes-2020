@@ -1,17 +1,17 @@
 .nav {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .nav__list {
-  display: inline-flex;
-  flex-wrap: wrap;
+	display: inline-flex;
+	flex-wrap: wrap;
 
-  > li {
-    padding-bottom: get-size('300');
-    padding-right: get-size('600');
-  }
+	> li {
+		padding-bottom: get-size('300');
+		padding-right: get-size('600');
+	}
 
-  a {
-    text-decoration: none;
-  }
+	a {
+		text-decoration: none;
+	}
 }

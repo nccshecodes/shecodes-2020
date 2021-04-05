@@ -6,77 +6,77 @@ $gorko-base-size: 1rem;
 * All items calculated off base size
 */
 $gorko-size-scale: (
-  'minor': $gorko-base-size * 0.5,
-  'base': $gorko-base-size,
-  '100': $gorko-base-size * 1.424,
-  '200': $gorko-base-size * 1.602,
-  '300': $gorko-base-size * 1.802,
-  '400': $gorko-base-size * 2.027,
-  '500': $gorko-base-size * 2.281,
-  '600': $gorko-base-size * 2.566,
-  '700': $gorko-base-size * 2.887,
-  '800': $gorko-base-size * 3.247,
-  '900': $gorko-base-size * 3.653,
-  'major': $gorko-base-size * 4.11,
+	'minor': $gorko-base-size * 0.5,
+	'base': $gorko-base-size,
+	'100': $gorko-base-size * 1.424,
+	'200': $gorko-base-size * 1.602,
+	'300': $gorko-base-size * 1.802,
+	'400': $gorko-base-size * 2.027,
+	'500': $gorko-base-size * 2.281,
+	'600': $gorko-base-size * 2.566,
+	'700': $gorko-base-size * 2.887,
+	'800': $gorko-base-size * 3.247,
+	'900': $gorko-base-size * 3.653,
+	'major': $gorko-base-size * 4.11,
 );
 
 /**
 * COLORS
 */
 $gorko-colors: (
-  'dark': #241d20,
-  'dark-tint': #666163,
-  'light': #eae7d9,
-  'primary': #910a55,
-  'secondary': #fe8b3c,
-  'secondary-tint': rgba(254, 139, 60, 0.2),
+	'dark': #241d20,
+	'dark-tint': #666163,
+	'light': #eae7d9,
+	'primary': #910a55,
+	'secondary': #fe8b3c,
+	'secondary-tint': rgba(254, 139, 60, 0.2),
 );
 
 /**
 * CORE CONFIG - utility class generation
 */
 $gorko-config: (
-  'bg': (
-    'items': $gorko-colors,
-    'output': 'standard',
-    'property': 'background',
-  ),
-  'color': (
-    'items': $gorko-colors,
-    'output': 'standard',
-    'property': 'color',
-  ),
-  'flow-space': (
-    'items': $gorko-size-scale,
-    'output': 'responsive',
-    'property': '--flow-space',
-  ),
-  'font': (
-    'items': (
-      'base': '"robotolight", Arial, sans-serif',
-      'header': '"roboto_monoregular", monospace',
-      'heavy': '"robotomedium", Arial, sans-serif',
-    ),
-    'output': 'standard',
-    'property': 'font-family',
-  ),
-  'panel-space': (
-    'items': $gorko-size-scale,
-    'output': 'responsive',
-    'property': '--panel-space',
-  ),
-  'spacing-top': (
-    'items': $gorko-size-scale,
-    'output': 'responsive',
-    'property': 'margin-top',
-  ),
-  'text': (
-    'items': $gorko-size-scale,
-    'output': 'responsive',
-    'property': 'font-size',
-  ),
-  'breakpoints': (
-    'md': '(min-width: 37em)',
-    'lg': '(min-width: 62em)',
-  ),
+	'bg': (
+		'items': $gorko-colors,
+		'output': 'standard',
+		'property': 'background',
+	),
+	'color': (
+		'items': $gorko-colors,
+		'output': 'standard',
+		'property': 'color',
+	),
+	'flow-space': (
+		'items': $gorko-size-scale,
+		'output': 'responsive',
+		'property': '--flow-space',
+	),
+	'font': (
+		'items': (
+			'base': '"robotolight", Arial, sans-serif',
+			'header': '"roboto_monoregular", monospace',
+			'heavy': '"robotomedium", Arial, sans-serif',
+		),
+		'output': 'standard',
+		'property': 'font-family',
+	),
+	'panel-space': (
+		'items': $gorko-size-scale,
+		'output': 'responsive',
+		'property': '--panel-space',
+	),
+	'spacing-top': (
+		'items': $gorko-size-scale,
+		'output': 'responsive',
+		'property': 'margin-top',
+	),
+	'text': (
+		'items': $gorko-size-scale,
+		'output': 'responsive',
+		'property': 'font-size',
+	),
+	'breakpoints': (
+		'md': '(min-width: 37em)',
+		'lg': '(min-width: 62em)',
+	),
 );

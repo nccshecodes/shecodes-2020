@@ -5,6 +5,7 @@ module.exports = {
 		'stylelint-config-sass-guidelines',
 	],
 	rules: {
+		indentation: 'tab',
 		'max-nesting-depth': [
 			2,
 			{
