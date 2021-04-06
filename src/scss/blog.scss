@@ -100,11 +100,6 @@ $outputTokenCSS: false;
 		margin-right: 0;
 	}
 
-	.divider-bottom {
-		// applied to <li>
-		border-bottom: solid 1px get-color('dark-tint');
-	}
-
 	.grid-12-col {
 		padding-bottom: get-size('major');
 	}
