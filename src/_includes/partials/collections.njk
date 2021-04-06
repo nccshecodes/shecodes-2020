@@ -4,7 +4,7 @@
 	<section class="[ collection ] [ panel ]">
 		<h2 id="posts-{{ tagHash }}" class="cat-header">{{ tag }}</h2>
 		<hr class="divider" />
-		<ol class="[ flow ] [ flow-space-400 ]" aria-labelledby="posts-{{ tagHash }}">
+		<ol class="[ flow ] [ flow-space-20 ]" aria-labelledby="posts-{{ tagHash }}">
 			{% for post in posts | reverse %}
 				<li class="[ divider-bottom ] [ flow ]">
 					<article>
@@ -14,7 +14,7 @@
 						<time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter("full") }}</time>
 
 						{% set tags = post.data.tags %}
-						<div class="[ tags-wrapper ] [ flow-space-100 ]">
+						<div class="[ tags-wrapper ] [ flow-space-14 ]">
 							{% include "partials/tags.njk" %}
 						</div>
 					</article>

@@ -1,23 +1,22 @@
 $gorko-base-size: 1rem;
 
 /**
-* SIZE SCALE - [Major second scale](https://www.modularscale.com/?62.5&%&1.2)
-* powers all relevant utilities (font-size, margin, padding).
+* Powers all relevant utilities (font-size, margin, padding).
 * All items calculated off base size
 */
 $gorko-size-scale: (
 	'minor': $gorko-base-size * 0.5,
 	'base': $gorko-base-size,
-	'100': $gorko-base-size * 1.424,
-	'200': $gorko-base-size * 1.602,
-	'300': $gorko-base-size * 1.802,
-	'400': $gorko-base-size * 2.027,
-	'500': $gorko-base-size * 2.281,
-	'600': $gorko-base-size * 2.566,
-	'700': $gorko-base-size * 2.887,
-	'800': $gorko-base-size * 3.247,
-	'900': $gorko-base-size * 3.653,
-	'major': $gorko-base-size * 4.11,
+	'14': $gorko-base-size * 1.4,
+	'16': $gorko-base-size * 1.6,
+	'18': $gorko-base-size * 1.8,
+	'20': $gorko-base-size * 2,
+	'22': $gorko-base-size * 2.2,
+	'25': $gorko-base-size * 2.5,
+	'28': $gorko-base-size * 2.8,
+	'32': $gorko-base-size * 3.2,
+	'36': $gorko-base-size * 3.6,
+	'major': $gorko-base-size * 4.2,
 );
 
 /**
@@ -64,11 +63,6 @@ $gorko-config: (
 		'items': $gorko-size-scale,
 		'output': 'responsive',
 		'property': '--panel-space',
-	),
-	'spacing-top': (
-		'items': $gorko-size-scale,
-		'output': 'responsive',
-		'property': 'margin-top',
 	),
 	'text': (
 		'items': $gorko-size-scale,
