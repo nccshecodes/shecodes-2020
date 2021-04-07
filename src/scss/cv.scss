@@ -5,7 +5,7 @@ $outputTokenCSS: false;
 
 dl,
 section {
-	padding-bottom: get-size('900');
+	padding-bottom: get-size('36');
 	position: relative;
 
 	&::before {
@@ -36,7 +36,7 @@ dt {
 		--flow-space: #{get-size('major')};
 		@include apply-utility('font', 'header');
 
-		font-size: get-size('500');
+		font-size: get-size('22');
 		font-weight: bold;
 
 		a:focus,
@@ -117,7 +117,7 @@ dd {
 h2 {
 	@include apply-utility('font', 'heavy');
 
-	font-size: get-size('600');
-	padding-bottom: get-size('400');
-	padding-top: get-size('900');
+	font-size: get-size('25');
+	padding-bottom: get-size('20');
+	padding-top: get-size('36');
 }

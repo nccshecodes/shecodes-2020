@@ -9,35 +9,35 @@
 	<article>
 		{% include "partials/page-title.njk" %}
 		<div class="[ cv__timeline ] [ wrapper ]">
-			<section class="flow flow-space-400">
+			<section class="[ flow ] [ flow-space-20 ]">
 				<h2 id="skill"><span class="bullseye solid"></span>Expertise</h2>
-				<ul aria-labelledby="skill" class="flow flow-space-400">
+				<ul aria-labelledby="skill" class="[ flow ] [ flow-space-20 ]">
 					{% for skill in skills %}
-						<li><span class="bullseye outline"></span>{{ skill }}</li>
+						<li><span class="[ bullseye outline ]"></span>{{ skill }}</li>
 					{% endfor %}
 				</ul>
 
-				<h2 id="language"><span class="bullseye solid"></span>Languages</h2>
-				<ul aria-labelledby="language" class="flow flow-space-400">
+				<h2 id="language"><span class="[ bullseye solid ]"></span>Languages</h2>
+				<ul aria-labelledby="language" class="[ flow ] [ flow-space-20 ]">
 					{% for language in languages %}
-						<li><span class="bullseye outline"></span>{{ language }}</li>
+						<li><span class="[ bullseye outline ]"></span>{{ language }}</li>
 					{% endfor %}
 				</ul>
 
-				<h2 id="framework"><span class="bullseye solid"></span>Frameworks</h2>
-				<ul aria-labelledby="framework" class="flow flow-space-400">
+				<h2 id="framework"><span class="[ bullseye solid ]"></span>Frameworks</h2>
+				<ul aria-labelledby="framework" class="[ flow ] [ flow-space-20 ]">
 					{% for framework in frameworks %}
-						<li><span class="bullseye outline"></span>{{ framework }}</li>
+						<li><span class="[ bullseye outline ]"></span>{{ framework }}</li>
 					{% endfor %}
 				</ul>
 			</section>
 
-			<section class="flow flow-space-400">
-				<h2 id="work-ex"><span class="bullseye solid"></span>Work Experience</h2>
+			<section class="[ flow ] [ flow-space-20 ]">
+				<h2 id="work-ex"><span class="[ bullseye solid ]"></span>Work Experience</h2>
 				<dl aria-labelledby="work-ex" class="flow">
 					{% for job in collections.cv_jobs | reverse %}
 						<dt class="term--primary">
-							<span class="bullseye outline"></span>{{ job.data.name}}
+							<span class="[ bullseye outline ]"></span>{{ job.data.name}}
 						</dt>
 						<dt class="term--meta">
 							<div>
@@ -48,18 +48,18 @@
 						</dt>
 
 						{% for deliverable in job.data.deliverables%}
-							<dd><span class="bullseye bullet"></span>{{ deliverable }}</dd>
+							<dd><span class="[ bullseye bullet ]"></span>{{ deliverable }}</dd>
 						{% endfor %}
 					{% endfor %}
 				</dl>
 			</section>
 
-			<section class="flow flow-space-400">
-				<h2 id="education"><span class="bullseye solid"></span>Education</h2>
+			<section class="[ flow ] [ flow-space-20 ]">
+				<h2 id="education"><span class="[ bullseye solid ]"></span>Education</h2>
 				<dl aria-labelledby="education" class="flow">
 					{% for course in collections.cv_education | reverse %}
 						<dt class="term--primary">
-							<span class="bullseye outline"></span>{{ course.data.course}}
+							<span class="[ bullseye outline ]"></span>{{ course.data.course}}
 						</dt>
 						<dt class="term--meta">
 							<div>
@@ -68,18 +68,18 @@
 							</div>
 						</dt>
 						<dd>
-							<span class="bullseye bullet"></span>{{ course.templateContent | safe }}
+							<span class="[ bullseye bullet ]"></span>{{ course.templateContent | safe }}
 						</dd>
 					{% endfor %}
 				</dl>
 			</section>
 
-			<section class="flow flow-space-400">
-				<h2 id="talks"><span class="bullseye solid"></span>Talks</h2>
+			<section class="[ flow ] [ flow-space-20 ]">
+				<h2 id="talks"><span class="[ bullseye solid ]"></span>Talks</h2>
 				<dl aria-labelledby="talks" class="flow">
 					{% for talk in collections.cv_talks | reverse %}
 						<dt class="term--primary">
-							<span class="bullseye outline"></span>
+							<span class="[ bullseye outline ]"></span>
 							{% if talk.data.link %}
 								<a href="{{ talk.data.link}}">{{ talk.data.title}}</a>
 							{% else %}
@@ -92,8 +92,8 @@
 						</dt>
 
 						<dd>
-							<span class="bullseye bullet"></span>
-							<div class="flow flow-space-400">
+							<span class="[ bullseye bullet ]"></span>
+							<div class="[ flow ] [ flow-space-20 ]">
 								{{ talk.templateContent | safe }}
 							</div>
 						</dd>
@@ -101,17 +101,17 @@
 				</dl>
 			</section>
 
-			<section class="flow flow-space-400">
+			<section class="[ flow ] [ flow-space-20 ]">
 				<h2 id="awards">
-					<span class="bullseye solid"></span>Honours and Awards
+					<span class="[ bullseye solid ]"></span>Honours and Awards
 				</h2>
 				<dl aria-labelledby="awards" class="flow">
 					{% for award in collections.cv_awards | reverse %}
 						<dt class="term--primary">
-							<span class="bullseye outline"></span>{{ award.data.award}}
+							<span class="[ bullseye outline ]"></span>{{ award.data.award}}
 						</dt>
 						{% for detail in award.data.details%}
-							<dd><span class="bullseye bullet"></span>{{ detail }}</dd>
+							<dd><span class="[ bullseye bullet ]"></span>{{ detail }}</dd>
 						{% endfor %}
 					{% endfor %}
 				</dl>

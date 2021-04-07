@@ -5,7 +5,7 @@
 
 // Global styles
 :root {
-	--flow-space: #{get-size('700')};
+	--flow-space: #{get-size('28')};
 	--layout-width: 92.8rem;
 
 	font-size: 62.5%;
@@ -23,7 +23,7 @@ body {
 	color: get-color('dark');
 	display: flex;
 	flex-direction: column;
-	font-size: get-size('400');
+	font-size: get-size('20');
 	letter-spacing: 0.1px;
 	word-spacing: 0;
 }
@@ -42,7 +42,7 @@ a:not([class]) {
 h1 {
 	@include apply-utility('font', 'header');
 
-	font-size: get-size('700');
+	font-size: get-size('28');
 }
 
 h2,
@@ -84,7 +84,7 @@ p > a:focus {
 .fonts-loading {
 	body {
 		font-family: Arial, sans-serif;
-		font-size: get-size('400');
+		font-size: get-size('20');
 		letter-spacing: -1.6px;
 		line-height: 1.5;
 		word-spacing: -1.1px;
@@ -102,7 +102,7 @@ p > a:focus {
 
 	h1,
 	h2 {
-		font-size: get-size('800');
+		font-size: get-size('32');
 		letter-spacing: -0.5px;
 		word-spacing: 0.15px;
 	}
@@ -116,6 +116,7 @@ p > a:focus {
 
 // Import utilities using @import 'utilities/<file-name>';
 @import 'utilities/colour-contrast';
+@import 'utilities/divider';
 @import 'utilities/flow';
 @import 'utilities/no-wrap';
 @import 'utilities/panel';

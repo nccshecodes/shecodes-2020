@@ -61,7 +61,7 @@ $outputTokenCSS: false;
 
 	dt {
 		border-bottom: 2px solid get-color('secondary');
-		font-size: get-size('500');
+		font-size: get-size('22');
 		font-weight: bold;
 	}
 
@@ -85,7 +85,7 @@ $outputTokenCSS: false;
 	}
 
 	.feature {
-		margin-left: -#{get-size('500')};
+		margin-left: -#{get-size('22')};
 		margin-top: 0;
 		max-width: 100vw;
 	}
@@ -96,11 +96,11 @@ $outputTokenCSS: false;
 
 	.post__content ul {
 		list-style: none;
-		padding-left: get-size('800');
+		padding-left: get-size('32');
 	}
 
 	.post__content li {
-		margin-bottom: get-size('100');
+		margin-bottom: get-size('14');
 		position: relative;
 
 		&::before {
@@ -109,13 +109,13 @@ $outputTokenCSS: false;
 			border: 1px solid get-color('secondary');
 			border-radius: 50%;
 			content: '';
-			height: get-size('500');
-			left: -#{get-size('800')};
-			margin-right: get-size('200');
+			height: get-size('22');
+			left: -#{get-size('32')};
+			margin-right: get-size('16');
 			padding: 3px;
 			position: absolute;
 			top: get-size('minor');
-			width: get-size('500');
+			width: get-size('22');
 		}
 	}
 

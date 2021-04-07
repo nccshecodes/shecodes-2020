@@ -16,7 +16,7 @@
 			<article class="[ latest ] [ flow ]">
 				<div class="[ article__meta ] [ flow ]">
 					<div>
-						<span class="number--primary outline" aria-label="blogpost number">
+						<span class="[ number--primary outline ]" aria-label="blogpost number">
 							{{ collections.blog | length }}
 						</span>
 						<h2 id="section-heading">Latest</h2>
@@ -60,7 +60,7 @@
 			<hr class="divider" />
 			<ul class="list-archives" aria-labelledby="arc">
 				{% for tag in collections.tagList %}
-					<li class="[ divider-bottom ] [ panel ] [ panel-space-100 ]">
+					<li class="[ divider-bottom ] [ panel ] [ panel-space-14 ]">
 						<a href="/tag/{{ tag | slug }}/">
 							<span class="number--secondary">{{ collections[ tag ] | length }}</span>
 							<span class="tag">{{ tag }}</span>

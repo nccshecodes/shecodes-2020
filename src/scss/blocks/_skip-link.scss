@@ -4,13 +4,13 @@
 	background-color: get-color('light');
 	border: 4px solid get-color('secondary');
 	color: get-color('dark');
-	left: get-size('300');
+	left: get-size('18');
 	outline: 2px dotted get-color('light');
 	outline-offset: 5px;
-	padding: get-size('200') get-size('300');
+	padding: get-size('16') get-size('18');
 	position: absolute;
 	text-decoration: none;
-	top: get-size('300');
+	top: get-size('18');
 	z-index: 100;
 
 	&:not(:focus) {
