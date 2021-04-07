@@ -1,0 +1,13 @@
+{
+    "default": {
+        "timeout": 5000,
+        "wait": 2000
+    },
+    "urls": [
+        "http://localhost:8080/",
+				"http://localhost:8080/blog/",
+				"http://localhost:8080/nathalie-christmann-cooper-curriculum-vitae/",
+				"http://localhost:8080/contact/",
+				"http://localhost:8080/testing-perceivable-accessibility/"
+    ]
+}
