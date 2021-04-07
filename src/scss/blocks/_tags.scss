@@ -2,11 +2,11 @@
 	display: flex;
 	flex-wrap: wrap;
 	font-size: get-size('14');
-	margin-inline-start: -#{get-size('base')};
+	margin-left: -#{get-size('base')};
 	text-transform: uppercase;
 
 	> * {
-		margin-inline-start: get-size('base');
+		margin-left: get-size('base');
 	}
 
 	a {
