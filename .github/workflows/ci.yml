@@ -27,5 +27,6 @@ jobs:
       - name: Linting
         run: yarn lint
       - name: a11y
-        run: yarn start
-        run: yarn test-pa11y
+        run: |
+          yarn start
+          yarn test-pa11y
