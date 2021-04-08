@@ -22,6 +22,7 @@
 		"sass": "^1.27.0"
 	},
 	"scripts": {
+		"build": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy --serve",
 		"format:check": "prettier --check '**/*.{js,json,md}'",
 		"format:fix": "prettier --write '**/*.{js,json,md}'",
 		"lint": "concurrently 'yarn lint:code' 'yarn lint:style' 'yarn format:check'",
