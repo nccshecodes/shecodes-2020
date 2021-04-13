@@ -14,7 +14,7 @@ title: Be more ostrich
 When I started the Entrepreneurial Spark Sprint programme in 2017, I was introduced to Wally Kozak’s powerful motivational ‘Eagles and Ducks on Leadership’ speech. It’s impressive. Given the choice of being a duck or an eagle, I know which we would all want to be.
 
 <div class="break-right">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/e5jYAVTaopY?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe title="Eagles and Ducks on Leadership" width="560" height="315" src="https://www.youtube.com/embed/e5jYAVTaopY?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 There’s also a story about ‘[Wally the cab driver][1]’ who chooses to be an Eagle. I read it and I can see why it’s a message given to teach about the Entrepreneurial mindset. But I don’t know that I want to be a duck or an eagle.
@@ -30,7 +30,7 @@ When things get tough, as they inevitably do during the startup journey, I’m g
 I don’t want to be a duck. Or an eagle. I am going to be Ostrich.
 
 <div class="break-right">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/wdL3zfxzueQ?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe title="Ostrich" width="560" height="315" src="https://www.youtube.com/embed/wdL3zfxzueQ?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 [1]: http://www.storlietelling.com/2013/08/26/are-you-a-duck-or-an-eagle/
