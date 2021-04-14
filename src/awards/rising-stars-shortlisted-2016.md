@@ -4,4 +4,5 @@ details:
   - Entrepreneur category - Shortlisted
   - Startup - TreatOut
 date: '2016-04-26'
+permalink: false
 ---

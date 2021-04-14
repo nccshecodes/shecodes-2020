@@ -10,4 +10,5 @@ deliverables:
   - UX/UI
   - Digital Marketing
   - Graphics (digital & print)
+permalink: false
 ---

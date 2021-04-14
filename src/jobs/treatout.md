@@ -9,4 +9,5 @@ deliverables:
   - Responsible for PR social outreach
   - Public speaking within tech and academic community
   - Grew network of key partnerships
+permalink: false
 ---

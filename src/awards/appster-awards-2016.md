@@ -5,4 +5,5 @@ details:
   - Finalist - Most Influential Startup
   - Startup - TreatOut
 date: '2016-10-05'
+permalink: false
 ---

@@ -13,4 +13,5 @@ deliverables:
   - Cross-team collaboration
   - Public speaking on diversity & inclusion in tech
   - Networking within the software development community at CodeNode
+permalink: false
 ---
