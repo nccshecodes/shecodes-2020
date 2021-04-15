@@ -1,0 +1,24 @@
+name: pa11y test
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  pa11y:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build
+        run: yarn run production
+      - name: Start server
+        run: cd dist && npx serve && npx wait-on 'http://localhost:5000' &
+      - name: Run pa11y tests
+        run: yarn test-pa11y

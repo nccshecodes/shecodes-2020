@@ -3,6 +3,7 @@ title: From Pantomime Donkey to Unicorn Designer
 event: Fullstack London
 date: '2018-07-11'
 link: https://skillsmatter.com/skillscasts/12009-from-pantomime-donkey-to-unicorn-designer
+permalink: false
 ---
 
 A designer who can code is considered a unicorn. As someone making that transition Nathalie is often quizzed - “Just how tricky is it to switch from designer to developer?” Admittedly, Nathalie sometimes feels more pantomime donkey (with very wobbly back end legs).

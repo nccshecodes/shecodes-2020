@@ -5,4 +5,5 @@ details:
   - Silver - Responsive Website
   - Darenth Valley Golf Course Wordpress Site
 date: '2015-06-23'
+permalink: false
 ---

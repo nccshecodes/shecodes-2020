@@ -2,6 +2,7 @@
 course: Startup Campus For Mums
 provider: Google Campus London
 date: '2015-10-07'
+permalink: false
 ---
 
 9 week baby friendly startup school for founders at the start of their entrepreneurial

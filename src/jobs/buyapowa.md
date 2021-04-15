@@ -7,4 +7,5 @@ deliverables:
   - Building React internal CRM product
   - Building React components from Zeplin design templates based on atomic design principles
   - Implementing accessibility improvements to Rails core product
+permalink: false
 ---

@@ -8,4 +8,5 @@ deliverables:
   - Contributor to Design System in Svelte and React
   - Accessibility champion
   - Contributor to Accessibility and Performance working groups
+permalink: false
 ---
