@@ -1,4 +1,5 @@
 const dateFilter = require('./src/filters/date-filter.js');
+const isoDateFilter = require('./src/filters/isodate-filter.js');
 const imageShortcode = require('./src/shortcodes/image.js');
 const mdIt = require('markdown-it');
 const mdDeflist = require('markdown-it-deflist');
@@ -11,6 +12,7 @@ module.exports = (config) => {
 	config.addPassthroughCopy('./src/sitemap.xml');
 	// add filters
 	config.addFilter('dateFilter', dateFilter);
+	config.addFilter('isoDateFilter', isoDateFilter);
 
 	// Shortcodes
 	config.addNunjucksAsyncShortcode('imageShortcode', imageShortcode);
