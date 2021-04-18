@@ -9,7 +9,7 @@ module.exports = (config) => {
 	// Set directories to pass through to the dist folder
 	config.addPassthroughCopy('./src/fonts/');
 	config.addPassthroughCopy('./src/images/static/');
-	config.addPassthroughCopy('./src/sitemap.xml');
+
 	// add filters
 	config.addFilter('dateFilter', dateFilter);
 	config.addFilter('isoDateFilter', isoDateFilter);
@@ -55,6 +55,10 @@ module.exports = (config) => {
 				.forEach((tag) => tagsSet.add(tag));
 		});
 		return Array.from(tagsSet).sort();
+	});
+
+	config.addCollection('sitemap', (collection) => {
+		return collection.getAll().filter((item) => item.url !== false);
 	});
 
 	config.setUseGitIgnore(false);
