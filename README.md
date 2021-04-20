@@ -83,19 +83,18 @@ This example is taken from the `blog template` to generate the feature image:
 {% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
 
 Output =>
-<picture class="latest__image">
-  <source type="image/webp" srcset="/images/aeeca916-640.webp 640w, /images/aeeca916-1280.webp 1280w, /images/aeeca916-1920.webp 1920w" sizes="(min-width: 62em) 612px, 100vw">
-<source type="image/jpeg" srcset="/images/aeeca916-640.jpeg 640w, /images/aeeca916-1280.jpeg 1280w, /images/aeeca916-1920.jpeg 1920w" sizes="(min-width: 62em) 612px, 100vw">
-      <img src="/images/aeeca916-640.jpeg" width="640" height="360" alt="my image alt text." loading="lazy" decoding="async">
+  <picture class="latest__image">
+    <source type="image/jpeg" srcset="/images/brain-640.jpg 640w, /images/brain-1280.jpg 1280w" sizes="(min-width: 62em) 612px, 100vw">
+      <img src="/images/brain-640.jpg" width="640" height="393" alt="my image alt text." loading="lazy" decoding="async">
   </picture>
 ```
 
-| Argument | Default | Required | Description                                                                                                                                                           |
-| -------- | ------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| src      | -       | Y        | Relative path to original image.                                                                                                                                      |
-| alt      | -       | Y        | Alt text. Set null attr with `""`.                                                                                                                                    |
-| classes  | ""      | -        | Add CSS classes to the generated `<picture>` element.                                                                                                                 |
-| sizes    | "100vw" | -        | Value for the [sizes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) attribute. |
+| Argument | Default | Required | Description                                                                                                                                                            |
+| -------- | ------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| src      | -       | Y        | Relative path to original image.                                                                                                                                       |
+| alt      | -       | Y        | Alt text. Set null attr with `""`.                                                                                                                                     |
+| classes  | ""      | -        | Add CSS classes to the generated `<picture>` element.                                                                                                                  |
+| sizes    | "100vw" | -        | Values for the [sizes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) attribute. |
 
 - Outputs multiple images in 3 widths - `640px`, `1280px` and `1920px` - which are saved directly to the `dist` directory.
 - ~~Outputs two formats - `jpeg` and `WebP`.~~
@@ -104,7 +103,7 @@ Output =>
 
 The generated `picture` element:
 
-- provides a jpeg fallback where `WebP` is not supported
+- ~~provides a jpeg fallback where `WebP` is not supported~~ currently only outputs jpeg
 - uses native lazyload.
 
 ### Styling
@@ -140,6 +139,14 @@ Is included using a `link` element.
 Formatting is managed by [Prettier](https://prettier.io/).
 
 Code-quality is managed by [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/).
+
+### Accessibility
+
+Github action workflow `pa11y.yml` is triggered on each new PR. It runs CI accessibility tests against urls taken from an auto generated `sitemap.xml` managed by [pa11y](https://github.com/pa11y/pa11y-ci).
+
+#### Note
+
+Automated accessibility testing does not catch all errors. Manual testing is required also.
 
 ### Typechecking
 
