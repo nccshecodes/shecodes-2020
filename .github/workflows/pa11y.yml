@@ -14,6 +14,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+      - name: Disable TCP/UDP Offloading (Linux)
+        run: sudo ethtool -K eth0 tx off rx off
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build
