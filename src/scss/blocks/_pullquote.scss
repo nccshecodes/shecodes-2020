@@ -1,6 +1,25 @@
-.quotemark {
+blockquote,
+.pullquote,
+.quote {
 	display: block;
-	fill: rgba(0, 0, 0, 0.2);
-	margin-left: auto;
-	width: 5em;
+	font-weight: bold;
+	position: relative;
+
+	&::before {
+		color: get-color('secondary');
+		content: '\2019\2019';
+		display: block;
+		font-family: serif;
+		font-size: 60rem;
+		left: -110px;
+		letter-spacing: -6.25rem;
+		opacity: 0.2;
+		position: absolute;
+		top: -262px;
+		z-index: -1;
+	}
+
+	&.repeated {
+		display: none;
+	}
 }

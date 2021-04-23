@@ -6,9 +6,11 @@ $outputTokenCSS: false;
 @import 'blocks/pullquote';
 
 img {
-	--flow-space: #{get-size('major')};
-
 	border-bottom: 10px solid get-color('secondary');
+}
+
+picture {
+	display: block;
 }
 
 .article__content {

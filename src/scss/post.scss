@@ -5,6 +5,7 @@ $outputTokenCSS: false;
 
 @import 'blocks/tags';
 @import 'blocks/grid-12-col';
+@import 'blocks/pullquote';
 
 .post {
 	padding-bottom: get-size('major');
@@ -116,32 +117,6 @@ $outputTokenCSS: false;
 			position: absolute;
 			top: get-size('minor');
 			width: get-size('22');
-		}
-	}
-
-	blockquote,
-	.pullquote,
-	.quote {
-		display: block;
-		font-weight: bold;
-		position: relative;
-
-		&::before {
-			color: get-color('secondary');
-			content: '\2019\2019';
-			display: block;
-			font-family: serif;
-			font-size: 60rem;
-			left: -110px;
-			letter-spacing: -6.25rem;
-			opacity: 0.2;
-			position: absolute;
-			top: -262px;
-			z-index: -1;
-		}
-
-		&.repeated {
-			display: none;
 		}
 	}
 }

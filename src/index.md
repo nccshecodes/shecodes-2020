@@ -15,7 +15,7 @@ title: Hi, I'm Nathalie
 
 ## Getting started
 
-There was never a grand plan to become a developer, it just happened. I was juggling being mum with working from home at the time when small businesses really needed to have an online presence to survive. We needed a website for our home business and we didn't have a budget to pay a professional. So I sat at the kitchen table, ploughed my way through tutorial after tutorial and built my first website. It seemed a pretty good fit to upskills my graphics background and for some reason I enjoyed pulling my hair out night after night, just for that one moment when finally, the code would just work. Over time I started building sites for friends and local small businesses, winning two awards for a responsive website.
+There was never a grand plan to become a developer, it just happened. I was juggling being mum with working from home at the time when small businesses really needed to have an online presence to survive. We needed a website for our home business and we didn't have a budget to pay a professional. So I sat at the kitchen table, ploughed my way through tutorial after tutorial and built my first website. It seemed a pretty good fit to upskills my graphics background and I actually enjoyed pulling my hair out night after night just for that one moment when finally, the code would just work. Over time I started building sites for friends and local small businesses, winning two awards for a responsive website.
 
 Then I watched the BBC Girls Can Code and that changed everything. I wanted to be working in a tech startup. So I formed food tech startup TreatOut in September 2015 bagging a place on the Google Campus for Mums Startup Programme.
 
@@ -29,9 +29,9 @@ It was hard work getting that first junior position at Skills Matter, the recrui
 
 ## And now
 
-It's 2020 and I'm half way through my third year of working in tech. I've stepped away from working fullstack to focus on Front End development and enjoying life as a Software Engineer at Zoopla.
+I've now notched up three years of working in tech. I've stepped away from working fullstack to focus on Front End development and I'm enjoying life as a Software Engineer at Zoopla.
 
-Lockdown and a return to working from home has given me extra time to keep learning. I've decided to concentrate for now on accessibility, and with a little influence from some of my colleagues, I've started looking at web performance too.
+Lockdown and a return to working from home gave me extra time to keep learning. I've become an accessibility advocate, and with a little influence from some of my colleagues, I've started looking at web performance too.
 
 The startup journey was not easy and I made the difficult decision to resign from TreatOut in May 2019. I gathered my thoughts rebranding as myFeastOut and gave myself time to recover from burnout. Perhaps I'll pick up the project again, but I'm not there yet.
 
