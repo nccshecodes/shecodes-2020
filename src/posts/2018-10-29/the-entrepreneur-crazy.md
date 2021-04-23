@@ -7,7 +7,7 @@ metaDesc: >
 metaTitle: The Entrepreneur Crazy
 socialImage: office-wall
 tags:
-  - soapbox
+  - grit
   - startup
 title: The entrepreneur 'crazy'
 ---
