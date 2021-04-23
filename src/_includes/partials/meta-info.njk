@@ -10,6 +10,8 @@
 
 {% if socialImage %}
 	{% set socialImageLink = site.url + '/images/' + socialImage + '-1280.jpg' %}
+{% else %}
+  {% set socialImageLink = site.url + '/images/static/meta/nathalie-christmann-cooper.png' %}
 {% endif %}
 
 {% if metaTitle %}
