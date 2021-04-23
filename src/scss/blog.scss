@@ -36,6 +36,12 @@ $outputTokenCSS: false;
 
 	a {
 		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+			text-decoration-style: dotted;
+		}
 	}
 
 	h2 {
@@ -115,6 +121,25 @@ $outputTokenCSS: false;
 		}
 	}
 
+	.list-archives {
+		text-transform: capitalize;
+
+		a {
+			align-items: center;
+			display: flex;
+			justify-content: space-between;
+
+			&:focus {
+				outline-color: get-color('dark');
+			}
+		}
+
+		.tag {
+			flex: 1 0 auto;
+			padding-left: get-size('16');
+		}
+	}
+
 	.latest__heading {
 		font-size: get-size('32');
 	}
@@ -124,30 +149,6 @@ $outputTokenCSS: false;
 
 		img {
 			object-fit: cover;
-		}
-	}
-
-	.list-archives {
-		text-transform: capitalize;
-
-		a {
-			align-items: center;
-			display: flex;
-			justify-content: space-between;
-		}
-
-		.tag {
-			flex: 1 0 auto;
-			padding-left: get-size('16');
-		}
-	}
-
-	.latest__heading a,
-	.post-link {
-		&:hover,
-		&:focus {
-			text-decoration: underline;
-			text-decoration-style: dotted;
 		}
 	}
 
