@@ -1,10 +1,12 @@
 {
 	"concurrency": 1,
-	"default": {
+	"defaults": {
 		"chromeLaunchConfig": {
-			"args": ["--no-sandbox"],
-			"ignoreHTTPSErrors": false,
-			 },
+			"args": [
+				"--no-sandbox"
+			],
+			"ignoreHTTPSErrors": false
+		},
 		"timeout": 5000,
 		"wait": 2000
 	}
