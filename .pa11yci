@@ -1,7 +1,8 @@
 {
 	"concurrency": 1,
 	"default": {
-	"timeout": 5000,
+		"chromeLaunchConfig": { "ignoreHTTPSErrors": false },
+		"timeout": 5000,
 		"wait": 2000
 	}
 }
