@@ -8,7 +8,7 @@ $outputTokenCSS: false;
 
 .blog {
 	@include media-query('lg') {
-		aside {
+		.aside {
 			padding-right: get-size('major');
 			width: 40%;
 		}
