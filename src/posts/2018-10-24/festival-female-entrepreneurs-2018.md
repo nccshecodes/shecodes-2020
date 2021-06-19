@@ -19,7 +19,13 @@ My biggest prize claim to date was a set of tea plates in a harvest festival vil
 The competition asked you to tweet your most inspirational quote, and for me, this was it:
 
 <div class="break-right">
-  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">“Feel the fear and do it anyway.” - That line was so powerful I didn’t need to read the book. It’s been my motto ever since I first spotted it on my dad’s bookshelf as a teen. Reminds me we all get imposter syndrome. So don’t let it stop you.</p>&mdash; Nathalie (@she_codes) <a href="https://twitter.com/she_codes/status/1040334204607897600?ref_src=twsrc%5Etfw">September 13, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <blockquote class="tweet" cite="https://twitter.com/she_codes/status/1040334204607897600">
+    <p>“Feel the fear and do it anyway.” - That line was so powerful I didn’t need to read the book. It’s been my motto ever since I first spotted it on my dad’s bookshelf as a teen. Reminds me we all get imposter syndrome. So don’t let it stop you.</p>
+    {% imageShortcode 'src/posts/2018-10-24/FFE18-competition.jpg', 'Festival of Female Entrepreneurs by Enterprise Nation Friday 19 October. Terms and conditions apply.' %}
+    <cite>
+      &mdash; Nathalie (@she_codes) September 13, 2018
+    </cite>
+  </blockquote>
 </div>
 
 That's how I came to find myself at #FFE18 with my co-founder Tracey, and what a conference it turned out to be. The timing was perfect. Now I'm settled in at my day job,  I'm all set to continue where we left off with our startup [TreatOut][1]. So with my startup hat on, here's my pick of best takeaways from the day.
@@ -33,7 +39,13 @@ That's how I came to find myself at #FFE18 with my co-founder Tracey, and what a
 Jaya's closing words were for us to understand that no matter how small, we all have 'enormous latent power' within us, a voice that we can use to be heard. If you are told that you can't, don't let that stop you from doing something good. To find out more about her transparency work, you can join her anti-slavery &#8216;rebel alliance' at [tiscreport.org.][3]
 
 <div class="break-right">
-  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">“Absorb this quote” <a href="https://twitter.com/jayacg?ref_src=twsrc%5Etfw">@jayacg</a> tells our room of female entrepreneurs! <a href="https://twitter.com/hashtag/FFE18?src=hash&amp;ref_src=twsrc%5Etfw">#FFE18</a> <a href="https://t.co/DchQNTJuc0">pic.twitter.com/DchQNTJuc0</a></p>&mdash; Enterprise Nation (@e_nation) <a href="https://twitter.com/e_nation/status/1053218479329959937?ref_src=twsrc%5Etfw">October 19, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <blockquote class="tweet" cite="https://twitter.com/e_nation/status/1053218479329959937">
+    <p>“Absorb this quote” @jayacg tells our room of female entrepreneurs! #FFE18</p>
+    {% imageShortcode 'src/posts/2018-10-24/jaya.jpeg', 'Jaya on stage with slide backdrop which reads: Man who say it cannot be done should not interrupt woman doing it' %}
+    <cite>
+      &mdash; Enterprise Nation (@e_nation) October 19, 2018
+    </cite>
+  </blockquote>
 </div>
 
 ## Money and mentors

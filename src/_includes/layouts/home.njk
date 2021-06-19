@@ -7,10 +7,10 @@
 	<article>
 		{% include "partials/page-title.njk" %}
 		<div class="[ article__content ] [ panel ]">
-			<aside class="[ intro ] [ flow panel wrapper ]">
+			<div class="[ intro ] [ flow panel wrapper ]">
 				<p class="quote">{{ pullQuote | safe }}</p>
 				{% imageShortcode "src/images/nathalie_christmann_cooper.jpg", "me laughing" %}
-			</aside>
+			</div>
 			<div class="[ main-content ] [ flow panel wrapper ]">
 				{{ content | safe }}
 			</div>
