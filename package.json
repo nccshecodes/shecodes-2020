@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^7.21.0",
-		"eslint-config-prettier": "^8.1.0",
+		"eslint-config-prettier": "^8.3.0",
 		"husky": "^6.0.0",
 		"lint-staged": "^11.0.0",
 		"pa11y-ci": "^2.4.0",
