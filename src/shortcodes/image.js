@@ -27,9 +27,7 @@ module.exports = async (src, alt, classes = '', sizes = '100vw') => {
 	return `<picture class="${classes}">
   ${Object.values(metadata)
 		.map((imageFormat) => {
-			return `<source type="${
-				imageFormat[0].sourceType
-			}" srcset="${imageFormat
+			return `<source type="${imageFormat[0].sourceType}" srcset="${imageFormat
 				.map((entry) => entry.srcset)
 				.join(', ')}" sizes="${sizes}">`;
 		})
