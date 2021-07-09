@@ -9,9 +9,9 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // An array of outputs that should be sent over to includes
 // eg. const criticalStyles = ['critical.scss', 'home.scss', 'page.scss', 'work-item.scss'];
-const criticalStyles = [
+const siteCriticalStyles = [
+	'site.scss',
 	'blog.scss',
-	'critical.scss',
 	'cv.scss',
 	'home.scss',
 	'post.scss',
@@ -30,7 +30,7 @@ const calculateOutput = ({ history }) => {
 	// If this is critical CSS though, we want it to go
 	// to the _includes directory, so nunjucks can include it
 	// directly in a <style>
-	if (criticalStyles.includes(sourceFileName)) {
+	if (siteCriticalStyles.includes(sourceFileName)) {
 		response = './src/_includes/css';
 	}
 
