@@ -3403,10 +3403,10 @@ gonzales-pe@^4.3.0:
   dependencies:
     minimist "^1.2.5"
 
-gorko@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/gorko/-/gorko-0.4.1.tgz#6a8a5f9741eaaf0aaa48f024dd942a7aeb6f82a8"
-  integrity sha512-uZkONGM+i6axrvNgMY1lxXyrbUFW4LgqALiOWCFeEdJyeARnDzZ4eGzR8i6tjpUBeVnOAPjgYgBe9r8gXKG7Og==
+gorko@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/gorko/-/gorko-0.7.1.tgz#e3c6dc81d7de6d0cc7961fe3f41bfdfa3b13c26c"
+  integrity sha512-Tonwb/arx6j42KQfA4ym+Q/IxWY1svLl8AXnzqLXW/DaQ/z8N1qAV4T9Nbl+Pb0ilvQy+5QNl7+Cu3RjRASYyg==
   dependencies:
     sass "^1.26.5"
 
