@@ -29,11 +29,11 @@ which translates to <i>live code test under observation</i>. I ask, bearing in m
 
 "Can I have a choice of interview? I perform better if I can complete a take home test rather than a live coding challenge."{.quote}
 
-The answer is usually no. The reason given is that people spend too long to complete a take home test often spending 8 - 9 hours on a test, even if the instructions are to spend no more than let's say 2 hours. Whereas the live coding session is only 1 hour. Much better use of your time.
+The answer is usually no. The reason given is that people spend too long to complete a take home test often spending 8 - 9 hours, even if the instructions are to spend no more than let's say 2 hours. Whereas the live coding session is only 1 hour. Much better use of your time.
 
-"Ah ok" I say. Knowing full well that this presented version of reality couldn't be further away from the truth. You see, I carried out a quick research online, to see how other people prepare for these tests which, if I am completely honest strikes the fear of god in me. I am a rabbit frozen in car headlights. I might as well have doughnuts stuck on the end of my fingers.
+"Ah ok" I say. Knowing full well that this presented version of reality couldn't be further away from the truth. You see, I carried out a quick research online, to see how other people prepare for these tests which, if I am completely honest strikes the fear of god in me. I am a rabbit frozen in car headlights. I might as well have a doughnut for a brain.
 
-People that have to prepare for a job at one of the big name companies will spend hours and hours, month after month, cramming and practicing well into the early hours often on top of a day job. Just to pass that technical test. That can often cover topics that you don't actually use in your day to day job. So this becomes revising for an exam. Learning techniques on how to pass this exam. And not only that, you have to do it within a certain time limit. A very short time limit. I've worked out that if I wanted to commit these kind of tasks to memory I'd need to prepare for at least 6 months. Trying to fit this around other commitments of my day job, my family and helping to run a busy household. That's not one hour now, is it?
+People that have to prepare for a job at one of the big name companies will spend hours and hours, month after month, cramming and practicing into the early hours. This is on top of a day job. Just to pass that technical test. A test that can often cover topics that you don't actually use day to day. So this becomes revising for an exam. Learning techniques on how to pass this exam. And not only that, you have to do it within a certain time limit. A very short time limit. I've worked out that if I wanted to commit these kind of tasks to memory I'd need to prepare for at least 6 months. Trying to fit this around other commitments of my day job, my family and helping to run a busy household. That's not one hour now, is it?
 
 I have never successfully completed this type of challenge.
 
@@ -49,9 +49,9 @@ I have only been successful once with this type of challenge.
 
 "The technical stage is a take home test."{.quote .break-full}
 
-Now this I don't mind so much. If I want to spend longer on it that's my choice. I usually do take longer, but only because I want to make sure I'm giving it my best shot. I remember one interview process where apparently I "smashed the take home challenge". Nice. Then they tagged on an unexpected paring session as part of the final stage. Of course, I failed.
+Now this I don't mind so much. If I want to spend longer on it that's my choice. I usually do take longer, but only because I want to make sure I'm giving it my best shot. I remember one interview process where apparently I "smashed the take home challenge". Nice. They then tagged on an unexpected paring session as part of the final stage. Of course, I failed.
 
-The one time this did go well for me was when the test was used as content for the next stage, digging into the <em>whys</em> behind the technical choices, and what else might have achieved with more time. It gave me a chance to get a feel for what day to day might look like at that particular company. Did I feel comfortable with how I was challenged? Was I able to challenge back? Was the conversation constructive?
+The one time this did go well for me was when the test was used as content for the next stage, digging into the <em>whys</em> behind the technical choices, and what else I might have achieved with more time. It gave me a chance to get a feel for what day to day might look like at that particular company. Did I feel comfortable with how I was challenged? Was I able to challenge back? Was the conversation constructive?
 
 The other interviews? Well, most of the time I didn't get a response which I guess means it wasn't what they were looking for. But feedback is rare so I can only guess.
 
