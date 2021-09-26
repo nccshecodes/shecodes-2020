@@ -29,13 +29,13 @@ which translates to <i>live code test under observation</i>. I ask, bearing in m
 
 "Can I have a choice of interview? I perform better if I can complete a take home test rather than a live coding challenge."{.quote}
 
-The answer is usually no. The reason given is that people spend too long to complete a take home test often spending 8 - 9 hours, even if the instructions are to spend no more than let's say 2 hours. Whereas the live coding session is only 1 hour. Much better use of your time.
+The answer is usually no. The reason given is that people spend too long to complete a take home test often spending 8 - 9 hours, even if the instructions are to spend no more than let's say 2 hours. Whereas the live coding session is only 1 hour. "Much better use of your time".
 
-"Ah ok" I say. Knowing full well that this presented version of reality couldn't be further away from the truth. You see, I carried out a quick research online, to see how other people prepare for these tests which, if I am completely honest strikes the fear of god in me. I am a rabbit frozen in car headlights. I might as well have a doughnut for a brain.
+"Ah ok" I say. Knowing full well that this presented version of reality couldn't be further away from the truth. You see, I carried out research, to see how other people prepare for these tests which, if I am completely honest put the fear of god in me. I am a rabbit frozen in car headlights. I might as well have a doughnut for a brain.
 
-People that have to prepare for a job at one of the big name companies will spend hours and hours, month after month, cramming and practicing into the early hours. This is on top of a day job. Just to pass that technical test. A test that can often cover topics that you don't actually use day to day. So this becomes revising for an exam. Learning techniques on how to pass this exam. And not only that, you have to do it within a certain time limit. A very short time limit. I've worked out that if I wanted to commit these kind of tasks to memory I'd need to prepare for at least 6 months. Trying to fit this around other commitments of my day job, my family and helping to run a busy household. That's not one hour now, is it?
+People that have to prepare for a job at one of the big name companies will spend hours and hours, month after month, cramming and practicing into the early hours. This is on top of a day job. Just to pass that technical test. A test that can often cover topics that you don't actually use day to day. So this becomes revision for an exam. Learning techniques on how to pass this exam. And not only that, you have to do it within a certain time limit. A very short time limit. I've worked out that if I wanted to commit these kind of tasks to memory I'd need to prepare for at least 6 months. Trying to fit this around other commitments of my day job, my family and helping to run a busy household. That's not one hour now, is it?
 
-I have never successfully completed this type of challenge.
+<strong>I have never successfully completed this type of challenge.</strong>
 
 ### Scenario two:
 
@@ -43,7 +43,7 @@ I have never successfully completed this type of challenge.
 
 That does sound better, but I'm not going to lie, I will still get total brain freeze, I just don't perform under those conditions.
 
-I have only been successful once with this type of challenge.
+<strong>I have only been successful once with this type of challenge.</strong>
 
 ### Scenario three:
 
@@ -65,7 +65,7 @@ So look, what if there is no technical test? If you're a junior, have you alread
 
 This is what my last two interviews looked like. And they happened when I wasn't looking for another job. So I had no time to prepare and get myself in interview mode. And guess what?
 
-<em>I got offers. From both of them.</em>
+<strong>I got offers. From both of them.</strong>
 
 ### Give a choice
 
