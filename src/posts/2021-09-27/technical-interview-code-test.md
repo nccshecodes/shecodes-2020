@@ -25,13 +25,15 @@ Interesting observation because, usually the conversation will start something a
 
 "The interview process will involve a pairing session with one/two of our engineers working on a technical challenge" {.quote .break-full}
 
-which translates to <i>live code test under observation</i>. I ask, bearing in mind that the conversation started around my 'diverse' profile,
+which translates to <i>live code test under observation</i>.
+
+I ask, bearing in mind that the conversation started around my 'diverse' profile,
 
 "Can I have a choice of interview? I perform better if I can complete a take home test rather than a live coding challenge."{.quote}
 
 The answer is usually no. The reason given is that people spend too long to complete a take home test often spending 8 - 9 hours, even if the instructions are to spend no more than let's say 2 hours. Whereas the live coding session is only 1 hour. "Much better use of your time".
 
-"Ah ok" I say. Knowing full well that this presented version of reality couldn't be further away from the truth. You see, I carried out research, to see how other people prepare for these tests which, if I am completely honest put the fear of god in me. I am a rabbit frozen in car headlights. I might as well have a doughnut for a brain.
+"Ah ok" I say. Knowing full well that this presented version of reality couldn't be further away from the truth. You see, I carried out research to see how other people prepare for these tests which if I am completely honest put the fear of god in me. I am a rabbit frozen in car headlights. I might as well have a doughnut for a brain.
 
 People that have to prepare for a job at one of the big name companies will spend hours and hours, month after month, cramming and practicing into the early hours. This is on top of a day job. Just to pass that technical test. A test that can often cover topics that you don't actually use day to day. So this becomes revision for an exam. Learning techniques on how to pass this exam. And not only that, you have to do it within a certain time limit. A very short time limit. I've worked out that if I wanted to commit these kind of tasks to memory I'd need to prepare for at least 6 months. Trying to fit this around other commitments of my day job, my family and helping to run a busy household. That's not one hour now, is it?
 
@@ -39,11 +41,11 @@ People that have to prepare for a job at one of the big name companies will spen
 
 ### Scenario two:
 
-"The pairing session is going to be much more relaxed, with a simple list of tasks, we're not trying to trick you, we just want to get a feel for how you communicate, see what your thought process are."{.quote .break-full}
+"The pairing session is going to be much more relaxed with a simple list of tasks. We're not trying to trick you, we just want to get a feel for how you communicate. To see what your thought processes are."{.quote .break-full}
 
-That does sound better, but I'm not going to lie, I will still get total brain freeze, I just don't perform under those conditions.
+That does sound better. But I'm not going to lie, I will still get total brain freeze. I just don't perform well under those conditions.
 
-<strong>I have only been successful once with this type of challenge.</strong>
+<strong>I have been successful only once with this type of challenge.</strong>
 
 ### Scenario three:
 
@@ -51,19 +53,21 @@ That does sound better, but I'm not going to lie, I will still get total brain f
 
 Now this I don't mind so much. If I want to spend longer on it that's my choice. I usually do take longer, but only because I want to make sure I'm giving it my best shot. I remember one interview process where apparently I "smashed the take home challenge". Nice. They then tagged on an unexpected paring session as part of the final stage. Of course, I failed.
 
-The one time this did go well for me was when the test was used as content for the next stage, digging into the <em>whys</em> behind the technical choices, and what else I might have achieved with more time. It gave me a chance to get a feel for what day to day might look like at that particular company. Did I feel comfortable with how I was challenged? Was I able to challenge back? Was the conversation constructive?
+The one time this did go well for me was when the test was used as content for the next stage. Digging into the <em>whys</em> behind the technical choices and what else I might have achieved with more time. It gave me a chance to get a feel for what day to day might look like at this particular company. Did I feel comfortable with how I was challenged? Was I able to challenge back? Was the conversation constructive?
 
-The other interviews? Well, most of the time I didn't get a response which I guess means it wasn't what they were looking for. But feedback is rare so I can only guess.
+The other interviews? Well, as a junior most of the time I didn't get a response which I guess means it wasn't what they were looking for. But feedback is rare so I can only guess.
+
+To the few who did take the time to offer feedback, thank you. Each of you helped me to keep the rejection in perspective and work on making the next submission stronger.
 
 ### Scenario four:
 
 "There is no technical test" {.quote .break-full}
 
-Did I just hear that correctly? Yes I did. There's a new contender on the block. Some companies are starting to listen. Even experienced senior developers can fail live code tests. It can cause the candidate undue stress and anxiety. The issue over how much time each person spends on a take home challenge varies. Is someone who is time short, whether that's because of family or day job commitments, disadvantaged against someone who has no other ties?
+Did I just hear that correctly? Yes I did. This isn't a new contender on the block, in fact 50% of the jobs where I've been successful at interview were this format. Some companies are starting to listen. Even experienced senior developers can fail live code tests. It can cause the candidate undue stress and anxiety. The issue over how much time each person spends on a take home challenge varies. Is someone who is time short, whether that's because of family or day job commitments, disadvantaged against someone who has no other ties?
 
 So look, what if there is no technical test? If you're a junior, have you already got side projects that can be shared and discussed, perhaps on a github account? What if the experience listed on your CV is enough, you're already employed as a developer, right? How about if the interview process is conversational. Not one piece of code in sight. Let's discuss some of the challenges you've had. Or talk about your proudest achievements. Talk me through your CV.
 
-This is what my last two interviews looked like. And they happened when I wasn't looking for another job. So I had no time to prepare and get myself in interview mode. And guess what?
+This is what my last two reent interviews looked like. And they happened when I wasn't looking for another job. I had no time to prepare and get myself in interview mode. And guess what?
 
 <strong>I got offers. From both of them.</strong>
 
