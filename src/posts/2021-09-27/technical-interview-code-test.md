@@ -55,7 +55,7 @@ Now this I don't mind so much. If I want to spend longer on it that's my choice.
 
 The one time this did go well for me was when the test was used as content for the next stage. Digging into the <em>whys</em> behind the technical choices and what else I might have achieved with more time. It gave me a chance to get a feel for what day to day might look like at this particular company. Did I feel comfortable with how I was challenged? Was I able to challenge back? Was the conversation constructive?
 
-The other interviews? Well, as a junior most of the time I didn't get a response which I guess means it wasn't what they were looking for. But feedback is rare so I can only guess.
+The other interviews? Well, as a junior most of the time I didn't get a response which I guess means that the submission wasn't what they were looking for. But feedback is rare so I can only guess.
 
 To the few who did take the time to offer feedback, thank you. Each of you helped me to keep the rejection in perspective and work on making the next submission stronger.
 
@@ -67,7 +67,7 @@ Did I just hear that correctly? Yes I did. This isn't a new contender on the blo
 
 So look, what if there is no technical test? If you're a junior, have you already got side projects that can be shared and discussed, perhaps on a github account? What if the experience listed on your CV is enough, you're already employed as a developer, right? How about if the interview process is conversational. Not one piece of code in sight. Let's discuss some of the challenges you've had. Or talk about your proudest achievements. Talk me through your CV.
 
-This is what my last two reent interviews looked like. And they happened when I wasn't looking for another job. I had no time to prepare and get myself in interview mode. And guess what?
+This is what two recent interviews looked like. And they happened when I wasn't looking for another job. I had no time to prepare and get myself in interview mode. And guess what?
 
 <strong>I got offers. From both of them.</strong>
 
