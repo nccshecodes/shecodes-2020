@@ -9,7 +9,7 @@
 {% set currentUrl = site.url + page.url %}
 
 {% if socialImage %}
-	{% set socialImageLink = site.url + '/images/' + socialImage + '-1280.jpg' %}
+	{% set socialImageLink = site.url + '/images/' + socialImage + '-1280.jpeg' %}
 {% else %}
   {% set socialImageLink = site.url + '/images/static/meta/nathalie-christmann-cooper.png' %}
 {% endif %}
@@ -28,20 +28,15 @@
 <meta property="og:title" content="{{ pageTitle }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ currentUrl }}" />
+<meta property="og:description" content="{{ metaDesc }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="{{ socialImageLink }}" />
 
 {% if socialImageLink %}
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="og:image" content="{{ socialImageLink }}" />
-	<meta name="twitter:image" content="{{ socialImageLink }}" />
-	<meta property="og:image:alt" content="Page image for {{ site.name }}" />
-	<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+	<meta property="og:image:alt" content="{{ featureImageAlt }}" />
 {% endif %}
 
-
 <meta name="description" content="{{ metaDesc }}" />
-<meta name="twitter:description" content="{{ metaDesc }}" />
-<meta property="og:description" content="{{ metaDesc }}" />
-
 
 <link
 	rel="apple-touch-icon"
