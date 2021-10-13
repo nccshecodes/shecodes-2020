@@ -84,6 +84,7 @@ This example is taken from the `blog template` to generate the feature image:
 
 Output =>
   <picture class="latest__image">
+    <source type="image/webp" srcset="/images/brain-640.webp 640w, /images/brain-1280.webp 1280w" sizes="(min-width: 62em) 612px, 100vw">
     <source type="image/jpeg" srcset="/images/brain-640.jpg 640w, /images/brain-1280.jpg 1280w" sizes="(min-width: 62em) 612px, 100vw">
       <img src="/images/brain-640.jpg" width="640" height="393" alt="my image alt text." loading="lazy" decoding="async">
   </picture>
@@ -97,13 +98,13 @@ Output =>
 | sizes    | "100vw" | -        | Values for the [sizes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#resolution_switching_different_sizes) attribute. |
 
 - Outputs multiple images in 3 widths - `640px`, `1280px` and `1920px` - which are saved directly to the `dist` directory.
-- ~~Outputs two formats - `jpeg` and `WebP`.~~
-  Implemented [custom file names](https://www.11ty.dev/docs/plugins/image/#custom-filenames-new-in-image-0.4.0) to output seo suitable file names but this currently only outputs jpeg files.
+- Outputs two formats - `jpeg` and `WebP`.
+- Implemented [custom file names](https://www.11ty.dev/docs/plugins/image/#custom-filenames-new-in-image-0.4.0) to output seo suitable file names.
 - Uses image [metadata](https://www.11ty.dev/docs/plugins/image/#sample-return-object) to add `width` and `height` attributes on a `picture` element for proper [aspect ratio mapping](https://developer.mozilla.org/en-US/docs/Web/Media/images/aspect_ratio_mapping).
 
 The generated `picture` element:
 
-- ~~provides a jpeg fallback where `WebP` is not supported~~ currently only outputs jpeg
+- provides a jpeg fallback where `WebP` is not supported
 - uses native lazyload.
 
 ### Styling
