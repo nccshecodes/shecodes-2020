@@ -14,13 +14,9 @@ The generated `picture` element:
 
 To use the shortcode in a nunjucks template or markdown file:
 
-{% raw %}
-
-```
+```js
 {% imageShortcode <src>, <alt>, <classes>, <sizes> %}
 ```
-
-{% endraw %}
 
 **NOTE**:
 
