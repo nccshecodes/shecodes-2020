@@ -7,9 +7,13 @@
 
 To use the shortcode in a nunjucks template or markdown file:
 
+{% raw %}
+
 ```
 {% getSocialImage <src>, <fallback> %}
 ```
+
+{% endraw %}
 
 **NOTE**:
 
@@ -26,9 +30,13 @@ To use the shortcode in a nunjucks template or markdown file:
 
 This example is taken from the `meta_info` partial to generate the url for the OpenGraph `og:image` metatag
 
+{% raw %}
+
 ```
 {% getSocialImage featureImage, '/images/static/meta/nathalie-christmann-cooper.png' %}
 
 Output =>
-	/images/<featureImage file name>-1280.jpeg
+	/images/<featureImage-file-name>-1280.jpeg
 ```
+
+{% endraw %}

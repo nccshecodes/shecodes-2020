@@ -14,9 +14,13 @@ The generated `picture` element:
 
 To use the shortcode in a nunjucks template or markdown file:
 
+{% raw %}
+
 ```
 {% imageShortcode <src>, <alt>, <classes>, <sizes> %}
 ```
+
+{% endraw %}
 
 **NOTE**:
 
@@ -36,6 +40,8 @@ To use the shortcode in a nunjucks template or markdown file:
 
 This example is taken from the `blog template` to generate the feature image:
 
+{% raw %}
+
 ```
 {% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
 
@@ -46,3 +52,5 @@ Output =>
       <img src="/images/brain-640.jpg" width="640" height="393" alt="my image alt text." loading="lazy" decoding="async">
   </picture>
 ```
+
+{% endraw %}
