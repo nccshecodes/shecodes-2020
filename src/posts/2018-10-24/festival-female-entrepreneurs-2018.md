@@ -5,7 +5,6 @@ featureImageAlt: Festival of Female Entrepreneurs by Enterprise Nation.
 metaDesc: >
   My biggest prize claim to date was a set of tea plates in a harvest festival village raffle. But that was about to change, and great news for the startup.
 metaTitle: Festival of Female Entrepreneurs 2018
-socialImage: festival-female-entrepreneurs-brochure-cover-2018
 tags:
   - events
   - startup

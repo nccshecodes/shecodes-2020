@@ -5,7 +5,6 @@ featureImageAlt: Looking up through a sculpture of metal letters spiralling up t
 metaDesc: >
   Documenting your code is a marmite topic. Google spews forth articles either dead against the idea or all for it. There's no room for sitting on the fence.
 metaTitle: Documenting code - luxury or necessity?
-socialImage: documenting-your-code-gratisography
 tags:
   - best practice
   - level up

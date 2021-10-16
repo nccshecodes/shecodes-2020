@@ -4,7 +4,6 @@ featureImage: src/posts/2020-05-12/what-do-you-mean-jon-tyson-unsplash.jpg
 featureImageAlt: What do you mean?
 metaDesc: >
   I thought the POUR principles of accessibility was a typo. Yes, there's four principles. But no, it wasn't a typo and here is what POUR actually means.
-socialImage: what-do-you-mean-jon-tyson-unsplash
 tags:
   - level up
   - accessibility

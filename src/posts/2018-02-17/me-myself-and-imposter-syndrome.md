@@ -4,7 +4,6 @@ featureImage: src/posts/2018-02-17/imposter-syndrome-gratisography.png
 featureImageAlt: Woman's face with snorkelling goggles submerged in bath. Hair floats around her face. Tiny air bubbles escape her open mouth.
 metaDesc: >
   It's never a good time ahead when Little Miss Imposter Syndrome pays a visit. But today I sent her packing.
-socialImage: imposter-syndrome-gratisography
 tags:
   - grit
   - level up

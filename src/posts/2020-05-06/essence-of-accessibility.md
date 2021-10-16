@@ -5,7 +5,6 @@ featureImageAlt: Words 'Accessible Entrance' painted onto brick wall with arrow 
 metaDesc: >
   I've wanted to make my work accessible for a long time, but don't know how. Understanding the essence of accessibility looks a great place to start.
 metaTitle: Essence of Accessibility
-socialImage: accessible-entrance
 tags:
   - level up
   - accessibility
