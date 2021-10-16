@@ -8,18 +8,8 @@
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
-{% if socialImage %}
-	{% set socialImageLink = site.url + '/images/' + socialImage + '-1280.jpeg' %}
-{% else %}
-  {% set socialImageLink = site.url + '/images/static/meta/nathalie-christmann-cooper.png' %}
-{% endif %}
-
 {% if metaTitle %}
 	{% set pageTitle = metaTitle %}
-{% endif %}
-
-{% if not metaDesc %}
-	{% set metaDesc = summary %}
 {% endif %}
 
 <link rel="canonical" href="{{ currentUrl }}" />
@@ -28,15 +18,10 @@
 <meta property="og:title" content="{{ pageTitle }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ currentUrl }}" />
-<meta property="og:description" content="{{ metaDesc }}" />
+<meta property="og:description" content="{{ metaDesc or site.description }}" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="og:image" content="{{ socialImageLink }}" />
-
-{% if socialImageLink %}
-	<meta property="og:image:alt" content="{{ featureImageAlt }}" />
-{% endif %}
-
-<meta name="description" content="{{ metaDesc }}" />
+<meta property="og:image" content="{{site.url}}{% getSocialImage featureImage, '/images/static/meta/nathalie-christmann-cooper.png' %}" />
+<meta name="description" content="{{ metaDesc or site.description }}" />
 
 <link
 	rel="apple-touch-icon"
