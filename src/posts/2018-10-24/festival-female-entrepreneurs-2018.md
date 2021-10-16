@@ -20,7 +20,7 @@ The competition asked you to tweet your most inspirational quote, and for me, th
 <div class="break-right">
   <blockquote class="tweet" cite="https://twitter.com/she_codes/status/1040334204607897600">
     <p>“Feel the fear and do it anyway.” - That line was so powerful I didn’t need to read the book. It’s been my motto ever since I first spotted it on my dad’s bookshelf as a teen. Reminds me we all get imposter syndrome. So don’t let it stop you.</p>
-    {% imageShortcode 'src/posts/2018-10-24/FFE18-competition.jpg', 'Festival of Female Entrepreneurs by Enterprise Nation Friday 19 October. Terms and conditions apply.' %}
+    {% image 'src/posts/2018-10-24/FFE18-competition.jpg', 'Festival of Female Entrepreneurs by Enterprise Nation Friday 19 October. Terms and conditions apply.' %}
     <cite>
       &mdash; Nathalie (@she_codes) September 13, 2018
     </cite>
@@ -40,7 +40,7 @@ Jaya's closing words were for us to understand that no matter how small, we all 
 <div class="break-right">
   <blockquote class="tweet" cite="https://twitter.com/e_nation/status/1053218479329959937">
     <p>“Absorb this quote” @jayacg tells our room of female entrepreneurs! #FFE18</p>
-    {% imageShortcode 'src/posts/2018-10-24/jaya.jpeg', 'Jaya on stage with slide backdrop which reads: Man who say it cannot be done should not interrupt woman doing it' %}
+    {% image 'src/posts/2018-10-24/jaya.jpeg', 'Jaya on stage with slide backdrop which reads: Man who say it cannot be done should not interrupt woman doing it' %}
     <cite>
       &mdash; Enterprise Nation (@e_nation) October 19, 2018
     </cite>
@@ -51,7 +51,7 @@ Jaya's closing words were for us to understand that no matter how small, we all 
 
 Next up was a discussion about access to money and mentors. Katie Massey-Taylor is co-founder of parent-tech app [Mush][4] which has secured £2m in funding. Her advice was to make LinkedIn your best friend when starting to fundraise and to expect to have to kiss a lot of frogs along the way. She stressed the importance of understanding what information each potential investor will want to know, as they will all be different. I particularly liked her method of mobilising their users as ambassadors of the product, creating Ambassador Packs to facilitate this. If you can get your audience on side and they believe in your purpose, they will promote your product. There's nothing more powerful than word of mouth and first hand recommendations to grow your user base.
 
-{% imageShortcode 'src/posts/2018-10-24/FFE18.jpg', '', 'break-left' %}
+{% image 'src/posts/2018-10-24/FFE18.jpg', '', 'break-left' %}
 
 [Bev Jones][5] is a high profile business mentor and talked about her working relationship with Joe Wicks, The Body Coach. The question was raised about whether you should pay for a mentor. Of those in the audience who currently have a mentor, it was a 50/50 split between those who are paying for mentorship services and those receiving mentorship free of charge.
 
@@ -67,7 +67,7 @@ Emma Bridgewater's talk was just a delight to listen to. She shared her experien
 
 "As an entrepreneur you need to be tough, you have to let go of people, you have to decide if your project is more important than some very important things - you need steel in you."{.pullquote}
 
-{% imageShortcode 'src/posts/2018-10-24/ACS_0095.jpg', '', 'break-right' %}
+{% image 'src/posts/2018-10-24/ACS_0095.jpg', '', 'break-right' %}
 
 Emma is such an inspiration and received a well deserved standing ovation.
 
@@ -89,7 +89,7 @@ Vanity metrics are not what's important, it's the **engagement** that counts and
 
 One thing I've learnt to tap into as a founder is the wealth of knowledge held by your peers. I do believe in exchanging that knowledge, we can all provide mentorship support to each other at any stage. The energy and flow of conversation in the room was incredible and this event provided plenty of opportunity to network with fellow entrepreneurs. I've made new friends and have already begun plans to meet up and share advice and support over the coming months. That's exciting, it makes you accountable and does wonders for keeping the motivation high. I will definitely be booking a ticket for next year's event.
 
-{% imageShortcode 'src/posts/2018-10-24/Nathalie-Tracey-FFE18.jpg', 'Tracey and I laughing as we chat to an exhibitor', 'break-right' %}
+{% image 'src/posts/2018-10-24/Nathalie-Tracey-FFE18.jpg', 'Tracey and I laughing as we chat to an exhibitor', 'break-right' %}
 
 [1]: https://treatout.com/
 [2]: https://www.nameless.co.uk/studio/jaya-chakrabarti/

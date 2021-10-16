@@ -66,7 +66,7 @@ Images are handled by the eleventy [image plugin](https://www.11ty.dev/docs/plug
 
 #### Shortcodes
 
-- [imageShortcode](./src/shortcodes/image/README.md)
+- [image](./src/shortcodes/image/README.md)
 - [getSocialImage](./src/shortcodes/social-image/README.md)
 
 ### Styling

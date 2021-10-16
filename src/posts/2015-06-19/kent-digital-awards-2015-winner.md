@@ -22,9 +22,9 @@ Next category was for best Sports and Entertainment Website. This included looki
 
 There’s no greater reward than seeing a client so delighted, not only with the tangible business results the site has already brought in, but to have industry recognition alongside is an incredible buzz. Luckily I’d selected my handbag wisely and it was just large enough to fit both awards into for the taxi ride home.
 
-{% imageShortcode "src/posts/2015-06-19/kent-digital-awards-2015-she-codes-silver.jpg", "Kent Digital Awards 2015 Silver for Responsive Website", "break-left" %}
+{% image "src/posts/2015-06-19/kent-digital-awards-2015-she-codes-silver.jpg", "Kent Digital Awards 2015 Silver for Responsive Website", "break-left" %}
 
-{% imageShortcode "src/posts/2015-06-19/kent-digital-awards-2015-she-codes-gold.jpg", "Kent Digital Awards 2015 Gold for best Sports and Entertainment Website", "break-right" %}
+{% image "src/posts/2015-06-19/kent-digital-awards-2015-she-codes-gold.jpg", "Kent Digital Awards 2015 Gold for best Sports and Entertainment Website", "break-right" %}
 
 ## Getting Set For Next Year
 

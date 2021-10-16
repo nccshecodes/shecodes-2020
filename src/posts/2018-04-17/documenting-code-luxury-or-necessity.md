@@ -37,7 +37,7 @@ The same principles as for self-documented code can be applied here too. It's re
 
 Here at [Skills Matter][1] we have a set format which I've found really useful to follow. I'm already reaping the benefits as the newcomer to the platform team. I appreciate the effort that's been taken when I'm looking through the commit history to get familiar with the code base.
 
-{% imageShortcode "src/posts/2018-04-17/what-direction-unsplash.png", "Looking down the end of a red lit hallway. A metal wall sculpture of red light bulbs inside an arrow pointing right.", "break-left" %}
+{% image "src/posts/2018-04-17/what-direction-unsplash.png", "Looking down the end of a red lit hallway. A metal wall sculpture of red light bulbs inside an arrow pointing right.", "break-left" %}
 
 Each commit message has a short, concise title outlining the purpose of the commit. The first part of the description describes the problem giving context to the changes being made. The rest describes how the code is structured. This is the part I really love, it's where I can discover why a previous developer chose to write the code in a particular way. It often gives background information on alternatives that were considered but rejected. I can find reference links to external resources that influenced the choices made. I learn.
 

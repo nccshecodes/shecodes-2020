@@ -1,7 +1,7 @@
 const dateFilter = require('./src/filters/date-filter.js');
 const isoDateFilter = require('./src/filters/isodate-filter.js');
-const imageShortcode = require('./src/shortcodes/image/image.js');
-const socialImageShortcode = require('./src/shortcodes/social-image/socialImage.js');
+const image = require('./src/shortcodes/image/image.js');
+const socialImage = require('./src/shortcodes/social-image/socialImage.js');
 const mdIt = require('markdown-it');
 const mdDeflist = require('markdown-it-deflist');
 const mdAttrs = require('markdown-it-attrs');
@@ -16,8 +16,8 @@ module.exports = (config) => {
 	config.addFilter('isoDateFilter', isoDateFilter);
 
 	// Shortcodes
-	config.addNunjucksAsyncShortcode('imageShortcode', imageShortcode);
-	config.addNunjucksAsyncShortcode('getSocialImage', socialImageShortcode);
+	config.addNunjucksAsyncShortcode('image', image);
+	config.addNunjucksAsyncShortcode('getSocialImage', socialImage);
 
 	// Transforms
 	const htmlMinTransform = require('./src/transforms/html-min-transform.js');

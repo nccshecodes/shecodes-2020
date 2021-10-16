@@ -26,7 +26,7 @@ I've been told that **getting your first job in tech does take time**, no matter
 
 ## 2> Keep tweaking your CV
 
-{% imageShortcode "src/posts/2018-02-14/wildcard-cv-postcards.jpg", "", "break-left" %}
+{% image "src/posts/2018-02-14/wildcard-cv-postcards.jpg", "", "break-left" %}
 
 My final CV was nothing like my first attempt. In fact, I lost count of the number of times I changed it, uploading each revision to various job sites. I'd listen to comments through each interview process, putting more emphasis on parts they found interesting and removing stuff that didn't seem to have any relevance. It worked. Towards the end of the job search,  every new conversation would start with a compliment about my CV. **Don't be scared to treat it as a living document.**
 

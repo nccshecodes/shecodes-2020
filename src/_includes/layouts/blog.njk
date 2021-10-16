@@ -30,7 +30,7 @@
 					{% include "partials/tags.njk" %}
 				</div>
 				<div class="[ article__content ] [ flow ]">
-					{% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
+					{% image latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
 
 					<p class="latest__excerpt">
 						{% if latest.data.excerpt %}

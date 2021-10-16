@@ -1,4 +1,4 @@
-# imageShortcode
+# image
 
 - Outputs multiple images in 3 widths - `640px`, `1280px` and `1920px` - which are saved directly to the `dist` directory.
 - Outputs two formats - `jpeg` and `WebP`.
@@ -17,7 +17,7 @@ To use the shortcode in a nunjucks template or markdown file:
 {% raw %}
 
 ```
-{% imageShortcode <src>, <alt>, <classes>, <sizes> %}
+{% image <src>, <alt>, <classes>, <sizes> %}
 ```
 
 {% endraw %}
@@ -43,7 +43,7 @@ This example is taken from the `blog template` to generate the feature image:
 {% raw %}
 
 ```
-{% imageShortcode latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
+{% image latest.data.featureImage, latest.data.featureImageAlt, "latest__image", "(min-width: 62em) 612px, 100vw" %}
 
 Output =>
   <picture class="latest__image">

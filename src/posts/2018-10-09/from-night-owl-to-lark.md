@@ -27,7 +27,7 @@ I've always been a night owl, I love being a night owl but it's time to try and 
 
 Ada Lovelace Day is the perfect marker to kick off a new regime. I went to bed early last night which was easy given how exhausted I feel. Sure enough, 5.30am and I'm flicking on the kettle for a morning cuppa. This feels good and I sail through an hour's work on the laptop, fixing some problems for yesterday's work that I just didn't spot. High five!
 
-{% imageShortcode 'src/posts/2018-10-09/commuter-underground-hell.jpg', 'a crowded entrance to the Northern Line underground at London Bridge', 'break-left' %}
+{% image 'src/posts/2018-10-09/commuter-underground-hell.jpg', 'a crowded entrance to the Northern Line underground at London Bridge', 'break-left' %}
 
 I yell at the kids to turf them out of their beds and into the shower. Confident that they'll be ready in time to catch the school bus I can leave early and miss the 'school run mum' hell that traps me for half an hour every day. The car park is still pretty quiet and I can bag a prime spot. Sorted. Then the great British Rail network hits me. Oooof. The next train due for Charing Cross is cancelled. In response, a packed platform bundles onto the stationary train. Suddenly this new regime feels like a really shit board game. The train is packed and it's standing room only. Move back 4 spaces. The underground doesn't help either.
 
