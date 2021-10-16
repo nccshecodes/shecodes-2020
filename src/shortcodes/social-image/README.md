@@ -14,7 +14,6 @@ To use the shortcode in a nunjucks template or markdown file:
 **NOTE**:
 
 - The comma between arguments is required when using the Nunjucks template engine.
-- An error will throw if the alt text is not given.
 
 ## Arguments
 
