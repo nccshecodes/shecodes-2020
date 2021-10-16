@@ -2,9 +2,8 @@
 date: '2021-09-27'
 featureImage: src/posts/2021-09-27/technical-code-test-donut-fingers.jpg
 featureImageAlt: Women hiding face behind hands with a mini sugared doughnut stuck on the end of each finger and thumb.
-metaDesc: Love them, or hate them, if you're applying for a job as a software engineer you'd better learn to embrace them.
+metaDesc: The technical code test. Love it, or hate it, if you're applying for a job as a software engineer you'd better learn to embrace it.
 metaTitle: Technical Code Test
-socialImage: technical-code-test-donut-fingers
 tags:
   - soapbox
   - diversity
