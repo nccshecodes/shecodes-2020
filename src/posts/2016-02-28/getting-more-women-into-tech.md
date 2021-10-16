@@ -4,7 +4,6 @@ featureImage: src/posts/2016-02-28/getting-more-women-into-tech-rolemodel.jpg
 featureImageAlt: Me holding handwritten sign which reads Return to work (from home) mum tech role model.
 metaDesc: >
   I've often thought about what took me so long to get involved in the tech industry and then I realised.
-socialImage: getting-more-women-into-tech-rolemodel
 tags:
   - soapbox
   - diversity

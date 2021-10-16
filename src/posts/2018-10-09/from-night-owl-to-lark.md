@@ -5,7 +5,6 @@ featureImageAlt: Small boy graffiti spraying 'mom' onto a white brick wall.
 metaDesc: >
   It's Ada Lovelace Day and it's my morning commute to a job in STEM. I'm wondering. Can I switch from night time lingerer to early riser?
 metaTitle: Night Owl to Lark
-socialImage: ada-lovelace-mom
 tags:
   - startup
   - self development

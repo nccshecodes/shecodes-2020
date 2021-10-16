@@ -4,7 +4,6 @@ featureImage: src/posts/2018-07-23/designer-to-developer-tech-talk-FullStack18-L
 featureImageAlt: Me standing in front of a podium giving a talk at Fullstack London.
 metaDesc: I've broken my fear of conference speaking delivering a tech talk at FullStack London. Although I didn’t want to do this, I knew at some point I'd have to.
 metaTitle: Tinker, Tailor, Conference Speaker
-socialImage: designer-to-developer-tech-talk-FullStack18-London
 tags:
   - events
   - level up

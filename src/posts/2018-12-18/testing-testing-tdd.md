@@ -5,7 +5,6 @@ excerpt: >
 featureImage: src/posts/2018-12-18/tdd-red-green.jpg
 featureImageAlt: ''
 metaDesc: TDD has always been an enigma. I knew it was important but didn't understand it, choosing to put off 'til another day. Until the day when everything broke.
-socialImage: tdd-red-green
 tags:
   - best practice
   - level up

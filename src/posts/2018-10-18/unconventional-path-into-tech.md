@@ -4,7 +4,6 @@ featureImage: src/posts/2018-10-18/unconventional-paths-talk.jpg
 featureImageAlt: View of empty stage from back of room. People are starting to arrive to take their seat which are all draped with swag bags.
 metaDesc: When taking part in panel discussions exploring diversity in tech I always come away wishing I'd said more. So here's what else I could have said.
 metaTitle: Unconventional Path into Tech
-socialImage: unconventional-paths-talk
 tags:
   - soapbox
   - public speaking

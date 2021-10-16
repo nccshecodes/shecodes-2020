@@ -5,7 +5,6 @@ featureImageAlt: Woman with scruffy hair and makeup. On floor with typewriter in
 metaDesc: >
   Having started job hunting back in May 2017, this has been the most soul destroying, confidence sucking past 8 months I’ve ever had to endure. Here's why.
 metaTitle: Woman Returner Lessons Learnt Looking for Tech Job
-socialImage: tech-job-hunting-woman-gratisography
 tags:
   - soapbox
   - diversity

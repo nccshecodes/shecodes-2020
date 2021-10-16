@@ -4,7 +4,6 @@ featureImage: src/posts/2019-12-28/beyond-tech-conference-banner.jpg
 featureImageAlt: Beyond Tech conference banner hashtag beyondtech.
 metaDesc: I’m trying to solve a big problem through tech, pushing for full menu transparency. I’ve been told it's too big. I’ll fail. But surely, it’s just data?
 metaTitle: Its Just Data - BeyondTech Conference
-socialImage: beyond-tech-conference-banner
 tags:
   - events
   - startup
