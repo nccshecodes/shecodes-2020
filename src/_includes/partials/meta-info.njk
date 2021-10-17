@@ -20,7 +20,7 @@
 <meta property="og:url" content="{{ currentUrl }}" />
 <meta property="og:description" content="{{ metaDesc or site.description }}" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="og:image" content="{{site.url}}{% getSocialImage featureImage, '/images/static/meta/nathalie-christmann-cooper.png' %}" />
+{% getSocialImage featureImage, featureImageAlt %}
 <meta name="description" content="{{ metaDesc or site.description }}" />
 
 <link

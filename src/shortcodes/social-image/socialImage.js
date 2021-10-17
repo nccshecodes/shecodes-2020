@@ -1,11 +1,14 @@
 const path = require('path');
 const image = require('@11ty/eleventy-img');
+const siteData = require('../../../src/_data/site.json');
 
 // https://www.11ty.dev/docs/plugins/image/
 
-module.exports = async (featureImage, fallback) => {
-	if (featureImage) {
-		const metadata = await image(featureImage, {
+module.exports = async (ogImage, ogImageAlt) => {
+	const fallback = siteData.socialImageFallback;
+
+	if (ogImage) {
+		const metadata = await image(ogImage, {
 			formats: ['jpeg'],
 			outputDir: './dist/images/',
 			urlPath: '/images/',
@@ -17,8 +20,14 @@ module.exports = async (featureImage, fallback) => {
 				return `${name}-${width}.${format}`;
 			},
 		});
-		return metadata.jpeg[0].url;
+		return `
+			<meta property="og:image" content="${siteData.url}${metadata.jpeg[0].url}" />
+			<meta property="og:image:alt" content="${ogImageAlt}" />
+		`;
 	} else {
-		return fallback;
+		return `
+			<meta property="og:image" content="${siteData.url}${fallback}" />
+			<meta property="og:image:alt" content="${siteData.description}" />
+		`;
 	}
 };
