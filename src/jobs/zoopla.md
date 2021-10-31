@@ -1,12 +1,13 @@
 ---
 name: Zoopla
 date: '2020-01-13'
-endDate: current
+endDate: '2021-10-29'
 position: Frontend Software Engineer 2
 deliverables:
-  - Greenfield customer CRM
-  - Contributor to Design System in Svelte and React
-  - Accessibility champion
-  - Contributor to Accessibility and Performance working groups
+  - Building React/Typescript components as part of Storybook managed component libraries
+  - Contributor to engineering standards
+  - Active participant in accessibility, web performance, and diversity and inclusion working groups
+  - Led cross-functional initiative between Design, Content and Engineering to create accessibility checklists
+  - Used Design background to help improve communication and collaboration between disciplines of Design and Engineering
 permalink: false
 ---

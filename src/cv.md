@@ -10,7 +10,7 @@ frameworks:
 languages:
   - HTML, Erb, Haml, Nunjucks
   - CSS, Sass, Emotion
-  - Javascript, Typescript
+  - JavaScript, Typescript
   - Ruby
 layout: layouts/cv.njk
 metaDesc: My CV in digital format - work experience and skillset, training, talks, honours and awards.

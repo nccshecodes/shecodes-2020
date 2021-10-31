@@ -27,12 +27,10 @@ I spent the next 6 months back at home building out an MVP. But I missed being a
 
 It was hard work getting that first junior position at Skills Matter, the recruitment process was and still is very broken. But just at the point of giving up, the offer came through for my first (what recruiters would consider) commercial role in over 20 years.
 
-## And now
-
-I've now notched up three years of working in tech. I've stepped away from working fullstack to focus on Front End development and I'm enjoying life as a Software Engineer at Zoopla.
-
-Lockdown and a return to working from home gave me extra time to keep learning. I've become an accessibility advocate, and with a little influence from some of my colleagues, I've started looking at web performance too.
-
 The startup journey was not easy and I made the difficult decision to resign from TreatOut in May 2019. I gathered my thoughts rebranding as myFeastOut and gave myself time to recover from burnout. Perhaps I'll pick up the project again, but I'm not there yet.
 
-In the meantime, I write about the journey of making the transition from a solo, self-taught coder to professional software engineer and who knows, maybe even a startup founder with a day job again too.
+I've now almost completed four years of working in tech. Lockdown and a return to working from home gave me extra time to keep learning. I've become an accessibility advocate, and with a little influence from some of my colleagues, started to look at web performance too.
+
+## And now
+
+I've stepped back into a full stack role at [Byway](https://www.byway.travel/), setting off on a new adventure in the world of startups. The focus is 'slow' travel, but I'm certain this new journey is going to be fast paced and perfectly timed to step up to the next level.
