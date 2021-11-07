@@ -34,7 +34,7 @@ I was attempting to break into the tech startup scene in my mid-40s, with no for
 
 I joined a group of eight mentees on a Women in Leadership mentoring programme. I walked into that first session a bag of nerves not knowing what to expect. We were quite a diverse bunch from a range of different ages, cultures and backgrounds but all connected through our work in tech and scheduled to meet together with our mentor four times over the coming year.
 
-We were set a task to think about our 5-year future state ready to discuss at the next meeting. I remember coming away that night feeling uplifted and excited about future possibilities. My thoughts were racing towards what that state would be.
+We were set a task to think about our 5-year future state ready to discuss at the next meeting. I remember coming away that night feeling uplifted and excited about future possibilities. My thoughts were racing towards what that state might be.
 
 ### My Future State
 
