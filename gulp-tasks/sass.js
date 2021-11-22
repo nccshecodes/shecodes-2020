@@ -8,7 +8,6 @@ const isProduction = process.env.NODE_ENV === 'production';
 // An array of outputs that should be sent over to includes
 // eg. const criticalStyles = ['critical.scss', 'home.scss', 'page.scss', 'work-item.scss'];
 const siteCriticalStyles = [
-	'site.scss',
 	'blog.scss',
 	'cv.scss',
 	'home.scss',
