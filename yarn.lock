@@ -2827,10 +2827,10 @@ gonzales-pe@^4.3.0:
   dependencies:
     minimist "^1.2.5"
 
-gorko@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/gorko/-/gorko-0.8.0.tgz#073bd7b524e3a3cbd2a0cd3537f3fb23eb4f6b89"
-  integrity sha512-b0ZynKheIrCa4SsqKlNzOUuzbrpcgg9/vl4FmAWcZyXBw4RNDZz2We/wy4qZ60rHpd2u7GjVN76rLoRZIiRVPA==
+gorko@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/gorko/-/gorko-0.9.0.tgz#a3c9f3bceed4d0e8118aabb90d5c91655ffe2ffc"
+  integrity sha512-VjaDs2uY0ofwC74qsQM5Yo+kOttT29yGhYFtslYgynmCXFsOAvDFqSWl1AV7oV6v/2b1iAX9ak4VCVxqXW+81w==
   dependencies:
     sass "^1.26.5"
 
@@ -3970,10 +3970,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it-attrs@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.0.0.tgz#eadae3ea0c7d17c5e83b98a4ec95a47f4e4960f5"
-  integrity sha512-uLjtdCmhhmL3BuZsReYkFxk74qKjj5ahe34teBpOCJ4hYZZl7/ftLyXWLowngC2moRkbLEvKwN/7TMwbhbHE/A==
+markdown-it-attrs@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.1.0.tgz#e27f023cd8731b15b4a5e971d51e6f45b3b947bc"
+  integrity sha512-xd1SuNQPArGYl3SN1bsOHRnmMenkqeLDbTR0udeyGMSFBnaOtxP4yz1SEKrjsV/XYFygFAeKFHgbbj6AwxbTfA==
 
 markdown-it-deflist@^2.1.0:
   version "2.1.0"
