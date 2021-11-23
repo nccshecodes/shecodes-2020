@@ -89,11 +89,35 @@ Preprocessed Sass is split out into compressed, merged and minified CSS creating
 
 #### Critical CSS
 
-Is inlined into the `<head>` and applied to every page. It includes the CSS reset. Page critical CSS is also inlined into the `<head>`.
+site.scss
 
-#### Standard CSS
+---
 
-Is included using a `link` element.
+The `site.scss` file is inlined into the `<head>` and applied to every page. It includes the CSS reset, design tokens and global styles.
+
+Page critical CSS
+
+---
+
+Any CSS that is required for above-the-fold elements should be considered 'page critical'. These critical styles are broken up into individual CSS files that relate to a corresponding page. This keeps the amount of critical CSS inlined into the head minimal which is better for performance. To add critical CSS to a page:
+
+- add a `<mypage>.scss` file to the `scss` repo
+- include this file in the array of `siteCriticalStyles` located in:
+  - gulp-tasks > sass.js
+- set the `pageCriticalStyles` variable on the corresponding page layout:
+  - `{% set pageCriticalStyles = ['css/mypage.css'] %}`
+
+{% set pageStylesheets = ['/css/tester.css'] %}
+
+#### Non-critical CSS
+
+Any non-critical CSS files are included using a `link` element. To add non-critical CSS to a page:
+
+- add a `<mypage-non-critical>.scss` file to the `scss` repo
+- set the `pageCriticalStyles` variable on the corresponding page layout:
+  - `{% set pageCriticalStyles = ['/css/mypage-non-critical.css'] %}`
+
+**NOTE** The path to the file begins with a `/` so that the url is relative to the root of the project.
 
 ## Testing
 
