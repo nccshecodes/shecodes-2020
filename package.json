@@ -33,7 +33,7 @@
 		"test-pa11y": "pa11y-ci --sitemap http://localhost:5000/sitemap.xml --sitemap-find https://shecodes.dev --sitemap-replace http://localhost:5000"
 	},
 	"devDependencies": {
-		"eslint": "^7.32.0",
+		"eslint": "^8.5.0",
 		"eslint-config-prettier": "^8.3.0",
 		"husky": "^7.0.4",
 		"lint-staged": "^11.2.6",
