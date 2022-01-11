@@ -7,7 +7,7 @@
 	"dependencies": {
 		"@11ty/eleventy": "^1.0.0-canary.44",
 		"@11ty/eleventy-cache-assets": "^2.3.0",
-		"@11ty/eleventy-img": "^0.10.0",
+		"@11ty/eleventy-img": "^1.0.0",
 		"concurrently": "^6.4.0",
 		"date-fns": "^2.23.0",
 		"gorko": "^0.9.1",
