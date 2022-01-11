@@ -10,7 +10,7 @@
 		"@11ty/eleventy-img": "^0.10.0",
 		"concurrently": "^6.4.0",
 		"date-fns": "^2.23.0",
-		"gorko": "^0.8.0",
+		"gorko": "^0.9.1",
 		"gulp": "^4.0.2",
 		"gulp-clean-css": "^4.3.0",
 		"gulp-sass": "^5.0.0",
