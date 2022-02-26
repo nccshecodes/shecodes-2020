@@ -13,7 +13,7 @@
 		"gorko": "^0.9.1",
 		"gulp": "^4.0.2",
 		"gulp-clean-css": "^4.3.0",
-		"gulp-sass": "^5.0.0",
+		"gulp-sass": "^5.1.0",
 		"html-minifier": "^4.0.0",
 		"markdown-it": "^12.3.2",
 		"markdown-it-attrs": "^4.1.0",
@@ -33,7 +33,7 @@
 		"test-pa11y": "pa11y-ci --sitemap http://localhost:5000/sitemap.xml --sitemap-find https://shecodes.dev --sitemap-replace http://localhost:5000"
 	},
 	"devDependencies": {
-		"eslint": "^7.32.0",
+		"eslint": "^8.10.0",
 		"eslint-config-prettier": "^8.3.0",
 		"husky": "^7.0.4",
 		"lint-staged": "^11.2.6",
