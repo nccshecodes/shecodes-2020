@@ -1,5 +1,5 @@
 const path = require('path');
-const image = require('@11ty/eleventy-img');
+const Image = require('@11ty/eleventy-img');
 
 // https://www.11ty.dev/docs/plugins/image/
 
@@ -8,7 +8,7 @@ module.exports = async (src, alt, classes = '', sizes = '100vw') => {
 		throw new Error(`Missing \`alt\` on responsive image from: ${src}`);
 	}
 
-	const metadata = await image(src, {
+	const metadata = await Image(src, {
 		formats: ['webp', 'jpeg'],
 		outputDir: './dist/images/',
 		urlPath: '/images/',
