@@ -26,7 +26,7 @@ This project requires Node (^12.13.0).
 To install the project dependencies:
 
 ```
-yarn install
+pnpm install
 ```
 
 ### Running locally
@@ -34,7 +34,7 @@ yarn install
 To launch the server:
 
 ```
-yarn start
+pnpm start
 ```
 
 Go to http://localhost:8080
@@ -44,7 +44,7 @@ Go to http://localhost:8080
 To launch the server using the production build:
 
 ```
-yarn run production
+pnpm run production
 cd dist && npx serve
 ```
 
