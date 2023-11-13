@@ -23,13 +23,14 @@
 	"scripts": {
 		"format:check": "prettier --check '**/*.{js,json,md}'",
 		"format:fix": "prettier --write '**/*.{js,json,md}'",
-		"lint": "concurrently 'yarn lint:code' 'yarn lint:style' 'yarn format:check'",
+		"lint": "concurrently 'pnpm lint:code' 'pnpm lint:style' 'pnpm format:check'",
 		"lint:code": "eslint '**/*.js'",
 		"lint:style": "stylelint '**/*.scss'",
 		"lint:style:fix": "stylelint '**/*.scss' --fix",
-		"prepare": "yarn husky install",
-		"production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy",
-		"start": "npx gulp && concurrently 'npx gulp watch' 'npx eleventy --serve'",
+		"prepare": "pnpm husky install",
+		"production": "NODE_ENV=production pnpx gulp && NODE_ENV=production pnpx eleventy",
+		"build": "pnpx @11ty/eleventy",
+		"start": "pnpx gulp && concurrently 'pnpx gulp watch' 'pnpx eleventy --serve'",
 		"test-pa11y": "pa11y-ci --sitemap http://localhost:5000/sitemap.xml --sitemap-find https://shecodes.dev --sitemap-replace http://localhost:5000"
 	},
 	"devDependencies": {
@@ -43,5 +44,6 @@
 		"stylelint-config-prettier": "^9.0.3",
 		"stylelint-config-sass-guidelines": "^8.0.0",
 		"stylelint-config-standard": "^22.0.0"
-	}
+	},
+	"packageManager": "pnpm@7.33.5"
 }
